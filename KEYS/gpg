@@ -1,0 +1,43 @@
+gpg: key 78818F71DFF575F6 marked as ultimately trusted
+gpg: directory '/home/sall/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/sall/.gnupg/openpgp-revocs.d/980BAE70DCD3D8794AEB51EC78818F71DFF575F6.rev'
+public and secret key created and signed.
+
+pub   rsa2048 2020-04-05 [SC]
+      980BAE70DCD3D8794AEB51EC78818F71DFF575F6
+uid                      Salvydas Lukosius (Archlinux | WiseHub MG LTD) <sall@w-ss.io>
+sub   rsa2048 2020-04-05 [E]
+
+❯ gpg --armor --export 78818F71DFF575F6
+gpg: WARNING: unsafe permissions on homedir '/home/sall/.gnupg'
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBF6JacEBCAD4T0xTQ4fR18S33aFNlS927TidVdB+wpC99Q5K7BMvkcjhI5B+
+267iawvOEEkIva4hRnNAeLqrMsJNJ6NLNC6Ndis8XyCjF7FcrPf0Tuz6NsQJnwc/
+EB9HB3u4AK/ldUJHAMJX9OfDsBm38SqEF4CDWWeGFfKPRfU7muqg1B/IedQjN48v
+qLq0c6TWDvMa22btLSE/r+lvsLVvj+ZvrE8cNTTorNub9taBJG6yhmsBIQfdCZz0
+ydxmhIRpg0viZpQBDaa8hugO2EHsX8tz1ni4iVFvah8iV8huhyKswPeD9uDiPhrR
+tcbP1BJHvPMZG6vgBAF2nHx3gcXKSM+U6PZNABEBAAG0PVNhbHZ5ZGFzIEx1a29z
+aXVzIChBcmNobGludXggfCBXaXNlSHViIE1HIExURCkgPHNhbGxAdy1zcy5pbz6J
+AU4EEwEIADgWIQSYC65w3NPYeUrrUex4gY9x3/V19gUCXolpwQIbAwULCQgHAgYV
+CgkICwIEFgIDAQIeAQIXgAAKCRB4gY9x3/V19v7YB/4geMV8rlc1aIJ+R3zZaPZR
+Vt6EVR1uEuOLK/USCK/vAoiwtYgmPHC2JqAQqHvOa5sU6cMKHXodcWr2xHHPXTqa
+sBHEggeR9DK8acE0cAYB/bPOkypslScV7YldSx7ZfI/JBlXLHGqLTu24iN/N5Xjb
+nk0ow+zAPwPaCFwPkE6rSlMUz/nFySK0+N8aRen9wXaenaqGLfxK5P7EhE1DfnSk
+QZ/lTSnC+OOd9ErY97svwZTgnTAF55+NywGetb1NxP00bfYuIcEFfFuzB5r2S/GA
+z7mTBSZQTEcRAuTw89fZlAD+4poJOhF4S17MIjC6cT0TD3Q1mpqnCh6EqQxked11
+uQENBF6JacEBCADODkohgNvYGGXmbFewRwdIdD6UOlrC3oNLbmeIrwCrOOTnwxYT
+6yMNwvbH09n2T/lvsrb3G4XVeXbRE5xlm1ky5PgZ8YLP5W4bPt6D69mt/hugbvB+
+5AhwK+1CjDzRNt760KMTU1phRZ0xdD7q1zI3TpzSEQUkrCOhMhFhxSGeQ4l5tFeh
+6wdQ5sr5e2cqT6lelVyqPx3uG31FiijtUYPCVDXtBISBKBW0LBvwey4tkq9mufNc
+X+G7tTmYufhtNLA4yFWCO+YKprm+iYCVQz+M1vtoAepEXuvwJp5st6R2FQbZWvHt
+YG7qKQ7wGBVnemfFYCwM4W/ikkHuRKfZjyBVABEBAAGJATYEGAEIACAWIQSYC65w
+3NPYeUrrUex4gY9x3/V19gUCXolpwQIbDAAKCRB4gY9x3/V19ulLB/9NMxB9gnjp
+iC2+pUFeL+C2ozTiYXSOA6W3YZ2jSS5E+PGcjOKLJ2GfA5oeqf9Q/jVbXHxS1CQD
+rapSG1BOAKx8m1InTrrndf2bovbbnG2wA3LBVcWMmkEcQ5RZtuMFRPQ7m5XtVV/9
+8y/1ZIZgdwh8R2/xkQm9ko+Z+VVuQNXEeNnpOMP7yYm17VC5ghZDFimQa61Lmqy/
+nMaYecKKNCsluoqoId/YsgZNv2hBFUVZvRmjqW70xV/WPGpm1KniQOwu8/VF9bg5
+VNdDQ+ks7zfbl++pYYthm1c2tUymjSg1X3kUJmi0OOecQ0bKp9IPFBTnx3B8ezjJ
+v/UyXN5QP4YB
+=OcF0
+-----END PGP PUBLIC KEY BLOCK-----
