@@ -1,2 +1,1 @@
-# SSrep
- Private Repository with linux configuration
+## Salvydas Lukosius
