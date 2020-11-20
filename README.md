@@ -20,10 +20,6 @@
 
 ---
 
-<h2 align="center">Github stats :bar_chart:</h2>
-
----
-
 <div align=center>
    <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
    <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
