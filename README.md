@@ -1,4 +1,4 @@
-<h2 align="center">You can reach me at :alien:</h2>
+<h2 align="center">You can reach me at:</h2>
 
 <p align="center">
   <a href="https://dev.to/sso">
@@ -21,14 +21,31 @@
 
 <h2 align="center">Github stats :bar_chart:</h2>
 
-<h4 align="center">Visitor's count :eyes:</h4>
+---
+
+<div align=center>
+   <img src="https://img.shields.io/badge/%20-%23339933.svg?&style=for-the-badge&logo=c&logoColor=white" />
+   <img src="https://img.shields.io/badge/electron%20-%23e34f26.svg?&style=for-the-badge&logo=electron&logoColor=white" />
+   <img src="https://img.shields.io/badge/javascript%20-%23339933.svg?&style=for-the-badge&logo=javascript&logoColor=white" />
+   <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+   <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
+   <img src="https://img.shields.io/badge/Docker%20-%23e34f26.svg?&style=for-the-badge&logo=docker&logoColor=white" />
+   <img src="https://img.shields.io/badge/python%20-%23339933.svg?&style=for-the-badge&logo=python&logoColor=white" />
+   <img src="https://img.shields.io/badge/Linux%20-%23e34f26.svg?&style=for-the-badge&logo=linux&logoColor=white" />
+   <img src="https://img.shields.io/badge/java%20-%23339933.svg?&style=for-the-badge&logo=java&logoColor=white" />
+</div>
+
+---
 
 <p align="center"><img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" /></p>
 
-<h4 align="center">Top langs :tongue:</h4>
+<h4 align="center">Top langs</h4>
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=10&theme=tokyonight&layout=compact" alt="Salvydas :: Top Langs" /></p>
 
-<h4 align="center">Profile stats :musical_keyboard:</h4>
+<h4 align="center">Profile stats</h4>
+
+<h4 align="center">Visitor's count :eyes:</h4>
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&theme=synthwave" alt="Salvydas :: Profile Stats" /></p>
+
