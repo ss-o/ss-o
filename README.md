@@ -1,6 +1,6 @@
 <div align=center>
   
-### You can reach me
+### Reach me
 
 
 <a href="https://dev.to/sso">
