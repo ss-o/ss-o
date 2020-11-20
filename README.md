@@ -1,5 +1,7 @@
 <h2 align="center">You can reach me at:</h2>
 
+
+
 <div align=center>
   <a href="https://dev.to/sso">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Salvydas Lukosius DEV Profile" height="30" width="30">
@@ -16,6 +18,9 @@
   <a href="https://gitlab.com/ss-o">
     <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="Salvydas Lukosius GitLab Profile" height="30" width="30">
   </a>
+
+![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+  
 </div>
 
 ---
@@ -29,8 +34,6 @@
    <img src="https://img.shields.io/badge/java%20-%23339933.svg?&style=for-the-badge&logo=java&logoColor=white" />
 
 ---
-
-<img src="https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true" alt="Salvydas Lukosius" /> 
 
 <div align=center>
 <img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" />
