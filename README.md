@@ -2,7 +2,6 @@
   
 ### You can reach me
 
----
 
 <a href="https://dev.to/sso">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Salvydas Lukosius DEV Profile" height="30" width="30">
@@ -19,6 +18,10 @@
   <a href="https://gitlab.com/ss-o">
     <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="Salvydas Lukosius GitLab Profile" height="30" width="30">
   </a>
+
+---
+
+### Stats
 
 ![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)  
 
