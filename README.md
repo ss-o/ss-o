@@ -29,7 +29,7 @@
 
 ### Profile Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ss-o)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
    <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
    <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
