@@ -1,6 +1,4 @@
-<h2 align="center">You can reach me at:</h2>
-
-
+### You can reach me
 
 <div align=center>
   <a href="https://dev.to/sso">
@@ -19,11 +17,14 @@
     <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="Salvydas Lukosius GitLab Profile" height="30" width="30">
   </a>
 
-![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
-  
-</div>
+![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)  
 
 ---
+
+### Profile Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ss-o)](https://github.com/ryo-ma/github-profile-trophy)
+</div>
 
 <div align=center>
    <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
