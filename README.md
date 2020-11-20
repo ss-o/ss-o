@@ -1,7 +1,10 @@
 <div align=center>
+  
 ### You can reach me
 
-  <a href="https://dev.to/sso">
+---
+
+<a href="https://dev.to/sso">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Salvydas Lukosius DEV Profile" height="30" width="30">
   </a>
   
@@ -34,10 +37,13 @@
 
 ---
 
+### Profile views
+
 <div align=center>
 <img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" />
 
-### Top langs
+### Top lang
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=10&theme=tokyonight&layout=compact" alt="Salvydas :: Top Langs" /></p>
 
 </div>
