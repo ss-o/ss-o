@@ -23,22 +23,11 @@
   <a href="https://gitlab.com/ss-o">
     <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="Salvydas Lukosius GitLab Profile" height="30" width="30">
   </a>
-
----
-
-<img src="https://img.shields.io/badge/terraform5%20-%23e34f26.svg?&style=for-the-badge&logo=terraform5&logoColor=black" />
-   <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
-   <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
-   <img src="https://img.shields.io/badge/Docker%20-%23e34f26.svg?&style=for-the-badge&logo=docker&logoColor=white" />
-   <img src="https://img.shields.io/badge/python%20-%23339933.svg?&style=for-the-badge&logo=python&logoColor=white" />
-   <img src="https://img.shields.io/badge/Linux%20-%23e34f26.svg?&style=for-the-badge&logo=linux&logoColor=white" />
-   <img src="https://img.shields.io/badge/java%20-%23339933.svg?&style=for-the-badge&logo=java&logoColor=white" />
-
+  
 ---
 
 ### Profile views
 
-<div align=center>
 <img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" />
 
 </div>
