@@ -1,7 +1,12 @@
+[![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=darkhub)
+
 <div align=center>
   
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=10&theme=tokyonight&layout=compact" alt="Salvydas :: Top Langs" /></p>
+![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)  
+  ---
+  
 ### Reach me
-
 
 <a href="https://dev.to/sso">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Salvydas Lukosius DEV Profile" height="30" width="30">
@@ -23,13 +28,10 @@
 
 ### Stats
 
-![Salvydas github stats](https://github-readme-stats.vercel.app/api?username=ss-o&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)  
 
 ---
 
 ### Profile Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
    <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
    <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
@@ -46,7 +48,5 @@
 <img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" />
 
 ### Top lang
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=10&theme=tokyonight&layout=compact" alt="Salvydas :: Top Langs" /></p>
 
 </div>
