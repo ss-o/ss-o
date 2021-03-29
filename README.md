@@ -26,13 +26,6 @@
 
 ---
 
-### Stats
-
-
----
-
-### Profile Trophies
-
    <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
    <img src="https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
    <img src="https://img.shields.io/badge/Docker%20-%23e34f26.svg?&style=for-the-badge&logo=docker&logoColor=white" />
@@ -46,7 +39,5 @@
 
 <div align=center>
 <img src="https://profile-counter.glitch.me/{ss-o}/count.svg" alt="Salvydas :: Visitor's Count" />
-
-### Top lang
 
 </div>
