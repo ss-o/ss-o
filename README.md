@@ -10,19 +10,16 @@
 
 </div>
 
----
-
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
 <div align=center>
 
 ![Salvydas :: Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=8&card_width=300&theme=blue-green&layout=compact)
-![Salvydas :: Github Stats](https://github-readme-stats.vercel.app/api?username=ss-o&theme=blue-green&layout=compact)
- 
+![Salvydas :: Github Stats](https://github-readme-stats.vercel.app/api?username=ss-o&theme=blue-green&layout=compact&no-frame=true)
 ![Salvydas :: wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sall&theme=blue-green)
  
-![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=darkhub&rank=SSS,SS,S,AAA,AA,A,B,C)
+![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=darkhub&rank=SSS,SS,S,AAA,AA,A,B,C&no-frame=true)
 
 ---
 
