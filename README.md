@@ -11,6 +11,78 @@
 </div>
 
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-32-blue)
+
+**🐱 My Github Data** 
+
+> 🏆 442 Contributions in the Year 2021
+ > 
+> 📦 259.2 kB Used in Github's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 50 Public Repositories 
+ > 
+> 🔑 19 Private Repositories  
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning    123 commits    █████░░░░░░░░░░░░░░░░░░░░   20.92% 
+🌆 Daytime    112 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.05% 
+🌃 Evening    162 commits    ███████░░░░░░░░░░░░░░░░░░   27.55% 
+🌙 Night      191 commits    ████████░░░░░░░░░░░░░░░░░   32.48%
+
+```
+📅 **I'm Most Productive on Friday** 
+
+```text
+Monday       60 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.2% 
+Tuesday      69 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.73% 
+Wednesday    26 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   4.42% 
+Thursday     97 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.5% 
+Friday       131 commits    █████░░░░░░░░░░░░░░░░░░░░   22.28% 
+Saturday     88 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.97% 
+Sunday       117 commits    █████░░░░░░░░░░░░░░░░░░░░   19.9%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: Europe/London
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
+
+**I Mostly Code in Shell** 
+
+```text
+Shell                    6 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
+HTML                     5 repos             █████████░░░░░░░░░░░░░░░░   35.71% 
+Python                   2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   14.29% 
+Dockerfile               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14%
+
+```
+
+
+**Timeline**
+
+![Chart not found](https://raw.githubusercontent.com/ss-o/ss-o/master/charts/bar_graph.png) 
+
+
 <!--END_SECTION:waka-->
 
 <div align=center>
