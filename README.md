@@ -17,16 +17,19 @@
 
 <div align=center>
 
-![Salvydas :: Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=8&card_width=350&theme=blue-green&layout=compact)
+![Salvydas :: Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=8&card_width=300&theme=blue-green&layout=compact)
 ![Salvydas :: Github Stats](https://github-readme-stats.vercel.app/api?username=ss-o&theme=blue-green&layout=compact)
-
-[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=ss-o&repo=the-book-of-secret-knowledge&theme=blue-green)](https://github.com/ss-o/the-book-of-secret-knowledge)
-[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=digital-clouds&repo=awesome-machine-learning&theme=blue-green)](https://github.com/digital-clouds/awesome-machine-learning)
-[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=security-io&repo=shodan-eye&theme=blue-green)](https://github.com/security-io/shodan-eye)
+ 
 ![Salvydas :: wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sall&theme=blue-green)
-  
-  ---
+ 
+![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=darkhub&rank=SSS,SS,S,AAA,AA,A,B,C)
 
-![trophy](https://github-profile-trophy.vercel.app/?username=ss-o&theme=darkhub)
+---
+
+<div align=center>
+
+[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=ss-o&repo=the-book-of-secret-knowledge&card_width=150&theme=blue-green&layout=compact)](https://github.com/ss-o/the-book-of-secret-knowledge)
+[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=digital-clouds&repo=awesome-machine-learning&card_width=150&theme=blue-green)](https://github.com/digital-clouds/awesome-machine-learning)
+[![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=security-io&repo=shodan-eye&card_width=150&theme=blue-green)](https://github.com/security-io/shodan-eye)
 
 </div>
