@@ -10,6 +10,8 @@
 
 </div>
 
+---
+
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-32-blue)
 
@@ -76,14 +78,8 @@ Python                   2 repos             ███░░░░░░░░�
 Dockerfile               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14%
 
 ```
-
-
-**Timeline**
-
-![Chart not found](https://raw.githubusercontent.com/ss-o/ss-o/master/charts/bar_graph.png) 
-
-
 <!--END_SECTION:waka-->
+
 
 <div align=center>
 
