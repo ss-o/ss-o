@@ -15,7 +15,3 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LOC_CHART: False
           SHOW_LINES_OF_CODE: True
-      - name: wakatime-sync to gist
-        # You may pin to the exact commit or the version.
-        # uses: superman66/wakatime-sync@5233-d5d3c9903b586526590dade9fafc18d8249f
-        uses: superman66/wakatime-sync@v1.0.0
