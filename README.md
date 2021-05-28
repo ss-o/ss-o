@@ -1,3 +1,4 @@
+<html>
 <div align=center>
   
 [![Dev](https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/)](https://dev.to/sso/)
@@ -9,6 +10,7 @@
 [![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/13893752/salvydas-lukosius)](https://stackoverflow.com/users/13893752/salvydas-lukosius)
 
 </div>
+</html>
 
 ---
 
@@ -95,6 +97,7 @@ Dockerfile               1 repo              ██░░░░░░░░░�
 
 ---
 
+<html>
 <div align=center>
 
 ![Salvydas :: Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ss-o&langs_count=8&card_width=300&theme=blue-green&layout=compact)
@@ -113,3 +116,4 @@ Dockerfile               1 repo              ██░░░░░░░░░�
 [![The Book of Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=security-io&repo=shodan-eye&card_width=150&theme=blue-green)](https://github.com/security-io/shodan-eye)
 
 </div>
+</html>
