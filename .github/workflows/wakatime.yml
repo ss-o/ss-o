@@ -9,10 +9,6 @@ jobs:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - name: waka-box
-        uses: matchai/waka-box@v4.0.5
-      - name: wakatime-sync
-        uses: superman66/wakatime-sync@v1.0.0
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
