@@ -1,5 +1,8 @@
 <div align="center">
   
+🆂🅰🅻🆅🆈🅳🅰🆂 🅻🆄🅺🅾🆂🅸🆄🆂 
+
+  
 [![Dev](https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/)](https://dev.to/sso/)
 [![Twitter](https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/digital_wizz/)](https://twitter.com/digital_wizz/)
 [![GitLab](https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/)](https://gitlab.com/ss-o/)
