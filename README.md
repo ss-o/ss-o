@@ -22,7 +22,7 @@
 
 > 🏆 698 Contributions in the Year 2021
  > 
-> 📦 452.1 kB Used in Github's Storage 
+> 📦 452.4 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -59,20 +59,16 @@ Sunday       122 commits    ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Europe/London
 
 💬 Programming Languages: 
-HTML                     1 hr 11 mins        ███████████████████░░░░░░   78.4% 
-CSS                      8 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   9.13% 
-JSON                     5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   5.56% 
-JavaScript               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   4.67% 
-Markdown                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   1.92%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 31 mins        █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-ghost-casper             1 hr 31 mins        █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    1 hr 31 mins        █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -89,7 +85,7 @@ Go                       2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 26/07/2021
+ Last Updated on 27/07/2021
 <!--END_SECTION:waka-->
 
 ---
