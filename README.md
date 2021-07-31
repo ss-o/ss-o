@@ -1,7 +1,6 @@
 <div align="center">
   
 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘
-
   
 [![Dev](https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/)](https://dev.to/sso/)
 [![Twitter](https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/digital_wizz/)](https://twitter.com/digital_wizz/)
@@ -102,9 +101,7 @@ CSS                      2 repos             ██░░░░░░░░░�
 
 ---
 
-
 [![Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=github&repo=government.github.com&card_width=150&theme=blue-green&layout=compact)](https://github.com/github/government.github.com)
 [![Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=ss-o&repo=the-book-of-secret-knowledge&card_width=150&theme=blue-green&layout=compact)](https://github.com/ss-o/the-book-of-secret-knowledge)
-[![Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=security-io&repo=shodan-eye&card_width=150&theme=blue-green)](https://github.com/security-io/shodan-eye)
 
 </div>
