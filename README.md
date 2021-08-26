@@ -1,6 +1,6 @@
 <div align="center">
   
-𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘
+[𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘](https://git.io/JJwwg)
   
 [![Dev](https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/)](https://dev.to/sso/)
 [![Twitter](https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/digital_wizz/)](https://twitter.com/digital_wizz/)
@@ -9,7 +9,7 @@
 [![Reddit](https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/user/ss-o/)](https://www.reddit.com/user/ss-o/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/digital-clouds/)](https://www.linkedin.com/in/digital-clouds/)
 [![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/13893752/salvydas-lukosius)](https://stackoverflow.com/users/13893752/salvydas-lukosius)
-
+  
 </div>
 
 ---
