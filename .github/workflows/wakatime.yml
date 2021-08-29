@@ -24,6 +24,6 @@ jobs:
           SHOW_LANGUAGE_PER_REPO: True
           SHOW_DAYS_OF_WEEK: True
           SHOW_PROFILE_VIEWS: False
-          SHOW_SHORT_INFO: True
+          SHOW_SHORT_INFO: False
           LOCALE: en
           COMMIT_BY_ME: False
