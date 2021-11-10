@@ -1,4 +1,6 @@
-# Two-dimensional cellular automaton devised by J. H. Conway in 1970
+# Fan of the `Game of Life` idea ⭐
+
+## Two-dimensional cellular automaton devised by J. H. Conway in 1970
 
 The 'Game of Life', also known simply as 'Life', is a [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) devised by the British mathematician John Horton Conway in 1970. 
 
