@@ -1,9 +1,12 @@
-name: Waka Readme
+name: Waka Metrics
 
 on:
+  repository_dispatch:
+    types: [test_trigger]
+  workflow_dispatch:
   schedule:
     - cron: '30 18 * * *'
-  workflow_dispatch:
+    
 jobs:
   update-readme:
     name: Update Readme with Metrics
@@ -18,7 +21,7 @@ jobs:
           SHOW_OS: True
           SHOW_PROJECTS: True
           SHOW_EDITORS: True
-          SHOW_TIMEZONE: True
+          SHOW_TIMEZONE: False
           SHOW_COMMIT: True
           SHOW_LANGUAGE: True
           SHOW_LANGUAGE_PER_REPO: True
