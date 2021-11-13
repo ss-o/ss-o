@@ -1,4 +1,4 @@
-# Favorite quates
+# Favorite quotes
 
 > Can't lose who you truly are, trying to be something that you are not
 
