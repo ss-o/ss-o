@@ -54,7 +54,10 @@ Linux                    13 hrs 57 mins      ███████████�
 
 <div align=center>
 
-[![Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=github&repo=government.github.com&card_width=150&theme=blue-green&layout=compact)](https://github.com/github/government.github.com)
-[![Secret Knowledge](https://github-readme-stats.vercel.app/api/pin/?username=ss-o&repo=the-book-of-secret-knowledge&card_width=150&theme=blue-green&layout=compact)](https://github.com/ss-o/the-book-of-secret-knowledge)
+  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=z-a-meta-plugins&card_width=150&theme=blue-green&layout=compact)](
+https://github.com/z-shell/z-a-meta-plugins)
+  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=blue-green&layout=compact)](
+https://github.com/z-shell/zi)
+
 
 </div>
