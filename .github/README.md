@@ -1,9 +1,6 @@
 <div align="center">
   
-[⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒](https://git.io/JJwwg)
-  
-[![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://https://github.com/ss-o)
-  
+[⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒](https://git.io/JJwwg)  
 [![Dev](https://img.shields.io/badge/-G.DEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall)](https://g.dev/sall)
 [![Dev](https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/)](https://dev.to/sso/)
 [![Twitter](https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/salldc/)](https://twitter.com/salldc/)
