@@ -1,15 +1,15 @@
-name: GH Metrics
+---
+name: ":octocat: GH Metrics"
 
 on:
   repository_dispatch:
     types: [test_trigger]
-  workflow_dispatch:
   schedule:
     - cron: '30 10 * * *'
 
 jobs:
   github-metrics:
-    name: Update Readme with Metrics
+    name: ♻️ Update Metrics
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
