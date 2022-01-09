@@ -57,6 +57,8 @@ Linux                    17 hrs 36 mins      ███████████�
 https://github.com/z-shell/z-a-meta-plugins)
   [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=blue-green&layout=compact)](
 https://github.com/z-shell/zi)
-
-
+  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=F-Sy-H&card_width=150&theme=blue-green&layout=compact)](
+https://github.com/z-shell/F-Sy-H)
+    [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=H-S-MW&card_width=150&theme=blue-green&layout=compact)](
+https://github.com/z-shell/H-S-MW)
 </div>
