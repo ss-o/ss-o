@@ -1,15 +1,14 @@
-name: Waka Metrics
+name: 🌀 Waka Metrics
 
 on:
   repository_dispatch:
     types: [test_trigger]
-  workflow_dispatch:
   schedule:
     - cron: '30 18 * * *'
     
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: ♻️ Update Metrics
     runs-on: ubuntu-latest
     steps:
       - uses: anmol098/waka-readme-stats@master
