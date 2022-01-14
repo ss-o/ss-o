@@ -7,7 +7,7 @@
 [![GitLab](https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/)](https://gitlab.com/ss-o/)
 [![Slack](https://img.shields.io/badge/-Slack-222222?style=flat-square&logo=Slack&logoColor=white&link=https://digital-teams.slack.com/)](https://digital-teams.slack.com/)
 [![Reddit](https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/user/ss-o/)](https://www.reddit.com/user/ss-o/)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/digital-clouds/)]( www.linkedin.com/in/ss-o)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ss-o/)]( https://www.linkedin.com/in/ss-o/)
 [![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/13893752/salvydas-lukosius)](https://stackoverflow.com/users/13893752/salvydas-lukosius)
 [![Proofile Details](https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![Repo PerLanguage](https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) 
