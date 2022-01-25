@@ -26,22 +26,21 @@
 ⌚︎ Time Zone: Europe/London
 
 💬 Programming Languages: 
-Markdown                 1 min               █████████████████████░░░░   87.23% 
-Bash                     0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   12.77%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 min               █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-zaccumulator-master      1 min               █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    1 min               █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
 
- Last Updated on 24/01/2022 18:40:14 UTC
+ Last Updated on 25/01/2022 18:41:39 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
