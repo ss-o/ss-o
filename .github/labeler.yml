@@ -15,5 +15,5 @@
 #plugin 🧿:
 #  - any: ["docs/ecosystem/plugins/**", "i18n/**/docusaurus-plugin-content-docs/current/ecosystem/plugins/*"]
 #ci 🤖:
-blocked 🛑:
+ready ☑️:
   - any: ["profile-summary-card-output/**"]
