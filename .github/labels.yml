@@ -9,7 +9,7 @@
   color: 0052cc
   description: "Solely about the documentation of the project."
 - name: "i18n 🌐"
-  color: "0052cc"
+  color: "0052cc" 
   description: "Internationalization"
 - name: "enhancement ✨"
   color: 006b75
@@ -38,9 +38,12 @@
 - name: "submodules ⚙️"
   color: fbca04
   description: "Change in project dependencies."
-- name: "ready ☑️|"
+- name: "ready ☑️"
   color: 024439
   description: "Ready for next step"
+- name: "blocked 🛑"
+  color: fbcA04
+  description: "Will not proceed"
 - name: "fix ⚡"
   color: f510f4
   description: "Has been fixed and is therefore considered resolved."
@@ -78,9 +81,6 @@
 #- name: "Breaking Changes 🔥"
 #  color: ee0701
 #  description: "Must be addressed as soon as possible."
-#- name: "priority-medium 📌"
-#  color: fbcA04
-#  description: "This issue may be useful, and needs some attention."
 - name: "priority-low 🔖"
   color: ffffff
   description: "This issue currently can't be resolved."
