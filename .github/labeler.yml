@@ -14,5 +14,6 @@
 #  - any: ["docs/ecosystem/packages*", "i18n/**/docusaurus-plugin-content-docs/current/ecosystem/packages/*"]
 #plugin 🧿:
 #  - any: ["docs/ecosystem/plugins/**", "i18n/**/docusaurus-plugin-content-docs/current/ecosystem/plugins/*"]
-ci 🤖:
+#ci 🤖:
+blocked 🛑:
   - any: ["profile-summary-card-output/**"]
