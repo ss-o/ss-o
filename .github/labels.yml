@@ -38,7 +38,9 @@
 - name: "submodules ⚙️"
   color: fbca04
   description: "Change in project dependencies."
-
+- name: "ready ☑️|"
+  color: 024439
+  description: "Ready for next step"
 - name: "fix ⚡"
   color: f510f4
   description: "Has been fixed and is therefore considered resolved."
@@ -51,7 +53,7 @@
 - name: "no-stale 🔒"
   color: fef2c0
   description: "This is exempt from the stale bot"
-
+## Issue Labels
 - name: "Q&A ✍️"
   color: fef2c0
   description: "Questions and answers."
