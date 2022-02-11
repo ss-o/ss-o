@@ -13,8 +13,19 @@
 [![Repo PerLanguage](https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) 
 [![Commit per Language](https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-</div>  
 <div align="center">
+<a href="https://github.com/z-shell/zi">
+  <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark" />
+</a>
+<a href="https://github.com/z-shell/zw">
+  <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
+</a>
+<a href="https://github.com/z-shell/f-sy-h">
+  <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
+</a>
+<a href="https://github.com/z-shell/h-s-mw">
+  <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
+</a>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=blue-green" alt="Logo" width="400" height="200"></img>
 <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=blue-green" alt="Logo" width="400" height="200"></img>
 </div>
@@ -46,15 +57,3 @@ Linux                    8 hrs 9 mins        ███████████�
 
  Last Updated on 10/02/2022 18:40:13 UTC
 <!--END_SECTION:waka-->
-
-<div align=center>
-
-  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=z-a-meta-plugins&card_width=150&theme=blue-green&layout=compact)](
-https://github.com/z-shell/z-a-meta-plugins)
-  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=blue-green&layout=compact)](
-https://github.com/z-shell/zi)
-  [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=F-Sy-H&card_width=150&theme=blue-green&layout=compact)](
-https://github.com/z-shell/F-Sy-H)
-    [![ZI](https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=H-S-MW&card_width=150&theme=blue-green&layout=compact)](
-https://github.com/z-shell/H-S-MW)
-</div>
