@@ -47,19 +47,6 @@
   <a href="https://github.com/ss-o">
     <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=github_dark&hide_border=true" alt="ss-o" width="40%" />
   </a>
-<!-- repository-cards -->  
-  <a href="https://github.com/z-shell/zi">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark" />
-  </a>
-  <a href="https://github.com/z-shell/zw">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
-  </a>
-  <a href="https://github.com/z-shell/f-sy-h">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
-  </a>
-  <a href="https://github.com/z-shell/h-s-mw">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
-  </a>
 </div>
 
 ---
@@ -92,3 +79,21 @@ Linux                    8 hrs 59 mins       ███████████�
 
  Last Updated on 12/02/2022 18:39:34 UTC
 <!--END_SECTION:waka-->
+
+---
+
+<div align="center">
+<!-- repository-cards --> 
+  <a href="https://github.com/z-shell/zi">
+    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark" />
+  </a>
+  <a href="https://github.com/z-shell/zw">
+    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
+  </a>
+  <a href="https://github.com/z-shell/f-sy-h">
+    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
+  </a>
+  <a href="https://github.com/z-shell/h-s-mw">
+    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
+  </a>
+</div>
