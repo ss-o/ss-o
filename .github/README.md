@@ -85,7 +85,7 @@ Linux                    8 hrs 59 mins       ███████████�
 <div align="center">
 <!-- repository-cards --> 
   <a href="https://github.com/z-shell/zi">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark" />
+    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
   </a>
   <a href="https://github.com/z-shell/zw">
     <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
