@@ -3,8 +3,8 @@
  [⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒](https://osint.digitalclouds.pro)[.](https://git.io/JJwwg)
   
 </h2>
-
 <h3 align="center">
+<!-- badges -->  
   <a href="https://g.dev/sall/">
     <img align="center" src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/" />
   </a>
@@ -30,7 +30,7 @@
     <img align="center" src="https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white" />
   </a>  
 </h3>
-
+<!-- profile-stats -->  
 <div align="center">
   <a href="https://github.com/ss-o">
     <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
@@ -41,6 +41,13 @@
   <a href="https://github.com/ss-o">
     <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
   </a>
+  <a href="https://github.com/ss-o">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" width="40%" />
+  </a>
+  <a href="https://github.com/ss-o">
+    <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=github_dark&hide_border=true" alt="ss-o" width="40%" />
+  </a>
+<!-- repository-cards -->  
   <a href="https://github.com/z-shell/zi">
     <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark" />
   </a>
@@ -52,12 +59,6 @@
   </a>
   <a href="https://github.com/z-shell/h-s-mw">
     <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
-  </a>
-  <a href="https://github.com/ss-o">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" width="40%" />
-  </a>
-  <a href="https://github.com/ss-o">
-    <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=github_dark&hide_border=true" alt="ss-o" width="40%" />
   </a>
 </div>
 
