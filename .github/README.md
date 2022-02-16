@@ -42,11 +42,11 @@
     <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
   </a>
   <a href="https://github.com/ss-o">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" width="40%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" width=70%" />
   </a>
-  <a href="https://github.com/ss-o">
-    <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=github_dark&hide_border=true" alt="ss-o" width="40%" />
-  </a>
+ <!-- <a href="https://github.com/ss-o">
+    <img src="https://github-readme-stats.vercel.app/api?username=ss-o&theme=github_dark&hide_border=true" alt="ss-o" width="60%" />
+  </a>-->
 </div>
 
 ---
