@@ -33,7 +33,7 @@
 <!-- profile-stats -->  
 <div align="center">
   <a href="https://github.com/ss-o">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" width="60%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-o&theme=github-dark&hide_border=true" alt="ss-o" />
   </a>
   <a href="https://github.com/ss-o">
     <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
@@ -93,15 +93,15 @@ Linux                    16 hrs 13 mins      ███████████�
 <div align="center">
 <!-- repository-cards --> 
   <a href="https://github.com/z-shell/zi">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
   </a>
   <a href="https://github.com/z-shell/zw">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
   </a>
   <a href="https://github.com/z-shell/f-sy-h">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
   </a>
   <a href="https://github.com/z-shell/h-s-mw">
-    <img align="center" src="https://gh-stats-digital.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
   </a>
 </div>
