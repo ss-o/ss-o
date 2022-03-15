@@ -1,5 +1,5 @@
 ---
-name: ":octocat: GH Metrics"
+name: "🌀 GHM"
 
 on:
   repository_dispatch:
@@ -15,6 +15,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
