@@ -16,7 +16,7 @@ jobs:
         filename: metrics/plugin.svg
         token: ${{ secrets.SSO_TOKEN }}
         user: ss-o
-    - uses: /metrics@latest
+    - uses: ss-o/metrics@latest
       with:
         filename: metrics/plugin.followup.indepth.svg
         token: ${{ secrets.SSO_TOKEN }}
