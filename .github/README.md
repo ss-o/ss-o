@@ -13,11 +13,16 @@
         </h3>
         <!-- profile-stats -->
     <tr align="center" width="100%">
-      <td>
-        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
+      <th><a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
             alt="wakatime" width="84%" height="auto" />
-          <img align="center"
+        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
+          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.followup.indepth.svg"
+            alt="wakatime" width="84%" height="auto" />
+          </tr>
+       </th>
+    <tr align="center" width="100%">
+      <th><img align="center"
             src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/0-profile-details.svg"
             width="84%" height="auto" />
         </a>
@@ -28,13 +33,12 @@
           <img align="center"
             src="https://raw.githubusercontent.com/ss-o/ss-o  /main/profile-summary-card-output/github_dark/2-most-commit-language.svg"
             width="42%" height="auto" />
-        </a>
-      </td>
-    </tr>
+        </a></th> -->
+     </tr>
     <!-- repository-cards -->
     <tr align="center" width="100%">
       <td>
-        <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
+       <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius"
             width="42%" height="auto" />
