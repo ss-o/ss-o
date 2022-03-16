@@ -33,7 +33,7 @@
           <img align="center"
             src="https://raw.githubusercontent.com/ss-o/ss-o  /main/profile-summary-card-output/github_dark/2-most-commit-language.svg"
             width="42%" height="auto" />
-        </a></th> -->
+        </a></th>
      </tr>
     <!-- repository-cards -->
     <tr align="center" width="100%">
