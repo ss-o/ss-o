@@ -2,6 +2,6 @@
     "schedule": "monthly",
     "ignoredFiles": [
       "profile-summary-card-output/**",
-      "charts/**",
+      "metrics/**"
     ]
 }
