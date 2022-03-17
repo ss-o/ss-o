@@ -2,8 +2,7 @@
 name: "🌀 GHM"
 
 on:
-  repository_dispatch:
-    types: [test_trigger]
+  workflow_dispatch:
   schedule:
     - cron: '30 10 * * *'
 
