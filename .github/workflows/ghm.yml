@@ -17,11 +17,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-      - uses: actions/checkout@v2
-        with:
-          path: metrics/z-shell
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
-        with:
-          USERNAME: z-shell
