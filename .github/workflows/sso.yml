@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  call-1:
+  metrics:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -24,10 +24,6 @@ jobs:
         user: ss-o
         plugin_followup: yes
         plugin_followup_indepth: yes
-  call-2:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
     - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
       with:
         filename: metrics/plugin/gists.svg
@@ -70,29 +66,6 @@ jobs:
         user: ss-o
         base: header
         plugin_introduction: yes
-
-
-  call-3:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/z-shell/plugin/introduction.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        user: z-shell
-        base: header
-        plugin_introduction: yes
-    - uses: actions/checkout@v2
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/z-shell/zi/plugin/introduction/repository.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        template: repository
-        repo: zi
-        base: header
-        plugin_introduction: yes
-
 
 #    - name: Spotify - Random track from playlist
 #      uses: ss-o/metrics@latest
