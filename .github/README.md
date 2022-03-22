@@ -16,11 +16,15 @@
         <td align="center" width="100%">
         <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
-            alt="wakatime" width="84%" height="auto" />
+            alt="wakatime" width="80%" height="auto" />
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
-            alt="indepth" width="84%" height="auto" />
+            alt="indepth" width="80%" height="auto" />
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
-            alt="indepth" width="84%" height="auto" />
+            alt="languages" width="80%" height="auto" />
+       </a>
+       <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
+          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
+            alt="gist" width="80%" height="auto" />
         </a>
       </td></tr>
       <tr>
@@ -64,17 +68,20 @@
         </a>
         <a title="GitLab" target="_self" href="https://gitlab.com/ss-o/">
           <img align="center"
-            src="https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/" /></a>
+            src="https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/" />
+        </a>
         <a title="Slack" target="_self" href="https://digital-teams.slack.com/">
           <img align="center"
             src="https://img.shields.io/badge/-Slack-222222?style=flat-square&logo=Slack&logoColor=white&link=https://digital-teams.slack.com/" />
         </a>
         <a title="Reddit" target="_self" href="https://www.reddit.com/u/ss-o/">
           <img align="center"
-            src="https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/u/ss-o/" /></a>
+            src="https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/u/ss-o/" />
+        </a>
         <a title="LinkedIn" target="_self" href="https://www.linkedin.com/in/ss-o/">
           <img align="center"
-            src="https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white" /></a>
+            src="https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white" />
+        </a>
         <a title="stackoverflow" target="_self" href="https://stackoverflow.com/users/13893752/salvydas-lukosius">
           <img align="center"
             src="https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white" />
