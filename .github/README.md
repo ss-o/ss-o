@@ -19,6 +19,8 @@
             alt="wakatime" width="84%" height="auto" />
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
             alt="indepth" width="84%" height="auto" />
+          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
+            alt="indepth" width="84%" height="auto" />
         </a>
       </td></tr>
       <tr>
