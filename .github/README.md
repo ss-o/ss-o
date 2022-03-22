@@ -1,7 +1,6 @@
-<div align="justify" width="100%">
-  <table align="justify" width="100%" margin-left="auto" margin-right="auto">
-    <tr align="center" width="100%">
-      <td>
+<table align="justify" width="100%" margin-left="auto" margin-right="auto">
+    <tr>
+      <td align="center" width="100%">
         <!-- Announments -->
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
@@ -11,58 +10,44 @@
             𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
           <a href="https://git.io/JJwwg">.</a>
         </h3>
-        <!-- profile-stats -->
-    <tr align="center" width="100%">
-      <th><a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
+      </td></tr>
+      <!-- profile-stats -->
+      <tr>
+        <td align="center" width="100%">
+        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
             alt="wakatime" width="84%" height="auto" />
-        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.followup.indepth.svg"
-            alt="wakatime" width="84%" height="auto" />
-          </tr>
-       </th>
-    <tr align="center" width="100%">
-      <th><img align="center"
-            src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/0-profile-details.svg"
-            width="84%" height="auto" />
+            alt="indepth" width="84%" height="auto" />
         </a>
-        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o">
-          <img align="center"
-            src="https://raw.githubusercontent.com/ss-o/ss-o/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"
-            width="42%" />
-          <img align="center"
-            src="https://raw.githubusercontent.com/ss-o/ss-o  /main/profile-summary-card-output/github_dark/2-most-commit-language.svg"
-            width="42%" height="auto" />
-        </a></th>
-     </tr>
-    <!-- repository-cards -->
-    <tr align="center" width="100%">
-      <td>
+      </td></tr>
+      <tr>
+      <td align="center" width="100%">
+       <!-- repository-cards -->
        <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius"
-            width="42%" height="auto" />
+            width="40%" height="auto" />
         </a>
         <a title="ZI WIKI" target="_self" href="https://github.com/z-shell/zw">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark"
-            width="42%" height="auto" />
+            width="40%" height="auto" />
         </a>
         <a title="f-sy-h" target="_self" href="https://github.com/z-shell/f-sy-h">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark"
-            width="42%" height="auto" />
+            width="40%" height="auto" />
         </a>
         <a title="h-s-mw" target="_self" href="https://github.com/z-shell/h-s-mw">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark"
-            width="42%" height="auto" />
+            width="40%" height="auto" />
         </a>
-      </td>
-    </tr>
+    </td></tr>
     <!-- contact-badges -->
-    <tr align="center" width="100%">
-      <td>
+    <tr>
+      <td align="center" width="100%">
         <a title="Google DEV" target="_self" href="https://g.dev/sall/">
           <img align="center"
             src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/" />
@@ -94,7 +79,4 @@
         </a>
       </td>
     </tr>
-    </td>
-    </tr>
   </table>
-</div>
