@@ -16,15 +16,15 @@
         <td align="center" width="100%">
         <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
-            alt="wakatime" width="80%" height="auto" />
+            alt="wakatime" width="90%" height="auto" />
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
-            alt="indepth" width="80%" height="auto" />
+            alt="indepth" width="90%" height="auto" />
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
-            alt="languages" width="80%" height="auto" />
+            alt="languages" width="90%" height="auto" />
        </a>
        <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
-            alt="gist" width="80%" height="auto" />
+            alt="gist" width="90%" height="auto" />
         </a>
       </td></tr>
       <tr>
@@ -32,23 +32,19 @@
        <!-- repository-cards -->
        <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
           <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius"
-            width="40%" height="auto" />
+            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
         </a>
         <a title="ZI WIKI" target="_self" href="https://github.com/z-shell/zw">
           <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark"
-            width="40%" height="auto" />
+            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
         </a>
         <a title="f-sy-h" target="_self" href="https://github.com/z-shell/f-sy-h">
           <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark"
-            width="40%" height="auto" />
+            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
         </a>
         <a title="h-s-mw" target="_self" href="https://github.com/z-shell/h-s-mw">
           <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark"
-            width="40%" height="auto" />
+            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
         </a>
     </td></tr>
     <!-- contact-badges -->
