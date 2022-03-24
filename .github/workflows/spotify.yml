@@ -82,7 +82,7 @@ jobs:
   get-top-tacks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/top-tracks.svg
@@ -97,7 +97,7 @@ jobs:
   get-top-artists:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/top-artists.svg
