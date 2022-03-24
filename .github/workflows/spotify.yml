@@ -1,9 +1,11 @@
 ---
 name: "🌀 SPOTIFY"
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
-  workflow_dispatch:
+  push:
+    paths: [.github/workflows/spotify.yml]
 jobs:
   get-random-songs:
     runs-on: ubuntu-latest
