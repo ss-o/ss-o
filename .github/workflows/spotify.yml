@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/west.svg
           token: NOT_NEEDED
@@ -20,7 +20,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/east.svg
           token: NOT_NEEDED
@@ -29,7 +29,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/girls.svg
           token: NOT_NEEDED
@@ -38,7 +38,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1 
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-1.svg
           token: NOT_NEEDED
@@ -47,7 +47,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/6VcZq5Pm10ZTKp8SeLrp6G
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-2.svg
           token: NOT_NEEDED
@@ -56,7 +56,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/290lnDXzAXbDqZhnfdJuYf
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-3.svg
           token: NOT_NEEDED
@@ -69,7 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/recent.svg
           token: NOT_NEEDED
@@ -83,7 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/top-tracks.svg
           token: NOT_NEEDED
@@ -99,7 +99,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/music/spotify/top-artists.svg
           token: NOT_NEEDED

@@ -1,5 +1,9 @@
-on: [push, pull_request]
 name: "🐦 Twitter, together!"
+on: 
+  push:
+    paths: tweets
+  pull_request:
+    paths: tweets
 jobs:
   preview:
     name: "👀 Preview"
@@ -9,7 +13,6 @@ jobs:
       - uses: gr2m/twitter-together@v1.x
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   tweet:
     name: "📤 Tweet"
     runs-on: ubuntu-latest

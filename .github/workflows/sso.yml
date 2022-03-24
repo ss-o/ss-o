@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin.svg
           token: ${{ secrets.SSO_TOKEN }}
           user: ss-o
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/followup/indepth.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -22,13 +22,13 @@ jobs:
           user: ss-o
           plugin_followup: yes
           plugin_followup_indepth: yes
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/gists.svg
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_gists: yes
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/topics/icons.svg
           token: NOT_NEEDED
@@ -36,7 +36,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/languages/details.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+      - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
           filename: metrics/plugin/introduction.svg
           token: ${{ secrets.SSO_TOKEN }}
