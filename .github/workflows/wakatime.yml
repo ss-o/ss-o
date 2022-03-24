@@ -4,7 +4,7 @@ on:
   repository_dispatch:
     types: [test_trigger]
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "30 18 * * */2"
 
 jobs:
   update-readme:
