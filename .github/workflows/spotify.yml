@@ -19,6 +19,7 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
+          plugin_music_limit: 2
       - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/playlist/east.svg
