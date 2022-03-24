@@ -26,16 +26,16 @@
   <!-- no-music = no-code -->
   <tr><td align="center"><h3 align="left"><b>🎶 No Music - ✍️ No Code</b></h3><div>
   <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" width="38%" height="auto" />
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" width="38%" height="auto" />
   </a></p>
   <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" width="38%" height="auto" />
   </a>
   <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="38%" height="auto" />
   </a></p></div></td></tr>
   <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
