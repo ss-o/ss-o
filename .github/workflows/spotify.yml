@@ -78,7 +78,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_limit: 4
+          plugin_music_limit: 2
   get-top-tacks:
     runs-on: ubuntu-latest
     steps:
@@ -94,6 +94,7 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_time_range: short
           plugin_music_top_type: tracks
+          plugin_music_limit: 2
   get-top-artists:
     runs-on: ubuntu-latest
     steps:
@@ -109,3 +110,4 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_time_range: long
           plugin_music_top_type: artists
+          plugin_music_limit: 2
