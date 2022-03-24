@@ -4,8 +4,8 @@
         <!-- Announments -->
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
-        <h3>
-          <font color="red" />
+        <h3 align="center">
+          <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a></div>
           <a title="Salvydas Lukosius" target="_self" href="https://osint.digitalclouds.pro/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
             𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
           <a href="https://git.io/JJwwg">.</a>
