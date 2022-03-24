@@ -31,41 +31,48 @@
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
 -->
-  <tr><td>
+  <tr><td align="center" width="100%">
   <a title="Playsist - West Gang" target="_self" href="https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" width="40%" height="auto" /> 
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" /> 
   </a>
   <a title="Playsist - East Gang" target="_self" href="https://open.spotify.com/playlist/1X0xAsHWCpamURi0SJqV3w/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/east.svg" width="40%" height="auto" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/east.svg" />
   </a>
-  </td></tr>
-  <tr><td>
+  <a title="Playsist - Girls Gang" target="_self" href="https://open.spotify.com/playlist/0CXloQmqFutohB4QMcgIq1/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/girls.svg" />
+  </a>
   <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="40%" height="auto" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
   </a>
   <a title="Playsist -Lofi 2" target="_self" href="https://open.spotify.com/playlist/290lnDXzAXbDqZhnfdJuYf/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-2.svg" width="40%" height="auto" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-2.svg" />
+  </a>
+  <a title="Playsist -Lofi 3" target="_self" href="https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" />
   </a>
  </th></tr>
   <tr><td align="center" width="100%">
-  <!-- repository-cards -->
-       <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
-          <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
-        </a>
-        <a title="ZI WIKI" target="_self" href="https://github.com/z-shell/zw">
-          <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" />
-        </a>
-        <a title="f-sy-h" target="_self" href="https://github.com/z-shell/f-sy-h">
-          <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" />
-        </a>
-        <a title="h-s-mw" target="_self" href="https://github.com/z-shell/h-s-mw">
-          <img align="center"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
-        </a>
-    </td></tr>
+ <!-- repository-cards -->
+ <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
+  <img align="center" 
+       src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" 
+       width="40%" height="auto" />
+    </a>
+ <a title="ZI WIKI" target="_self" href="https://github.com/z-shell/zw">
+  <img align="center" 
+         src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zw&card_width=150&theme=github_dark" 
+         width="40%" height="auto" />
+    </a>
+ <a title="f-sy-h" target="_self" href="https://github.com/z-shell/f-sy-h">
+  <img align="center" 
+       src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=f-sy-h&card_width=150&theme=github_dark" 
+       width="40%" height="auto" />
+    </a>
+ <a title="h-s-mw" target="_self" href="https://github.com/z-shell/h-s-mw">
+  <img align="center" 
+       src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" width="40%" height="auto" />
+    </a>
+ </td></tr>
     <!-- contact-badges -->
     <tr>
       <td align="center" width="100%">
