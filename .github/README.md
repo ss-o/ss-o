@@ -1,19 +1,15 @@
 <table align="justify" width="100%" margin-left="auto" margin-right="auto">
-    <tr>
-      <td align="center" width="100%">
+  <tr><td align="center" width="100%">
         <!-- Announments -->
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
-        <h3 align="center">
-          <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a></div>
-          <a title="Salvydas Lukosius" target="_self" href="https://osint.digitalclouds.pro/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
+    <h2 align="center">
+      <a title="Salvydas Lukosius" target="_self" href="https://osint.digitalclouds.pro/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
             𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-          <a href="https://git.io/JJwwg">.</a>
-        </h3>
-      </td></tr>
+      <a href="https://git.io/JJwwg">.</a>
+      <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a></div>
+    </h2>
       <!-- profile-stats -->
-      <tr>
-        <td align="center" width="100%">
         <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
           <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
             alt="wakatime" width="90%" height="auto" />
@@ -27,9 +23,15 @@
             alt="gist" width="90%" height="auto" />
         </a>
       </td></tr>
-      <tr>
-      <td align="center" width="100%">
-       <!-- repository-cards -->
+  <!-- no-music = no-code -->
+    <tr><td align="center" width="100%">
+     <h2 align="left"><b>🎶 No Music - ✍️ No Code</b></h2><br />
+      <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+       <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" width="70%" height="auto" />
+     </a>
+    </td></tr>
+  <tr><td align="center" width="100%">
+  <!-- repository-cards -->
        <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
           <img align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
