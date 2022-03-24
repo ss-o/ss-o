@@ -3,14 +3,14 @@ name: "🌀 SPOTIFY"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "20 20 * * */2"
   push:
     paths: [.github/workflows/spotify.yml]
 jobs:
   get-random-songs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/playlist/west.svg
@@ -27,8 +27,17 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
-      - name: Spotify - Random track from playlist
-        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+          plugin_music_limit: 2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/spotify/playlist/girls.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1 
+          plugin_music_limit: 2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-1.svg
           token: NOT_NEEDED
@@ -36,8 +45,8 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/6VcZq5Pm10ZTKp8SeLrp6G
-      - name: Spotify - Random track from playlist
-        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+          plugin_music_limit: 2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-2.svg
           token: NOT_NEEDED
@@ -45,8 +54,8 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/290lnDXzAXbDqZhnfdJuYf
-      - name: Spotify - Random track from playlist
-        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+          plugin_music_limit: 2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin/music/spotify/playlist/lofi-3.svg
           token: NOT_NEEDED
@@ -54,6 +63,7 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/playlist/154SEnZOkJqFJlSNIPzyU5
+          plugin_music_limit: 2
   get-recent-music:
     runs-on: ubuntu-latest
     steps:
