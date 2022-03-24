@@ -81,9 +81,6 @@ jobs:
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
-  get-top-tacks:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
@@ -97,9 +94,6 @@ jobs:
           plugin_music_time_range: short
           plugin_music_top_type: tracks
           plugin_music_limit: 2
-  get-top-artists:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@eea0e216b8b9daa748417a2e53ca32d3eee0a1da
         with:
