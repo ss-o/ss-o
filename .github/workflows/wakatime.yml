@@ -11,7 +11,7 @@ jobs:
     name: ♻️ Update Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: anmol098/waka-readme-stats@f616d4f924b33cf1de554e2bb50c5c697c8824df
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -30,7 +30,7 @@ jobs:
           LOCALE: en
           COMMIT_BY_ME: False
       - name: WakaTime
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
         with:
           filename: metrics/plugin.wakatime.svg
           token: NOT_NEEDED
