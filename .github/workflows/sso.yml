@@ -2,124 +2,121 @@
 name: "🌀 SSO"
 on:
   schedule:
-    - cron: '09 09 * * *'
+    - cron: "09 09 * * *"
   workflow_dispatch:
 jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        user: ss-o
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/followup/indepth.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        base: ""
-        user: ss-o
-        plugin_followup: yes
-        plugin_followup_indepth: yes
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/gists.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        base: ""
-        plugin_gists: yes
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/topics/icons.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_topics: yes
-        plugin_topics_limit: 0
-        plugin_topics_mode: icons
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/languages/details.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        base: ""
-        plugin_languages: yes
-        plugin_languages_ignored: >-
-          html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass
-        plugin_languages_details: bytes-size, percentage
-        plugin_languages_limit: 8
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/introduction.svg
-        token: ${{ secrets.SSO_TOKEN }}
-        user: ss-o
-        base: header
-        plugin_introduction: yes
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          user: ss-o
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/followup/indepth.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          user: ss-o
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/gists.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_gists: yes
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/topics/icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/languages/details.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/introduction.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          user: ss-o
+          base: header
+          plugin_introduction: yes
   get-songs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Spotify - Random track from playlist
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/playlist/spotify/west.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_playlist: https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd
-    - name: Spotify - Random track from playlist
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/playlist/spotify/east.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_playlist: https://open.spotify.com/playlist/1X0xAsHWCpamURi0SJqV3w
-    - name: Spotify - Random track from playlist
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/playlist/spotify/lofi-1.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_playlist: https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G
-    - name: Spotify - Random track from playlist
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/playlist/spotify/lofi-2.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_playlist: https://open.spotify.com/playlist/290lnDXzAXbDqZhnfdJuYf
-    - name: Spotify - Random track from playlist
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/playlist/spotify/lofi-3.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_playlist: https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/playlist/spotify/west.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/playlist/spotify/east.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/playlist/1X0xAsHWCpamURi0SJqV3w
+      - name: Spotify - Random track from playlist
+        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/playlist/spotify/lofi-1.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G
+      - name: Spotify - Random track from playlist
+        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/playlist/spotify/lofi-2.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/playlist/290lnDXzAXbDqZhnfdJuYf
+      - name: Spotify - Random track from playlist
+        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/playlist/spotify/lofi-3.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5
   get-recent-music:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Spotify - Recently listed
-    - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        filename: metrics/plugin/music/spotify/recent.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_provider: spotify
-        plugin_music_mode: recent
-        plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-        plugin_music_limit: 4
-    - name: Spotify - Top tracks
-      uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
-      with:
-        token: NOT_NEEDED
-        base: ""
-        plugin_music: yes
-        plugin_music_mode: top
-        plugin_music_provider: spotify
-        plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-        plugin_music_time_range: short
-        plugin_music_top_type: tracks
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          filename: metrics/plugin/music/spotify/recent.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: recent
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_music_limit: 4
+      - name: Spotify - Top tracks
+        uses: lowlighter/metrics@3553137563208ff64cb470b8f23fd8c503627f32
+        with:
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_mode: top
+          plugin_music_provider: spotify
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_music_time_range: short
+          plugin_music_top_type: tracks
