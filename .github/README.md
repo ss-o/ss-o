@@ -25,8 +25,8 @@
       </td></tr>
   <!-- no-music = no-code -->
 <tr><th align="center">
-  <h2 align="left"><b>🎶 No Music - ✍️ No Code</b></h2><br />
-<!--
+  <h3 align="left"><b>🎶 No Music - ✍️ No Code</b></h3>
+  <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
