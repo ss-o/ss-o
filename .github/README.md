@@ -33,22 +33,22 @@
 -->
   <tr><td align="center" width="100%">
   <a title="Playsist - West Gang" target="_self" href="https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" /> 
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" width="40%" height="auto" /> 
   </a>
   <a title="Playsist - East Gang" target="_self" href="https://open.spotify.com/playlist/1X0xAsHWCpamURi0SJqV3w/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/east.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/east.svg" width="40%" height="auto" />
   </a>
   <a title="Playsist - Girls Gang" target="_self" href="https://open.spotify.com/playlist/0CXloQmqFutohB4QMcgIq1/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/girls.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/girls.svg" width="40%" height="auto" />
   </a>
   <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="40%" height="auto" />
   </a>
   <a title="Playsist -Lofi 2" target="_self" href="https://open.spotify.com/playlist/290lnDXzAXbDqZhnfdJuYf/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-2.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-2.svg" width="40%" height="auto" />
   </a>
   <a title="Playsist -Lofi 3" target="_self" href="https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" width="40%" height="auto" />
   </a>
  </th></tr>
   <tr><td align="center" width="100%">
