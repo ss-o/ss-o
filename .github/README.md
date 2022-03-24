@@ -4,10 +4,10 @@
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
     <h2 align="center">
-      <a title="Salvydas Lukosius" target="_self" href="https://osint.digitalclouds.pro/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
+      <a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
             𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-      <a href="https://git.io/JJwwg">.</a>
-      <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a></div>
+      <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
+      <a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
     </h2>
       <!-- profile-stats -->
         <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
