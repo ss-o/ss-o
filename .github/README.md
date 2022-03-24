@@ -24,12 +24,29 @@
         </a>
       </td></tr>
   <!-- no-music = no-code -->
-    <tr><td align="center" width="100%">
-     <h2 align="left"><b>🎶 No Music - ✍️ No Code</b></h2><br />
-      <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-       <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" width="70%" height="auto" />
-     </a>
-    </td></tr>
+<tr><th align="center">
+  <h2 align="left"><b>🎶 No Music - ✍️ No Code</b></h2><br />
+<!--
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
+  </a>
+-->
+  <tr><td>
+  <a title="Playsist - West Gang" target="_self" href="https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" width="40%" height="auto" /> 
+  </a>
+  <a title="Playsist - East Gang" target="_self" href="https://open.spotify.com/playlist/1X0xAsHWCpamURi0SJqV3w/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/east.svg" width="40%" height="auto" />
+  </a>
+  </td></tr>
+  <tr><td>
+  <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="40%" height="auto" />
+  </a>
+  <a title="Playsist -Lofi 2" target="_self" href="https://open.spotify.com/playlist/290lnDXzAXbDqZhnfdJuYf/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-2.svg" width="40%" height="auto" />
+  </a>
+ </th></tr>
   <tr><td align="center" width="100%">
   <!-- repository-cards -->
        <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
