@@ -24,13 +24,23 @@
         </a>
       </td></tr>
   <!-- no-music = no-code -->
-<tr><th align="center">
-  <h3 align="left"><b>🎶 No Music - ✍️ No Code</b></h3>
+  <tr><td align="center"><h3 align="left"><b>🎶 No Music - ✍️ No Code</b></h3><div>
+  <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
+  </a>
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
+  </a></p>
+  <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
+  </a>
+  <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
+  </a></p></div></td></tr>
   <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
--->
   <tr><td align="center" width="100%">
   <a title="Playsist - West Gang" target="_self" href="https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" width="40%" height="auto" /> 
@@ -50,8 +60,8 @@
   <a title="Playsist -Lofi 3" target="_self" href="https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" width="40%" height="auto" />
   </a>
- </th></tr>
-  <tr><td align="center" width="100%">
+-->
+ <tr><td align="center" width="100%">
  <!-- repository-cards -->
  <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
   <img align="center" 
