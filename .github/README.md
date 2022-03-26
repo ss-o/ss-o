@@ -4,8 +4,9 @@
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
     <h2 align="center">
-      <a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘
-            𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
+      <a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
+        <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
+                alt="When times are good be grateful, when times are bad be graceful" width="70%" height="auto" /></p>
       <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
       <a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
     </h2>
