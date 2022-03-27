@@ -1,16 +1,16 @@
 <table align="justify" width="100%" margin-left="auto" margin-right="auto">
-  <tr><td align="center" width="100%">
+  <tr><td>
         <!-- Announments -->
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
-    <h2 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-      <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
-                alt="When times are good be grateful, when times are bad be graceful" width="80%" height="auto" /></p>
-      <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
-        <a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
-    </h2>
-    <!-- profile-stats -->
-    <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
+<h2 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
+  <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
+        alt="When times are good be grateful, when times are bad be graceful" width="80%" height="auto" />
+  </p><div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
+<a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
+</h2>
+<!-- profile-stats -->
+    <div align="center"><a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
       <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
             alt="wakatime" width="90%" height="auto" />
       <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
@@ -20,23 +20,23 @@
     </a>
     <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
       <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
-            alt="gist" width="90%" height="auto" /></a></td></tr>
+            alt="gist" width="90%" height="auto" /></a></dev>
+ </td></tr>
  <!-- no-music = no-code -->
- <tr><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
-<table align="justify" width="100%" margin-left="auto" margin-right="auto"><tr align="center"><th width="100%">
+ <tr align="justify" width="100%"><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
   <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="40%" height="auto" />
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" width="40%" height="auto" />
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" width="40%" height="auto" />
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
-  </a></th></tr>
-   </table></td></tr>
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" width="40%" height="auto" />
+  </a>
+  </td></tr>
   <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
@@ -59,9 +59,9 @@
   </a>
   <a title="Playsist -Lofi 3" target="_self" href="https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" width="40%" height="auto" />
-  </a>
--->
- <tr><td align="center" width="100%">
+  </a> -->
+  <tr align="justify" width="100%">
+ <td align="center" width="100%">
  <!-- repository-cards -->
  <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
   <img align="center" 
