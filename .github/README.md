@@ -23,7 +23,7 @@
             alt="gist" width="90%" height="auto" /></a></td></tr>
  <!-- no-music = no-code -->
  <tr><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
-<table align="justify" width="100%" margin-left="auto" margin-right="auto"><tr align="center" width="100%">
+<table align="justify" width="100%" margin-left="auto" margin-right="auto"><tr align="center"><th width="100%">
   <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
   </a>
@@ -35,7 +35,7 @@
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
-  </a></tr>
+  </a></th></tr>
    </table></td></tr>
   <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
