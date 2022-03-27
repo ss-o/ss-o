@@ -3,41 +3,40 @@
         <!-- Announments -->
         <!-- <h1></h1> -->
         <!-- <h2></h2> -->
-    <h2 align="center">
-      <a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-        <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
-                alt="When times are good be grateful, when times are bad be graceful" width="70%" height="auto" /></p>
+    <h2 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
+      <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
+                alt="When times are good be grateful, when times are bad be graceful" width="80%" height="auto" /></p>
       <div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
-      <a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
+        <a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
     </h2>
-      <!-- profile-stats -->
-        <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
-          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
+    <!-- profile-stats -->
+    <a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
+      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
             alt="wakatime" width="90%" height="auto" />
-          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
+      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
             alt="indepth" width="90%" height="auto" />
-          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
+      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
             alt="languages" width="90%" height="auto" />
-       </a>
-       <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
-          <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
-            alt="gist" width="90%" height="auto" />
-        </a>
-      </td></tr>
-  <!-- no-music = no-code -->
-  <tr><td align="center"><h3 align="left"><b>🎶 No Music - ✍️ No Code</b></h3><div>
-  <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" width="40%" height="auto" />
+    </a>
+    <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
+      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
+            alt="gist" width="90%" height="auto" /></a></td></tr>
+ <!-- no-music = no-code -->
+ <tr><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
+<table align="justify" width="100%" margin-left="auto" margin-right="auto"><tr align="center" width="100%">
+  <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
   </a>
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" width="40%" height="auto" />
-  </a></p>
-  <p><a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" width="40%" height="auto" />
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
-  <a title="Playsist -Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
-    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" width="40%" height="auto" />
-  </a></p></div></td></tr>
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
+  </a>
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks/">
+    <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
+  </a></tr>
+   </table></td></tr>
   <!--
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
