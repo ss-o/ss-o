@@ -3,12 +3,12 @@ name: "🌀 GHM"
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 10 * * *"
-  push:
-    paths: [.github/workflows/ghm.yml]
-  pull_request:
-    paths: [.github/workflows/ghm.yml]
+#  schedule:
+#    - cron: "30 10 * * *"
+#  push:
+#    paths: [.github/workflows/ghm.yml]
+#  pull_request:
+#    paths: [.github/workflows/ghm.yml]
 
 jobs:
   github-metrics:
