@@ -1,26 +1,23 @@
 <table align="justify" width="100%" margin-left="auto" margin-right="auto">
-  <tr><td>
-        <!-- Announments -->
-        <!-- <h1></h1> -->
-        <!-- <h2></h2> -->
+<tr><td>
+<!-- Announments -->
+<!-- <h1></h1> -->
+<!-- <h2></h2> -->
 <h2 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg/">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
   <p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
         alt="When times are good be grateful, when times are bad be graceful" width="80%" height="auto" />
   </p><div align="left"><a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
-<a href="https://osint.digitalclouds.pro/"> 👾 </a></div>
-</h2>
+<a href="https://osint.digitalclouds.pro/"> 👾 </a></div></h2>
 <!-- profile-stats -->
-    <div align="center"><a title="Salvydas Lukosius" target="_self" href="https://github.com/ss-o/">
-      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg"
-            alt="wakatime" width="90%" height="auto" />
-      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg"
-            alt="indepth" width="90%" height="auto" />
-      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg"
-            alt="languages" width="90%" height="auto" />
-    </a>
-    <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
-      <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg"
-            alt="gist" width="90%" height="auto" /></a></dev>
+<div align="center">
+  <img align="center" style="width:80%;height:auto" src="https://raw.githubusercontent.com/ss-o/ss-o/out/grid-snake.svg" alt="My Snake" />
+  <img align="center" style="width:80%;height:auto" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin.wakatime.svg" alt="Waka" />
+  <img align="center" style="width:80%;height:auto" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/followup/indepth.svg" alt="ID" />
+  <img align="center" style="width:80%;height:auto" 
+       src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/languages/details.svg" alt="languages" />
+  <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
+  <img align="center" src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/gists.svg" alt="gist" width="90%" height="auto" />
+  </a></dev>
  </td></tr>
  <!-- no-music = no-code -->
  <tr align="justify" width="100%"><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
