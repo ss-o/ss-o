@@ -84,4 +84,20 @@ jobs:
           plugin_starlists_languages: yes
           plugin_starlists_limit_languages: 8
           plugin_starlists_limit_repositories: 0
-          plugin_starlists_only: Awesome
+          plugin_starlists_only: Awesome   
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          gif_out_path: metrics/grid-snake.gif
+          svg_out_path: metrics/grid-snake.svg
+      - uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: out
+          build_dir: metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
