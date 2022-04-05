@@ -17,16 +17,16 @@
  </td></tr>
  <!-- no-music = no-code -->
  <tr align="justify" width="100%"><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
-  <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G/">
+  <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
   </a>
-  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
-  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
   </a>
-  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks/">
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
   </a>
   </td></tr>
