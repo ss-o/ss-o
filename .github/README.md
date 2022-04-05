@@ -26,7 +26,7 @@
   <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg" />
   </a>
-  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/top/tracks">
+  <a title="Recently Played Artists" target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg" />
   </a>
   </td></tr>
