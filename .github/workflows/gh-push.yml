@@ -1,5 +1,5 @@
 ---
-name: 🚀 Deploy Code to GH Pages
+name: "🚀 Deploy GH Pages"
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     workflows: 
       - "🌀 SSO"
       - "🌀 SPOTIFY"
-      - "🌀 Waka Metrics"
+      - "🌀 WAKATIME"
     types:
       - completed
 jobs:
