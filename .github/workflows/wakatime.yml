@@ -1,4 +1,4 @@
-name: "🌀 Waka Metrics"
+name: "🌀 WAKATIME"
 
 on:
   repository_dispatch:
