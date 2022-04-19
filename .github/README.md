@@ -16,7 +16,7 @@
   </a></div>
  </td></tr>
  <!-- no-music = no-code -->
- <tr align="justify" width="100%"><td align="center"><h3 align="left"> 🎶 No Music - ✍️ No Code </h3>
+ <tr align="justify" width="100%"><td align="center"><h4 align="left"> 🎶 No Music - ✍️ No Code </h4>
   <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G">
     <img style="align:center;width:40%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg" />
   </a>
