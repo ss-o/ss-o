@@ -74,10 +74,10 @@ jobs:
           outputs: |
             metrics/snake.svg
             metrics/snake-dark.svg?palette=github-dark
-#      - uses: crazy-max/ghaction-github-pages@11b007c0cdea034121c8d2020fdf0dbf79d371d5
-#        with:
-#          committer: Digital Teams <digital-teams@pm.me>
-#          target_branch: out
-#          build_dir: metrics
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: crazy-max/ghaction-github-pages@11b007c0cdea034121c8d2020fdf0dbf79d371d5
+        with:
+          committer: Digital Teams <digital-teams@pm.me>
+          target_branch: gh-pages
+          build_dir: metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
