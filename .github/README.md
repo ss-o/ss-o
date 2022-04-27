@@ -5,7 +5,7 @@
   
 <!-- profile-stats -->
 <div align="center">
-  <img style="align:center;width:80%;height:auto" src="https://raw.githubusercontent.com/ss-o/ss-o/out/grid-snake.svg" alt="My Snake" />
+  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg" alt="Waka" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/followup/indepth.svg" alt="ID" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/languages/details.svg" alt="languages" />
