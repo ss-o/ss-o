@@ -72,8 +72,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            metrics/snake.svg
+            metrics/snake-dark.svg?palette=github-dark
 #      - uses: crazy-max/ghaction-github-pages@11b007c0cdea034121c8d2020fdf0dbf79d371d5
 #        with:
 #          committer: Digital Teams <digital-teams@pm.me>
