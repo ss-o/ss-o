@@ -77,7 +77,7 @@ jobs:
       - uses: crazy-max/ghaction-github-pages@11b007c0cdea034121c8d2020fdf0dbf79d371d5
         with:
           committer: Digital Teams <digital-teams@pm.me>
-          target_branch: gh-pages
+          target_branch: snake
           build_dir: metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
