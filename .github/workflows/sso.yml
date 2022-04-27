@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: Platane/snk@1018f7a937f7857616ba8d586a7f1880cc8934fa
+      - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
