@@ -30,6 +30,13 @@ jobs:
           config_timezone: Europe/London
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:
+          filename: metrics/plugin/stargazers.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          user: z-shell
+      - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
+        with:
           filename: metrics/plugin/followup/indepth.svg
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
@@ -39,7 +46,7 @@ jobs:
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:
           filename: metrics/plugin/gists.svg
-          token: ${{ secrets.SSO_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_gists: yes
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
