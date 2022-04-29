@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_habits: yes
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
           plugin_habits_charts: yes
           config_timezone: Europe/London
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
@@ -83,7 +83,7 @@ jobs:
           filename: metrics/plugin/support.svg
           token: NOT_NEEDED
           base: ""
-          user: z-shell
+          user: ss-o
           plugin_support: yes
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
