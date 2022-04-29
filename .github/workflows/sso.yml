@@ -10,7 +10,7 @@ on:
     paths: [.github/workflows/sso.yml]
   
 jobs:
-  metrics:
+  run-1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,8 +25,8 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
           config_timezone: Europe/London
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:
@@ -43,6 +43,10 @@ jobs:
           user: ss-o
           plugin_followup: yes
           plugin_followup_indepth: yes
+  run-2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:
           filename: metrics/plugin/gists.svg
@@ -67,23 +71,20 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-      - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
-        with:
-          filename: metrics/plugin/introduction.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          user: ss-o
-          base: header
-          plugin_introduction: yes
+#      - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
+#        with:
+#          filename: metrics/plugin/introduction.svg
+#          token: ${{ secrets.SSO_TOKEN }}
+#          user: ss-o
+#          base: header
+#         plugin_introduction: yes
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:  
           filename: metrics/plugin/support.svg
           token: NOT_NEEDED
           base: ""
+          user: z-shell
           plugin_support: yes
-  snake:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
           github_user_name: ${{ github.repository_owner }}
