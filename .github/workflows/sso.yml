@@ -77,7 +77,11 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_achievements: yes
-#          plugin_achievements_only: sponsor, maintainer, octonaut
+          plugin_achievements_only: >-
+            polyglot, developer, infographile, manager
+            scripter, packager, explorer
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: C
 #      - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
 #        with:
 #          filename: metrics/plugin/introduction.svg
