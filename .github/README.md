@@ -1,24 +1,23 @@
 <div style="align:center;width:100%"><table style="margin-left:auto;margin-right:auto;align:justify"><tr><td>
 <!-- Announments --><!-- <h1></h1> --><!-- <h2></h2> -->
 <h2 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-  <p><img style="align:center;width:90%;height:auto" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png" alt="When times are good be grateful, when times are bad be graceful" /></p></h2>
+  <p><img style="align:center;width:80%;height:auto" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png" alt="When times are good be grateful, when times are bad be graceful" /></p></h2>
   
 <!-- profile-stats -->
 <div align="center">
-  <img style="align:center;width:90%;height:auto" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
-  <img style="align:center;width:90%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg" alt="Waka" />
-  <img style="align:center;width:90%;height:auto" src="https://ss-o.github.io/ss-o/plugin/habits/charts.svg" alt="Habits" />
-  <img style="align:center;width:90%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/followup/indepth.svg" alt="ID" />
-  <img style="align:center;width:90%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/languages/details.svg" alt="languages" />
+  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
+  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg" alt="Waka" />
+  <img style="align:center;width:80%;height:auto" src="https://ss-o.github.io/ss-o/plugin/habits/charts.svg" alt="Habits" />
+  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/followup/indepth.svg" alt="ID" />
+  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/languages/details.svg" alt="languages" />
   <!--
   <a target="_self" href="https://github.com/stars/ss-o/topics?filter=topics">
-    <img style="align:center;width:90%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/topics/icons.svg" alt="topics" /></a>
+    <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/topics/icons.svg" alt="topics" /></a>
   <a title="Salvydas Lukosius" target="_self" href="https://gist.github.com/ss-o/">
     <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/gists.svg" alt="gist" />
   </a>
   -->
-</div>
- </td></tr>
+</div></td></tr>
  <!-- no-music = no-code -->
  <tr align="justify" width="100%"><td align="center"><h4 align="left"> 🎶 No Music - ✍️ No Code </h4>
   <a title="Playsist Lofi 1" target="_self" href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G">
@@ -84,5 +83,4 @@
     <a title="LinkedIn" target="_self" href="https://www.linkedin.com/in/ss-o/"><img align="center" src="https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white" /></a>
     <a title="stackoverflow" target="_self" href="https://stackoverflow.com/users/13893752/salvydas-lukosius"><img align="center" src="https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white" /></a>
     <a href="https://osint.digitalclouds.pro/"> 👾 </a>
-   </td></tr>
- </table></div>
+   </td></tr></table></div>
