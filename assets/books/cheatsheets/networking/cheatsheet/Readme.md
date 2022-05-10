@@ -1,7 +1,7 @@
 # Cheatsheets
 
+### Resources :
 
-### Resources : 
 - [Docker Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-docker-a4)
 - [Kubernetes Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4)
 - [Kubernets YAML Templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates)

@@ -4,12 +4,13 @@ name: "🚀 Deploy GH Pages"
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: 
+    workflows:
       - "🌀 SSO"
       - "🌀 SPOTIFY"
       - "🌀 WAKATIME"
     types:
       - completed
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

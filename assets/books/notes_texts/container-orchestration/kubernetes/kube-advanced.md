@@ -1,6 +1,7 @@
 # How Kubernetes Works?
 
 - What is Master or Master Components?
+
   - What are Kube-ApiServers
   - etcd
   - kube scheduler
@@ -8,6 +9,7 @@
   - Cloud Controller manager
 
 - What are Node Components?
+
   - kubelet
   - kube proxy
 
@@ -16,13 +18,11 @@
   - Web UI
   - Container Resources Monitoring
 
-
-*********************
+---
 
 ![alt text](https://github.com/Tikam02/DevOps-Guide/blob/master/img/etcd-master.png)
 
-
-**************************
+---
 
 ## Q) What is Master components?
 
@@ -61,15 +61,14 @@
 
 - Etcdctl is the command-line interface tool written in Go that allows manipulating an etcd cluster. It can be used to perform a variety of actions, such as:
 
-    - Set, update and remove keys.
-    - Verify the cluster health.
-    - Add or remove etcd nodes.
-    - Generating database snapshots.
+  - Set, update and remove keys.
+  - Verify the cluster health.
+  - Add or remove etcd nodes.
+  - Generating database snapshots.
 
 - You can play online with a 5-node etcd cluster at http://play.etcd.io.
 
 - Etcd also implements a watch feature, which provides an event-based interface for asynchronously monitoring changes to keys. Once a key is changed, its “watchers” get notified. This is a crucial feature in the context of Kubernetes, as the API Server component heavily relies on this to get notified and call the appropriate business logic components to move the current state towards the desired state.
-
 
 - etcd is a reliable system for cluster-wide coordination and state management. It is built on top of Raft.
 
@@ -77,19 +76,16 @@
 
 - Advantages include:
 
-    - any node may be treated like a master
-    - minimal downtime (a client can try another node if one isn't responding)
-    - avoids split-braining
-    - a reliable way to build distributed locks for cluster-wide coordination
-    - For example: You would use etcd to coordinate an automated election of a new Postgres master so that there remains only one master in the cluster.
+  - any node may be treated like a master
+  - minimal downtime (a client can try another node if one isn't responding)
+  - avoids split-braining
+  - a reliable way to build distributed locks for cluster-wide coordination
+  - For example: You would use etcd to coordinate an automated election of a new Postgres master so that there remains only one master in the cluster.
 
 - Disadvantages include:
 
-    - for safety reasons, it requires a majority of the cluster to commit writes - usually to disk - before replying to a client
-    - requires more network chatter than a single master system
-
-
-
+  - for safety reasons, it requires a majority of the cluster to commit writes - usually to disk - before replying to a client
+  - requires more network chatter than a single master system
 
 ## kube-controller-manager
 
@@ -99,17 +95,16 @@
 
 - These controllers include:
 
-    - Node Controller: Responsible for noticing and responding when nodes go down.
-    - Replication Controller: Responsible for maintaining the correct number of pods for every replication controller object in the system.
-    - Endpoints Controller: Populates the Endpoints object (that is, joins Services & Pods).
-    - Service Account & Token Controllers: Create default accounts and API access tokens for new namespaces.
+  - Node Controller: Responsible for noticing and responding when nodes go down.
+  - Replication Controller: Responsible for maintaining the correct number of pods for every replication controller object in the system.
+  - Endpoints Controller: Populates the Endpoints object (that is, joins Services & Pods).
+  - Service Account & Token Controllers: Create default accounts and API access tokens for new namespaces.
 
 - Kube-controller-manager runs controllers, which are the background threads that handle routine tasks in the cluster. Logically, each controller is a separate process, but to reduce complexity, they are all compiled into a single binary and run in a single process.
 
 - The Kubernetes Controller Manager is a daemon that embeds the core control loops (also known as “controllers”) shipped with Kubernetes. Basically, a controller watches the state of the cluster through the API Server watch feature and, when it gets notified, it makes the necessary changes attempting to move the current state towards the desired state. Some examples of controllers that ship with Kubernetes include the Replication Controller, Endpoints Controller, and Namespace Controller.
 
 - Besides, the Controller Manager performs lifecycle functions such as namespace creation and lifecycle, event garbage collection, terminated-pod garbage collection, cascading-deletion garbage collection, node garbage collection, etc.
-
 
 ## kube-scheduler
 
@@ -121,8 +116,7 @@
 
 - The Scheduler watches for unscheduled pods and binds them to nodes via the /binding pod subresource API, according to the availability of the requested resources, quality of service requirements, affinity and anti-affinity specifications, and other constraints. Once the pod has a node assigned, the regular behavior of the Kubelet is triggered and the pod and its containers are created
 
-******************************
-
+---
 
 # Node Components
 
@@ -136,14 +130,12 @@
 
 - Kubelet is the primary node agent. It watches for pods that have been assigned to its node (either by apiserver or via local configuration file) and:
 
-    - Mounts the pod’s required volumes.
-    - Downloads the pod’s secrets.
-    - Runs the pod’s containers via docker (or, experimentally, rkt).
-    - Periodically executes any requested container liveness probes.
-    - Reports the status of the pod back to the rest of the system, by creating a mirror pod if necessary.
-    - Reports the status of the node back to the rest of the system.
-
-
+  - Mounts the pod’s required volumes.
+  - Downloads the pod’s secrets.
+  - Runs the pod’s containers via docker (or, experimentally, rkt).
+  - Periodically executes any requested container liveness probes.
+  - Reports the status of the pod back to the rest of the system, by creating a mirror pod if necessary.
+  - Reports the status of the node back to the rest of the system.
 
 ## kube-proxy
 
@@ -157,18 +149,7 @@
 
 - The container runtime is the software that is responsible for running containers
 
-
-
-
-
-
-
-
-
-
-
-
-**********************
+---
 
 # References:
 

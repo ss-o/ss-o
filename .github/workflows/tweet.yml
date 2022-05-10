@@ -1,5 +1,5 @@
 name: "🐦 Twitter, together!"
-on: 
+on:
   push:
     paths: tweets
   pull_request:

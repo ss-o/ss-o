@@ -38,7 +38,7 @@ jobs:
           base: ""
           plugin_music: yes
           plugin_music_provider: spotify
-          plugin_music_playlist: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1 
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1
           plugin_music_limit: 2
       - uses: lowlighter/metrics@58025c0755c249c0a7c0ed5d8f5b8848e1bfb374
         with:

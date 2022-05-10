@@ -1,7 +1,4 @@
 {
-    "schedule": "monthly",
-    "ignoredFiles": [
-      "profile-summary-card-output/**",
-      "metrics/**"
-    ]
+  "schedule": "monthly",
+  "ignoredFiles": ["profile-summary-card-output/**", "metrics/**"]
 }

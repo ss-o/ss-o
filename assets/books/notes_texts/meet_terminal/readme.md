@@ -1,4 +1,4 @@
-## Terminal Commands 
+## Terminal Commands
 
 - [Text Manipulation](./text-manipulation.md)
 - [Files and Directories](./filesdirectories.md)

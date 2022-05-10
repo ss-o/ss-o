@@ -1,12 +1,11 @@
-### 1 Programming Language 
+### 1 Programming Language
 
-- Python : Scripting for web 
-- Shell  : Scripting for servers 
-- Yml    : For Configuration of Cloud files
+- Python : Scripting for web
+- Shell : Scripting for servers
+- Yml : For Configuration of Cloud files
 - Golang : Servers and Cloud Architectures
 - Javascript : Good to know for any web-development works
--  Markdown : For documentation 
-
+- Markdown : For documentation
 
 ### 2 OS-Concepts
 
@@ -23,6 +22,7 @@
 - Scheduling
 
 ### 3 Maintaining Servers
+
 - Networking Concepts
 - Security Concepts - OWASP-Top 10
 - Protocols
@@ -38,7 +38,6 @@
   - IIS
   - Tomcat
   - Node.js
-
 
 ### 4 Terminal Commands
 
@@ -56,23 +55,27 @@
 ### 5 Infrastructure as Code
 
 - CI/CD
+
   - Travis CI
   - Circle CI
   - Gitlab
   - Jenkins
-  - Azure 
+  - Azure
 
 - Configuration Management
-    - Ansible
-    - Chef
-    - Puppet
-    - salt
+
+  - Ansible
+  - Chef
+  - Puppet
+  - salt
 
 - Containers
+
   - Docker
   - LXC
 
 - Container Orchestration
+
   - Kubernetes
   - Mesos
   - Docker SWARM
@@ -98,8 +101,8 @@
 
 ### 6 Application Monitoring
 
-- Jaegar 
-- New Relic 
+- Jaegar
+- New Relic
 - Open Tracing
 - Traceview
 
@@ -123,4 +126,4 @@
 
 - Github
 - Bitbucket
-- Mercurial 
+- Mercurial

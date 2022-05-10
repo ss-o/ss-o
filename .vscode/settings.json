@@ -3,8 +3,6 @@
     "file:///home/sall/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
     "https://json.schemastore.org/github-workflow.json": "file:///home/sall/Codespace/GOSS_WORKSPACE/ss-o/ss-o/.github/workflows/sso.yml"
   },
-  "conventionalCommits.scopes": [
-    "general"
-  ],
+  "conventionalCommits.scopes": ["general"],
   "github-actions.workflows.pinned.workflows": []
 }

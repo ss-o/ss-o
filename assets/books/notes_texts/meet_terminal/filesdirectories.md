@@ -1,7 +1,5 @@
 # Files and Directories
 
-
-
 - [pwd]()
 - [cd]()
 - [clear]()
@@ -15,10 +13,7 @@
 - [ln]()
 - [tar and gzip]()
 
-***********************
-
-
-
+---
 
 ## cd
 
@@ -85,13 +80,9 @@ $ pwd
 
 > clear the terminal screen
 
-
-
 ## ls
 
 > list directory contents
-
-
 
 ## mkdir
 
@@ -144,9 +135,6 @@ a/b/c:
 - [mkdir Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/mkdir?sort=votes&pageSize=15)
 - [mkdir Q&A on stackoverflow](https://unix.stackexchange.com/questions/tagged/mkdir?sort=votes&pageSize=15)
 - [unix.stackexchange: Characters best avoided in filenames](https://unix.stackexchange.com/questions/269093/characters-best-avoided-in-filenames-when-used-in-bash-e-g)
-
-
-
 
 ## touch
 
@@ -209,7 +197,6 @@ low power adders
 
 > copy files and directories
 
-
 ```bash
 $ # when destination is a directory, specified sources are placed inside that directory
 $ # recall that . is a relative path referring to current directory
@@ -249,15 +236,14 @@ $ ls -A bkp_dot_files
 
 - see man cp and info cp for more options and complete documentation
 - some notable options are
-     - -u copy files from source only if they are newer than those in destination or if it doesn't exist in destination location
-     - -b and --backup for back up options if file with same name already exists in destination location
-     - --preserve option to copy files along with source file attributes like timestamp
+  - -u copy files from source only if they are newer than those in destination or if it doesn't exist in destination location
+  - -b and --backup for back up options if file with same name already exists in destination location
+  - --preserve option to copy files along with source file attributes like timestamp
 
 ## Further Reading
 
 - [cp Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/cp?sort=votes&pageSize=15)
 - [cp Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/cp?sort=votes&pageSize=15)
-
 
 ## mv
 
@@ -293,12 +279,9 @@ dict/  dot_files/  words
 - [mv Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/mv?sort=votes&pageSize=15)
 - [mv Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/mv?sort=votes&pageSize=15)
 
-
 ## rename
 
 > renames multiple files
-
-
 
 ```bash
 $ ls
@@ -320,7 +303,6 @@ backups  low_power_adders  word_lists  words_ref.txt
 - [rename Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/rename?sort=votes&pageSize=15)
 - [See Perl one liners for examples and details on Perl substitution command](https://github.com/learnbyexample/Command-line-text-processing/blob/master/perl_the_swiss_knife.md)
 - [Some more rename examples - unix.stackexchange: replace dots except last one and stackoverflow: change date format](https://unix.stackexchange.com/questions/315586/replacing-dots-in-file-name-with-underscores-except-the-extension/315589#315589)
-
 
 ## ln
 
@@ -362,15 +344,11 @@ $ ls -1i foo.txt baz.txt
 - unlink command to delete links (rm can be used as well)
 - [ln Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/ln?sort=votes&pageSize=15)
 - [ln Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/ln?sort=votes&pageSize=15)
-- [askubuntu: What is the difference between a hard link and a symbolic link?](https://askubuntu.com/questions/108771/what-is-the-difference-between-a-hard-link-and-a-symbolic-link)
-      - [unix.stackexchange: What is the difference between symbolic and hard links?](https://unix.stackexchange.com/questions/9575/what-is-the-difference-between-symbolic-and-hard-links)
-      - [unix.stackexchange: What is a Superblock, Inode, Dentry and a File?](https://unix.stackexchange.com/questions/4402/what-is-a-superblock-inode-dentry-and-a-file)
-
+- [askubuntu: What is the difference between a hard link and a symbolic link?](https://askubuntu.com/questions/108771/what-is-the-difference-between-a-hard-link-and-a-symbolic-link) - [unix.stackexchange: What is the difference between symbolic and hard links?](https://unix.stackexchange.com/questions/9575/what-is-the-difference-between-symbolic-and-hard-links) - [unix.stackexchange: What is a Superblock, Inode, Dentry and a File?](https://unix.stackexchange.com/questions/4402/what-is-a-superblock-inode-dentry-and-a-file)
 
 ## tar and gzip
 
 > tar is an archiving utility first, lets see an example of creating single archive file from multiple input files note that the archive file so created is a new file and doesn't overwrite input files
-
 
 ```bash
 $ ls -F
@@ -431,17 +409,17 @@ $ tar -zcf bkp_words.tar.gz word_lists words_ref.txt
 $ ls -sh bkp_words.tar.gz
 652K bkp_words.tar.gz
 ```
-- there are loads of options for various needs, see documentation for details
-    - -v for verbose option
-    - -r to append files to archive
-    - -t to list contents of archive
-    - --exclude= to specify files to be ignored from archiving
-    - -j and -J to use bzip2 or xz compression technique instead of -z which uses gzip
-- there are commands starting with z to work with compressed files
-    - zcat to display file contents of compressed file on standard output
-    - zless to display file contents of compressed file one screenful at a time
-    - zgrep to search compressed files and so on...
 
+- there are loads of options for various needs, see documentation for details
+  - -v for verbose option
+  - -r to append files to archive
+  - -t to list contents of archive
+  - --exclude= to specify files to be ignored from archiving
+  - -j and -J to use bzip2 or xz compression technique instead of -z which uses gzip
+- there are commands starting with z to work with compressed files
+  - zcat to display file contents of compressed file on standard output
+  - zless to display file contents of compressed file one screenful at a time
+  - zgrep to search compressed files and so on...
 
 ## Further Reading
 
