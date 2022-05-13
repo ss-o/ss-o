@@ -6,8 +6,8 @@ on:
     tags: ["v*.*.*"]
   pull_request:
     types: [opened, synchronize]
-  schedule:
-    - cron: 0 04 * * 1-5
+#  schedule:
+#    - cron: 0 04 * * 1-5
   workflow_dispatch: {}
 
 jobs:
@@ -17,9 +17,9 @@ jobs:
     #    secrets:
     #      trunk_token: ${{ secrets.TRUNK_TOKEN }}
     with:
-      #      trunk_path: ''
-      #      cache: ''
-      upload-series: "main"
-      check-mode: "all"
-      arguments: ""
-      call_arguments: "npm i -g pnpm && pnpm i -r"
+      #trunk_path: ''
+      #cache: ''
+      #upload-series: "main"
+      #check-mode: "all"
+      #arguments: ""
+      pnpm_arguments: "pnpm i"
