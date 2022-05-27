@@ -102,7 +102,7 @@ jobs:
           outputs: |
             metrics/snake.svg
             metrics/snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@11b007c0cdea034121c8d2020fdf0dbf79d371d5
+      - uses: crazy-max/ghaction-github-pages@eb08c35b9fab86751edfff4e55cd5cde35ff0e52
         with:
           committer: Digital Teams <digital-teams@pm.me>
           target_branch: snake
