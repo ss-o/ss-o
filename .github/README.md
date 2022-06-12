@@ -1,13 +1,13 @@
 <div style="align:center;width:100%"><table style="margin-left:auto;margin-right:auto;align:justify"><tr><td>
 <!-- Announments --><!-- <h1></h1> --><!-- <h2></h2> -->
-<h3 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a>
-  <p><img style="align:center;width:80%;height:auto" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png" alt="When times are good be grateful, when times are bad be graceful" /></p></h3>
+<h3 align="center"><a title="Salvydas Lukosius" target="_self" href="https://git.io/JJwwg">⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒</a></h3>
+<p><img align="center" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png" alt="When times are good be grateful, when times are bad be graceful" /></p>
   
 <!-- profile-stats -->
 <div align="center">
-  <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
+  <img align="center" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg" alt="Waka" />
-  <img style="align:center;width:80%;height:auto" src="https://ss-o.github.io/ss-o/plugin/habits/charts.svg" alt="Habits" />
+  <!--<img style="align:center;width:80%;height:auto" src="https://ss-o.github.io/ss-o/plugin/habits/charts.svg" alt="Habits" />-->
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/followup/indepth.svg" alt="ID" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/languages/details.svg" alt="languages" />
   <!--<img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/achievements.svg" alt="achievements" />--> 
