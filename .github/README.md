@@ -8,6 +8,8 @@
   <img align="center" src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg" alt="My Snake" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg" alt="Waka" />
   <!--<img style="align:center;width:80%;height:auto" src="https://ss-o.github.io/ss-o/plugin/habits/charts.svg" alt="Habits" />-->
+  </tr>
+ </td><tr><td align="center" width="100%">
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/followup/indepth.svg" alt="ID" />
   <img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/languages/details.svg" alt="languages" />
   <!--<img style="align:center;width:80%;height:auto" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/achievements.svg" alt="achievements" />--> 
@@ -57,9 +59,9 @@
   <a title="Playsist -Lofi 3" target="_self" href="https://open.spotify.com/playlist/154SEnZOkJqFJlSNIPzyU5/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-3.svg" width="40%" height="auto" />
   </a> -->
+  <!--
 <tr>
  <td align="center" width="100%">
- <!-- repository-cards -->
  <a title="Z-Shell ZI" target="_self" href="https://github.com/z-shell/zi">
   <img style="align:center;width:40%;height:auto" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=zi&card_width=150&theme=github_dark&border_radius" />
  </a>
@@ -71,7 +73,7 @@
  </a>
  <a title="h-s-mw" target="_self" href="https://github.com/z-shell/h-s-mw">
   <img style="align:center;width:40%;height:auto" src="https://github-readme-stats.vercel.app/api/pin/?username=z-shell&repo=h-s-mw&card_width=150&theme=github_dark" />
- </a></td></tr>
+ </a></td></tr>-->
   <!-- contact-badges -->
   <tr><td align="center" width="100%">
     <a taget="_self" href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
