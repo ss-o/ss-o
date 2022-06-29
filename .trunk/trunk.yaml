@@ -1,24 +1,26 @@
 version: 0.1
 cli:
-  version: 0.11.0-beta
+  version: 0.14.0-beta
 repo:
   repo:
     host: github.com
     owner: ss-o
     name: ss-o
 lint:
+  disabled:
+    - svgo
   linters:
     - name: markdownlint
       command:
-        [markdownlint, -q, --config, .trunk/.markdownlint.yaml, "${target}"]
-      direct_configs: [.trunk/.markdownlint.yaml]
+        [markdownlint, -q, --config, .github/.markdownlint.yaml, "${target}"]
+      direct_configs: [.github/.markdownlint.yaml]
   enabled:
-    - actionlint@1.6.12
-    - gitleaks@8.8.4
+    - actionlint@1.6.15
+    - gitleaks@8.8.11
     - gofmt@1.16.7
-    - golangci-lint@1.42.1
+    - golangci-lint@1.46.2
     - markdownlint@0.31.1
-    - prettier@2.6.2
+    - prettier@2.7.1
   ignore:
     - linters: [ALL]
       paths:
