@@ -1,6 +1,5 @@
 <!-- Announments -->
 <!-- <h1></h1> --><!-- <h2></h2> -->
-<br />
 <h1 align="center">
   <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a
   ><br />
