@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin.svg
           token: ${{ secrets.SSO_TOKEN }}
           user: ss-o
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/habits/charts.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -28,14 +28,14 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: Europe/London
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/stargazers.svg
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_stargazers: yes
           user: z-shell
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/followup/indepth.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -47,13 +47,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      #      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      #      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
       #        with:
       #          filename: metrics/plugin/gists.svg
       #          token: ${{ secrets.GITHUB_TOKEN }}
       #          base: ""
       #          plugin_gists: yes
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/topics/icons.svg
           token: NOT_NEEDED
@@ -61,7 +61,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/languages/details.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -71,7 +71,7 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/achievements.svg
           token: ${{ secrets.SSO_TOKEN }}
@@ -82,14 +82,14 @@ jobs:
             scripter, packager, infographile
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
-      #      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      #      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
       #        with:
       #          filename: metrics/plugin/introduction.svg
       #          token: ${{ secrets.SSO_TOKEN }}
       #          user: ss-o
       #          base: header
       #         plugin_introduction: yes
-      - uses: lowlighter/metrics@f44182260ef443309174c7c989bd43068d72643e
+      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/support.svg
           token: NOT_NEEDED
