@@ -1,3 +1,0 @@
-### Continous Integration-Continous Deplyoment
-
----
