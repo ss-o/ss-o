@@ -5,6 +5,8 @@
   ><br />
   <img
     align="center"
+    width="80%"
+    height="auto"
     src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
     alt="When times are good be grateful, when times are bad be graceful"
   />
@@ -13,7 +15,7 @@
 <p align="center">
   <img
     align="center"
-    width="100%"
+    width="80%"
     height="auto"
     src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg"
     alt="My Snake"
@@ -56,14 +58,12 @@
 <!-- no-music = no-code -->
 <h3 align="left">🎶 No Music - ✍️ No Code</h3>
 <p align="center">
-  <a
+  <p align="center"><a
     target="_self"
     href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G"
   >
     <img
       align="center"
-      width="40%"
-      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg"
     />
   </a>
@@ -72,18 +72,14 @@
   >
     <img
       align="center"
-      width="40%"
-      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg"
     />
-  </a>
-  <a
+  </a></p>
+  <p align="center"><a
     href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists"
   >
     <img
       align="center"
-      width="40%"
-      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg"
     />
   </a>
@@ -93,11 +89,9 @@
   >
     <img
       align="center"
-      width="40%"
-      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg"
     />
-  </a>
+  </a></p>
   <!--
   <a target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
