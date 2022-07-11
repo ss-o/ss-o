@@ -57,13 +57,15 @@
 </p>
 <!-- no-music = no-code -->
 <h3 align="left">🎶 No Music - ✍️ No Code</h3>
-<p align="center">
+<div align="center">
   <p align="center"><a
     target="_self"
     href="https://open.spotify.com/playlist/6VcZq5Pm10ZTKp8SeLrp6G"
   >
     <img
       align="center"
+      width="40%"
+      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/lofi-1.svg"
     />
   </a>
@@ -72,6 +74,8 @@
   >
     <img
       align="center"
+      width="40%"
+      height="auto"
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg"
     />
   </a></p>
@@ -80,6 +84,8 @@
   >
     <img
       align="center"
+      width="40%"
+      height="auto"      
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg"
     />
   </a>
@@ -89,6 +95,8 @@
   >
     <img
       align="center"
+      width="40%"
+      height="auto"      
       src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg"
     />
   </a></p>
@@ -96,7 +104,6 @@
   <a target="_self" href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/recent.svg" />
   </a>
-  </p>
   <p align="center">
   <a target="_self" href="https://open.spotify.com/playlist/2MvEUsMh1eGSrezcirrXFd/">
     <img align="center" src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/playlist/west.svg" width="40%" height="auto" />
