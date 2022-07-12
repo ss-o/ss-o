@@ -30,7 +30,7 @@ jobs:
           LOCALE: en
           COMMIT_BY_ME: False
       - name: WakaTime
-        uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
+        uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
         with:
           filename: metrics/plugin.wakatime.svg
           token: NOT_NEEDED
