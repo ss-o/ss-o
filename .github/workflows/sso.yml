@@ -18,7 +18,7 @@ jobs:
         with:
           filename: metrics/plugin.svg
           token: ${{ secrets.SSO_TOKEN }}
-          user: ss-o
+          user: ${{ github.repository_owner }}
       - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/habits/charts.svg
@@ -40,19 +40,13 @@ jobs:
           filename: metrics/plugin/followup/indepth.svg
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
-          user: ss-o
+          user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
   run-2:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      #      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
-      #        with:
-      #          filename: metrics/plugin/gists.svg
-      #          token: ${{ secrets.GITHUB_TOKEN }}
-      #          base: ""
-      #          plugin_gists: yes
       - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/topics/icons.svg
@@ -82,19 +76,16 @@ jobs:
             scripter, packager, infographile
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
-      #      - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
-      #        with:
-      #          filename: metrics/plugin/introduction.svg
-      #          token: ${{ secrets.SSO_TOKEN }}
-      #          user: ss-o
-      #          base: header
-      #         plugin_introduction: yes
+  run-3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
       - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/support.svg
           token: NOT_NEEDED
           base: ""
-          user: ss-o
+          user: ${{ github.repository_owner }}
           plugin_support: yes
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
@@ -109,3 +100,12 @@ jobs:
           build_dir: metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: WakaTime
+        uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
+        with:
+          filename: metrics/plugin.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
