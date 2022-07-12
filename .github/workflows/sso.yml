@@ -27,7 +27,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          config_timezone: Europe/London
+          config_timezone: ${{ secrets.TIMEZONE }}
       - uses: lowlighter/metrics@cb6115082a9c7e027d1a53c3c869cdec5f44bd43
         with:
           filename: metrics/plugin/stargazers.svg
