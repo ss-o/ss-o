@@ -12,14 +12,14 @@
   />
 </h1>
 <!-- profile-stats -->
-<p align="center">
-  <div align="center" width="80%">
+<div align="center" width="80%">
 
 ![SSnake Light](https://github.com/ss-o/ss-o/raw/snake/snake.svg#gh-light-mode-only)
 ![SSnake Dark](https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg#gh-dark-mode-only)
 
-  </div>
-  <img
+</div>
+<p align="center">
+<img
     align="center"
     width="80%"
     height="auto"
