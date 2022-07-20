@@ -35,6 +35,9 @@ jobs:
           base: ""
           plugin_stargazers: yes
           user: z-shell
+  run-2:
+    runs-on: ubuntu-latest
+    steps:
       - uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
         with:
           filename: metrics/plugin/followup/indepth.svg
@@ -43,10 +46,6 @@ jobs:
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
-  run-2:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
       - uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
         with:
           filename: metrics/plugin/topics/icons.svg
@@ -100,12 +99,22 @@ jobs:
           build_dir: metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: WakaTime
-        uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
+  run-4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
         with:
-          filename: metrics/plugin.wakatime.svg
+          filename: metrics/plugin/wakatime.svg
           token: NOT_NEEDED
           base: ""
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
+        with:
+          filename: metrics/plugin/reactions.svg
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
