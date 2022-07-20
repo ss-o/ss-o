@@ -23,7 +23,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin.wakatime.svg"
+    src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/wakatime.svg"
     alt="Waka"
   />
   <!--
