@@ -39,7 +39,7 @@
 <p align="center">
   <img
     align="center"
-    width="80%"
+    width="60%"
     height="auto"
     src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/reactions.svg"
     alt="Reactions"
@@ -55,7 +55,7 @@
   />
 </p>
 <!-- no-music = no-code -->
-<h2 align="left">🎶 No Music - ✍️ No Code</h2>
+<h2 align="left"> 🎶 No Music - ✍️ No Code </h2>
 <p align="center"><a
   href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists"
 >
