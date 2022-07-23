@@ -12,12 +12,12 @@
   </p>
 </h1>
 <!-- profile-stats -->
-<div align="center" width="80%">
+<div align="center" width="80%"><p width="center">
 
 ![SSnake Light](https://github.com/ss-o/ss-o/raw/snake/snake.svg#gh-light-mode-only)
 ![SSnake Dark](https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg#gh-dark-mode-only)
 
-</div>
+</p></div>
 <p align="center">
   <img
     align="center"
@@ -39,7 +39,7 @@
 <p align="center">
   <img
     align="center"
-    width="60%"
+    width="80%"
     height="auto"
     src="https://raw.githubusercontent.com/ss-o/ss-o/main/metrics/plugin/reactions.svg"
     alt="Reactions"
