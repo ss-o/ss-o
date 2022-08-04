@@ -1,8 +1,20 @@
-<h1 align="center">
-  <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a
-  ><br />
+<!-- header -->
+<h1></h1>
+<h2 align="center">
+  <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
+</h2>
+<h3 align="center">
+  <p align="center">
+    <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
+    <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
+    <a title="Google DEV" target="_self" href="https://g.dev/sall/">
+    <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
+    <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
+  </p>
+</h3>
   <p align="center">
     <img
+      target="_self"
       align="center"
       width="80%"
       height="auto"
@@ -10,13 +22,26 @@
       alt="When times are good be grateful, when times are bad be graceful"
     />
   </p>
-</h1>
+  
 <!-- profile-stats -->
+
 <div align="center">
-
-![SSnake Light](https://github.com/ss-o/ss-o/raw/snake/snake.svg#gh-light-mode-only)
-![SSnake Dark](https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg#gh-dark-mode-only)
-
+  <img
+    target="_self"
+    align="center"
+    width="80%"
+    height="auto"
+    src="https://github.com/ss-o/ss-o/raw/snake/snake.svg#gh-light-mode-only"
+    alt="SSnake Light"
+  />
+  <img
+    target="_self"
+    align="center"
+    width="80%"
+    height="auto"
+    src="https://github.com/ss-o/ss-o/raw/snake/snake-dark.svg#gh-dark-mode-only"
+    alt="SSnake Dark"
+  />
 </div>
 <p align="center">
   <img
@@ -61,7 +86,7 @@
 >
   <img
     align="center"
-    width="80%"
+    width="70%"
     height="auto"
     src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-artists.svg"
   />
@@ -71,20 +96,15 @@
 >
   <img
     align="center"
-    width="80%"
+    width="70%"
     height="auto"
     src="https://github.com/ss-o/ss-o/raw/main/metrics/plugin/music/spotify/top-tracks.svg"
   />
 </a></p>
 <!-- contact-badges -->
 <br />
-<p align="center">
-  <a href="https://googlecloudcheatsheet.withgoogle.com/"> 💕 </a>
-  <a title="Google DEV" target="_self" href="https://g.dev/sall/">
-    <img
-      align="center"
-      src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/"
-    />
+  <img align="center" src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/"
+  />
   </a>
   <a title="DEV" target="_self" href="https://dev.to/sso/">
     <img
@@ -126,5 +146,4 @@
       src="https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white"
     />
   </a>
-  <a href="https://osint.digitalclouds.pro/"> 👾 </a>
 </p>
