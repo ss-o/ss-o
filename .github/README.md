@@ -7,7 +7,8 @@
   <p align="center">
     <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
     <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
-    <a title="Google DEV" target="_self" href="https://g.dev/sall/">
+    <a href="https://digitalclouds.crowdin.com/">&nbsp;&nbsp; 🗣️ &nbsp;&nbsp;</a>
+    <a href="https://digital-clouds.cloudflareaccess.com/">&nbsp;&nbsp; 🎯 &nbsp;&nbsp;</a>
     <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
     <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
   </p>
@@ -103,7 +104,8 @@
 <!-- contact-badges -->
 <br />
 <p align="center">
-  <img align="center" src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/"
+  <a title="Google DEV" target="_self" href="https://g.dev/sall/">
+    <img align="center" src="https://img.shields.io/badge/-G.DEV-222222?style=flat-square&logo=google&logoColor=white&link=https://g.dev/sall/"
   />
   </a>
   <a title="DEV" target="_self" href="https://dev.to/sso/">
@@ -130,12 +132,14 @@
       src="https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/u/ss-o/"
     />
   </a>
+  <!--
   <a title="LinkedIn" target="_self" href="https://www.linkedin.com/in/ss-o/">
     <img
       align="center"
       src="https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white"
     />
   </a>
+  -->
   <a
     title="stackoverflow"
     target="_self"
