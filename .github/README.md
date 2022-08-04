@@ -81,9 +81,8 @@
 </p>
 <!-- no-music = no-code -->
 <h2 align="left"> 🎶 No Music - ✍️ No Code </h2>
-<p align="center"><a
-  href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists"
->
+<p align="center">
+  <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
   <img
     align="center"
     width="70%"
@@ -103,6 +102,7 @@
 </a></p>
 <!-- contact-badges -->
 <br />
+<p align="center">
   <img align="center" src="https://img.shields.io/badge/-GDEV-222222?style=flat-square&logo=g.dev&logoColor=white&link=https://g.dev/sall/"
   />
   </a>
