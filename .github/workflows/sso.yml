@@ -116,5 +116,5 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_reactions: yes
-          plugin_reactions_limit: 100
+          plugin_reactions_limit: 500
           plugin_reactions_details: percentage
