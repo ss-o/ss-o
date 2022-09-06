@@ -9,14 +9,19 @@ on:
   pull_request:
     paths: [.github/workflows/sso.yml]
 
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   run-1:
     runs-on: ubuntu-latest
+    timeout-minutes: 10    
     steps:
       - uses: actions/checkout@v3
+      - run: |
+          git config user.name ${{ secrets.ACTIONS_USER }}
+          git config user.email ${{ secrets.ACTIONS_MAIL }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
           filename: metrics/plugin/metrics.svg
@@ -29,7 +34,7 @@ jobs:
           base: ""
           plugin_habits: yes
           plugin_habits_facts: no
-          plugin_habits_charts: yes
+          plugin_habits_charts: no
           config_timezone: ${{ secrets.TIMEZONE }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
@@ -40,7 +45,12 @@ jobs:
           user: z-shell
   run-2:
     runs-on: ubuntu-latest
+    timeout-minutes: 10    
     steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config user.name ${{ secrets.ACTIONS_USER }}
+          git config user.email ${{ secrets.ACTIONS_MAIL }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
           filename: metrics/plugin/followup-indepth.svg
@@ -74,18 +84,15 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_threshold: B
+          plugin_achievements_threshold: C
   run-3:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/support.svg
-          token: NOT_NEEDED
-          base: ""
-          user: ${{ github.repository_owner }}
-          plugin_support: yes
+      - uses: actions/checkout@v3
+      - run: |
+          git config user.name ${{ secrets.ACTIONS_USER }}
+          git config user.email ${{ secrets.ACTIONS_MAIL }}
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -104,7 +111,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-4:
     runs-on: ubuntu-latest
+    timeout-minutes: 10    
     steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config user.name ${{ secrets.ACTIONS_USER }}
+          git config user.email ${{ secrets.ACTIONS_MAIL }}    
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
           filename: metrics/plugin/wakatime.svg
@@ -120,7 +132,7 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_reactions: yes
-          plugin_reactions_limit: 500
+          plugin_reactions_limit: 200
           plugin_reactions_details: percentage
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
@@ -137,12 +149,3 @@ jobs:
           plugin_projects: yes
           plugin_projects_descriptions: no
           plugin_projects_limit: 10
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/lines-history.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          plugin_lines: yes
-          plugin_lines_sections: repositories, history
-          plugin_lines_repositories_limit: 2
-          plugin_lines_history_limit: 1
