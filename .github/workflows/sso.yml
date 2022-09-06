@@ -25,15 +25,6 @@ jobs:
           user: ${{ github.repository_owner }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/habits-charts.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: no
-          config_timezone: ${{ secrets.TIMEZONE }}
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
           filename: metrics/plugin/stargazers.svg
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
@@ -69,14 +60,6 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/achievements.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
   run-3:
     runs-on: ubuntu-latest
     timeout-minutes: 10
