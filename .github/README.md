@@ -27,22 +27,10 @@
 <!-- profile-stats -->
 
 <div align="center">
-  <img
-    target="_self"
-    align="center"
-    width="80%"
-    height="auto"
-    src="https://ss-o.pages.dev/plugin/snake.svg#gh-light-mode-only"
-    alt="SSnake Light"
-  />
-  <img
-    target="_self"
-    align="center"
-    width="80%"
-    height="auto"
-    src="https://ss-o.pages.dev/plugin/snake-dark.svg#gh-dark-mode-only"
-    alt="SSnake Dark"
-  />
+  <a href="https://github.com/ss-o#gh-dark-mode-only">
+  <img target="_self" align="center" width="80%" height="auto" src="https://raw.githubusercontent.com/ss-o/ss-o/gh-pages/plugin/snake-dark.svg" alt="SSnake Dark" /></a>
+  <a href="https://github.com/ss-o#gh-light-mode-only"
+  <img target="_self" align="center" width="80%" height="auto" src="https://raw.githubusercontent.com/ss-o/ss-o/gh-pages/plugin/snake.svg" alt="SSnake Light" /></a>
 </div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
