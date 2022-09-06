@@ -9,14 +9,13 @@ on:
   pull_request:
     paths: [.github/workflows/sso.yml]
 
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   run-1:
     runs-on: ubuntu-latest
-    timeout-minutes: 10    
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
       - run: |
@@ -45,7 +44,7 @@ jobs:
           user: z-shell
   run-2:
     runs-on: ubuntu-latest
-    timeout-minutes: 10    
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
       - run: |
@@ -111,12 +110,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-4:
     runs-on: ubuntu-latest
-    timeout-minutes: 10    
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
       - run: |
           git config user.name ${{ secrets.ACTIONS_USER }}
-          git config user.email ${{ secrets.ACTIONS_MAIL }}    
+          git config user.email ${{ secrets.ACTIONS_MAIL }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
           filename: metrics/plugin/wakatime.svg
