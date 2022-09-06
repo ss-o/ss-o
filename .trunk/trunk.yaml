@@ -1,0 +1,40 @@
+version: 0.1
+cli:
+  version: 0.17.0-beta
+  options:
+    - commands: [check, fmt]
+    - args: -y
+plugins:
+  sources:
+    - id: trunk
+      ref: v0.0.3
+      uri: https://github.com/trunk-io/plugins
+repo:
+  repo:
+    host: github.com
+    owner: ss-o
+    name: ss-o
+actions:
+  enabled:
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
+    - trunk-cache-prune
+    - trunk-check-upgrade
+    - trunk-upgrade
+lint:
+  enabled:
+    - git-diff-check@SYSTEM
+    - actionlint@1.6.17
+    - gitleaks@8.12.0
+    - gofmt@1.16.7
+    - golangci-lint@1.46.2
+    - markdownlint@0.32.2
+    - prettier@2.7.1
+  ignore:
+    - linters: [ALL]
+      paths:
+        - assets/**
+        - tweets/**
+    - linters: [svgo]
+      paths:
+        - metrics/**
