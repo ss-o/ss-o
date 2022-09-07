@@ -17,13 +17,13 @@ env:
   top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
   top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
   playlist_lofi: https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM
-  playlist_lofi_svg: metrics/plugin/music/spotify/playlist/lofi.svg
-  playlist_girls: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1
-  playlist_girls_svg: metrics/plugin/music/spotify/playlist/girls.svg
-  playlist_east: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
-  playlist_east_svg: metrics/plugin/music/spotify/playlist/east.svg
+  playlist_lofi_svg: metrics/plugin/music/spotify/lofi.svg
+  playlist_girls: https://open.spotify.com/embed/playlists/0CXloQmqFutohB4QMcgIq1
+  playlist_girls_svg: metrics/plugin/music/spotify/girls.svg
+  playlist_east: https://open.spotify.com/embed/1X0xAsHWCpamURi0SJqV3w
+  playlist_east_svg: metrics/plugin/music/spotify/east.svg
   playlist_west: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
-  playlist_west_svg: metrics/plugin/music/spotify/playlist/west.svg
+  playlist_west_svg: metrics/plugin/music/spotify/west.svg
 
 jobs:
   spotify-metrics:
