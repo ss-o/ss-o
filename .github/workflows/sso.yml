@@ -27,7 +27,7 @@ env:
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
     environment: metrics
     steps:
       - uses: actions/checkout@v3
