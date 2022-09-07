@@ -72,7 +72,7 @@ jobs:
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: ${{ env.snake_svg }} ${{ env.snake_dark_svg }}
+          outputs: ${{ env.snake_svg }}; ${{ env.snake_dark_svg }}
       - if: success()
         uses: crazy-max/ghaction-github-pages@eb08c35b9fab86751edfff4e55cd5cde35ff0e52
         with:
