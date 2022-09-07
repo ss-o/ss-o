@@ -27,7 +27,7 @@ env:
 
 jobs:
   spotify-metrics:
-    environment: production
+    environment: metrics
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
