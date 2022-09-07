@@ -1,4 +1,3 @@
-<!-- header -->
 <h1></h1>
 <h2 align="center">
   <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
@@ -13,7 +12,8 @@
     <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
   </p>
 </h3>
-  <p align="center">
+<div align="center">
+  <p>
     <img
       target="_self"
       align="center"
@@ -23,14 +23,15 @@
       alt="When times are good be grateful, when times are bad be graceful"
     />
   </p>
-  
+</div>
+
 <!-- profile-stats -->
 
 <div align="center">
   <a href="https://github.com/ss-o#gh-dark-mode-only">
-  <img target="_self" align="center" width="80%" height="auto" src="https://raw.githubusercontent.com/ss-o/ss-o/gh-pages/plugin/snake-dark.svg" alt="SSnake Dark" /></a>
+  <img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="SSnake Dark" /></a>
   <a href="https://github.com/ss-o#gh-light-mode-only"
-  <img target="_self" align="center" width="80%" height="auto" src="https://raw.githubusercontent.com/ss-o/ss-o/gh-pages/plugin/snake.svg" alt="SSnake Light" /></a>
+  <img target="_self" align="center" width="80%" height="auto" src="ss-o.github.io/ss-o/plugin/snake.svg" alt="SSnake Light" /></a>
 </div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
@@ -38,7 +39,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/wakatime.svg"
+    src="https://ss-o.github.io/ss-o/plugin/wakatime.svg"
     alt="Sall Wakatime"
   /></a>
 </p>
@@ -48,7 +49,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/followup-indepth.svg"
+    src="https://ss-o.github.io/ss-o/plugin/followup-indepth.svg"
     alt="ID"
   /></a>
 </p>
@@ -57,7 +58,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/reactions.svg"
+    src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
     alt="Reactions"
   />
 </p>
@@ -66,21 +67,32 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/languages-details.svg"
+    src="https://ss-o.github.io/ss-o/plugin/languages-details.svg"
     alt="languages"
   />
 </p>
 <!-- no-music = no-code -->
 <h2 align="left"> 🎶 No Music - ✍️ No Code </h2>
 <p align="center">
-  <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
+<a
+  target="_self"
+  href="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM"
+>
   <img
     align="center"
     width="70%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/music/spotify/top-artists.svg"
+    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg"
   />
-</a><a
+<a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
+  <img
+    align="center"
+    width="70%"
+    height="auto"
+    src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-artists.svg"
+  />
+</a>
+<a
   target="_self"
   href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73"
 >
@@ -88,7 +100,7 @@
     align="center"
     width="70%"
     height="auto"
-    src="https://ss-o.pages.dev/plugin/music/spotify/top-tracks.svg"
+    src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-tracks.svg"
   />
 </a></p>
 <!-- contact-badges -->
