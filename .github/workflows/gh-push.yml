@@ -30,7 +30,6 @@ jobs:
           TAG_NAME="${GITHUB_REF##refs/tags/}"
           echo "::set-output name=tag_name::${TAG_NAME}"
           echo "::set-output name=deploy_tag_name::deploy-${TAG_NAME}"
-      - run: command cp -vf .github/README.md metrics/README.md
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
