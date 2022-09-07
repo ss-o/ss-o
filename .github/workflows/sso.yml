@@ -12,39 +12,48 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
+env:
+  metrics_svg: metrics/plugin/metrics.svg
+  followup_svg: metrics/plugin/followup-indepth.svg
+  topics_icons_svg: metrics/plugin/topics-icons.svg
+  languages_details_svg: metrics/plugin/languages-details.svg
+  snake_svg: metrics/plugin/snake.svg
+  snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
+  z_shell_stargazers_svg: metrics/plugin/stargazers.svg
+  reactions_svg: metrics/plugin/reactions.svg
+  wakatime_svg: metrics/plugin/wakatime.svg
+  GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
+
 jobs:
-  run-1:
+  metrics:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment: production
     steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/metrics.svg
+          filename: ${{ env.metrics_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/stargazers.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          user: z-shell
-  run-2:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/followup-indepth.svg
+          filename: ${{ env.followup_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           user: ${{ github.repository_owner }}
           plugin_followup: yes
-          plugin_followup_indepth: yes          
+          plugin_followup_indepth: yes
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/topics-icons.svg
+          filename: ${{ env.z_shell_stargazers_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          user: z-shell          
+      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+        with:
+          filename: ${{ env.topics_icons_svg }}
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
@@ -52,7 +61,7 @@ jobs:
           plugin_topics_mode: icons
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/languages-details.svg
+          filename: ${{ env.languages_details_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_languages: yes
@@ -60,16 +69,10 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-  run-3:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
       - uses: Platane/snk@d078b2d231ad307c3e5efe7a3e0d630141ce54a8
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            metrics/plugin/snake.svg
-            metrics/plugin/snake-dark.svg?palette=github-dark
+          outputs: ${{ env.snake_svg }} ${{ env.snake_dark_svg }}
       - if: success()
         uses: crazy-max/ghaction-github-pages@eb08c35b9fab86751edfff4e55cd5cde35ff0e52
         with:
@@ -78,16 +81,9 @@ jobs:
           target_branch: gh-pages
           build_dir: metrics
           keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run-4:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v3
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/wakatime.svg
+          filename: ${{ env.wakatime_svg }}
           token: NOT_NEEDED
           base: ""
           plugin_wakatime: yes
@@ -96,24 +92,9 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
       - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
         with:
-          filename: metrics/plugin/reactions.svg
+          filename: ${{ env.reactions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_limit: 200
           plugin_reactions_details: percentage
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/traffic.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: repositories
-          plugin_traffic: yes
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
-        with:
-          filename: metrics/plugin/projects.svg
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          user: z-shell
-          plugin_projects: yes
-          plugin_projects_descriptions: no
-          plugin_projects_limit: 10
