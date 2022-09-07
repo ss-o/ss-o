@@ -29,9 +29,9 @@
 
 <div align="center">
   <a href="https://github.com/ss-o#gh-dark-mode-only">
-  <img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="SSnake Dark" /></a>
+  <img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="S-Dark" /></a>
   <a href="https://github.com/ss-o#gh-light-mode-only"
-  <img target="_self" align="center" width="80%" height="auto" src="ss-o.github.io/ss-o/plugin/snake.svg" alt="SSnake Light" /></a>
+  <img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake.svg" alt="S-Light" /></a>
 </div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
