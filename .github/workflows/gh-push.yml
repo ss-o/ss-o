@@ -20,7 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    environment: github-pages
     steps:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
