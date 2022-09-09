@@ -33,7 +33,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.playlist_west_svg }}
           token: NOT_NEEDED
@@ -42,7 +42,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_west_svg }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.playlist_east_svg }}
           token: NOT_NEEDED
@@ -51,7 +51,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_east }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.playlist_girls_svg }}
           token: NOT_NEEDED
@@ -60,7 +60,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_girls }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.playlist_lofi_svg }}
           token: NOT_NEEDED
@@ -69,7 +69,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_lofi }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.recent_svg }}
           token: NOT_NEEDED
@@ -79,7 +79,7 @@ jobs:
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.top_tracks_svg }}
           token: NOT_NEEDED
@@ -91,7 +91,7 @@ jobs:
           plugin_music_time_range: short
           plugin_music_top_type: tracks
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@7e4bab7d85c7d114cc928299765f830c107270a4
+      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           filename: ${{ env.top_artists_svg }}
           token: NOT_NEEDED
