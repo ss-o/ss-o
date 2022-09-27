@@ -1,8 +1,10 @@
+<!--
 <h1></h1>
 <h2 align="center">
   <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
 </h2>
-<h3 align="center">
+-->
+<h2 align="center">
   <p align="center">
     <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
     <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
@@ -11,9 +13,10 @@
     <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
     <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
   </p>
-</h3>
+</h2>
 <div align="center">
   <p>
+  <a target="_self" href="https://git.io/JJwwg">
     <img
       target="_self"
       align="center"
@@ -22,6 +25,7 @@
       src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
       alt="When times are good be grateful, when times are bad be graceful"
     />
+  </a>
   </p>
 </div>
 
@@ -46,9 +50,11 @@
     height="auto"
     src="https://ss-o.github.io/ss-o/plugin/followup-indepth.svg"
     alt="ID"
-  /></a>
+  />
+</a>
 </p>
 <p align="center">
+<a href="#">
   <img
     align="center"
     width="80%"
@@ -56,8 +62,10 @@
     src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
     alt="Reactions"
   />
+</a>
 </p>
 <p align="center">
+<a href="#">
   <img
     align="center"
     width="80%"
@@ -65,6 +73,7 @@
     src="https://ss-o.github.io/ss-o/plugin/languages-details.svg"
     alt="languages"
   />
+</a>  
 </p>
 <!-- no-music = no-code -->
 <h2 align="left"> 🎶 No Music - ✍️ No Code </h2>
