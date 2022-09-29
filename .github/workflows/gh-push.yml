@@ -4,7 +4,8 @@ name: "🚀 Deploy GH Pages"
 on:
   push:
     tags: ["v*.*.*"]
-    paths: ["assets/**"]
+    paths: 
+      - "assets/**"
   workflow_run:
     workflows:
       - "🌀 SSO"
