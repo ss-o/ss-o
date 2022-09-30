@@ -30,7 +30,7 @@ actions:
 lint:
   enabled:
     - git-diff-check@SYSTEM
-    - actionlint@1.6.19
+    - actionlint@1.6.20
     - gitleaks@8.13.0
     - gofmt@1.16.7
     - golangci-lint@1.49.0
