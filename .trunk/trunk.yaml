@@ -39,7 +39,6 @@ lint:
   ignore:
     - linters: [ALL]
       paths:
-        - assets/**
         - tweets/**
     - linters: [svgo]
       paths:
