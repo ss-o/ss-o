@@ -3,9 +3,9 @@ name: "🚀 Deploy GH Pages"
 
 on:
   push:
-    tags: ['v*.*.*']
+    tags: ["v*.*.*"]
     branches: [main]
-    paths: 
+    paths:
       - assets
   workflow_run:
     workflows:
