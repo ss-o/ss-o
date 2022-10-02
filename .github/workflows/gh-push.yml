@@ -4,7 +4,7 @@ name: "🚀 Deploy GH Pages"
 on:
   push:
     paths:
-      - assets/**      
+      - assets/**
   workflow_run:
     workflows:
       - "🌀 SSO"
