@@ -3,10 +3,8 @@ name: "🚀 Deploy GH Pages"
 
 on:
   push:
-    tags: ["v*.*.*"]
-    branches: [main]
     paths:
-      - assets
+      - assets/**      
   workflow_run:
     workflows:
       - "🌀 SSO"
@@ -14,22 +12,17 @@ on:
     types: [completed]
   workflow_dispatch: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     environment: "deploy-assets"
     timeout-minutes: 15
     steps:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
-      - id: prepare_tag
-        if: startsWith(github.ref, 'refs/tags/')
-        run: |
-          TAG_NAME="${GITHUB_REF##refs/tags/}"
-          echo "::set-output name=tag_name::${TAG_NAME}"
-          echo "::set-output name=deploy_tag_name::deploy-${TAG_NAME}"
       - name: 🚀 Deploy metrics
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -48,5 +41,3 @@ jobs:
           user_name: ${{ secrets.ACTIONS_USER }}
           user_email: ${{ secrets.ACTIONS_MAIL }}
           keep_files: true
-          tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
-          tag_message: "Deployment ${{ steps.prepare_tag.outputs.tag_name }}"
