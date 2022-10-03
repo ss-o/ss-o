@@ -10,7 +10,3 @@
 ## v1
 
 - https://ss-o.pages.dev/web/pages/status/v1/404
-
-## v2
-
-- https://ss-o.pages.dev/web/pages/status/v2/404
