@@ -1,16 +1,16 @@
 # The tweets/ folder
 
-To create a new tweet create a new `*.tweet` file in this `tweets/` folder.
+To create a new tweet create a new `*.tweet` file in this folder.
 
 <kbd>[Create new tweet](../../../new/main/?filename=tweets/<your-path>.tweet)</kbd>
 
 ## Example
 
-Create a new file `tweets/hello-world.tweet` with the content
+Create a new file `hello-world.tweet` with the content
 
 > Hello, world!
 
-You can use subfolders, e.g. `tweets/2019-02/hello-world.tweet`, as long as the file is in the `tweets/` folder and has the `.tweet` file extension
+You can use subfolders, e.g. `2022-02/hello-world.tweet`, as long as the file is in the `tweets/` folder and has the `.tweet` file extension
 
 ## Create a tweet with a twitter poll
 
