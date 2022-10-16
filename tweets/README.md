@@ -1,4 +1,4 @@
-# The tweets/ folder
+# `Tweet`
 
 To create a new tweet create a new `*.tweet` file in this folder.
 
