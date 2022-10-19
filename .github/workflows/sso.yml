@@ -6,8 +6,6 @@ on:
   workflow_dispatch:
   push:
     paths: [.github/workflows/sso.yml]
-  pull_request:
-    paths: [.github/workflows/sso.yml]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
