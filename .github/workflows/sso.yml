@@ -5,6 +5,7 @@ on:
     - cron: "09 09 * * *"
   workflow_dispatch:
   push:
+    branches: [main]
     paths: [.github/workflows/sso.yml]
 
 concurrency:
