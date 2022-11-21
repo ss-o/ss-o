@@ -5,6 +5,7 @@ on:
     - cron: "09 09 * * *"
   workflow_dispatch:
   push:
+    branches: [main]
     paths: [.github/workflows/sso.yml]
 
 concurrency:
@@ -30,12 +31,12 @@ jobs:
     environment: metrics
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.metrics_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.followup_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -43,14 +44,14 @@ jobs:
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.z_shell_stargazers_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_stargazers: yes
           user: z-shell
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.topics_icons_svg }}
           token: NOT_NEEDED
@@ -58,7 +59,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.languages_details_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -82,7 +83,7 @@ jobs:
           target_branch: gh-pages
           build_dir: metrics
           keep_history: true
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.wakatime_svg }}
           token: NOT_NEEDED
@@ -91,7 +92,7 @@ jobs:
           plugin_wakatime_days: 30
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-      - uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
+      - uses: lowlighter/metrics@4c94975e259100ec9ba654cddcc8ed8bf720193e
         with:
           filename: ${{ env.reactions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
