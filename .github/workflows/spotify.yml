@@ -4,8 +4,7 @@ on:
   schedule:
     - cron: "20 20 * * */2"
   push:
-    paths: [.github/workflows/spotify.yml]
-  pull_request:
+    branches: [main]
     paths: [.github/workflows/spotify.yml]
   workflow_dispatch: {}
 
