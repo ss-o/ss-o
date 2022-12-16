@@ -25,9 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     environment: metrics
-concurrency:
-  group: ci-1-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true    
+    concurrency:
+      group: ci-1-${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
