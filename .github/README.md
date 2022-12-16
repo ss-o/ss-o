@@ -82,7 +82,7 @@
 <p align="center">
 <a
   target="_self"
-  href="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM"
+  href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi"
 >
   <img
     align="center"
