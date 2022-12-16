@@ -4,38 +4,39 @@ runtimes:
     - go@1.18.3
     - node@16.14.2
 cli:
-  version: 1.0.1
+  version: 1.2.1
   options:
-    - commands: [check, fmt]
-    - args: -y
-plugins:
-  sources:
-    - id: trunk
-      ref: v0.0.5
-      uri: https://github.com/trunk-io/plugins
+    - commands: [ALL]
+      args: --monitor=true
+    - commands: [check]
+      args: -y
 repo:
   repo:
     host: github.com
     owner: ss-o
     name: ss-o
+plugins:
+  sources:
+    - id: trunk
+      uri: https://github.com/trunk-io/plugins
+      ref: v0.0.8
+      import_to_global: true
 actions:
   enabled:
     - trunk-announce
-    - trunk-upgrade-available
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
+    - trunk-upgrade-available
     - trunk-cache-prune
-    - trunk-check-upgrade
-    - trunk-upgrade
 lint:
   enabled:
     - git-diff-check@SYSTEM
-    - actionlint@1.6.21
-    - gitleaks@8.15.0
-    - gofmt@1.16.7
+    - actionlint@1.6.22
+    - gitleaks@8.15.2
+    - gofmt@1.19.3
     - golangci-lint@1.50.1
     - markdownlint@0.32.2
-    - prettier@2.7.1
+    - prettier@2.8.1
   ignore:
     - linters: [ALL]
       paths:
