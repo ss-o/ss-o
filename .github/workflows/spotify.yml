@@ -16,7 +16,7 @@ env:
   recent_svg: metrics/plugin/music/spotify/recent.svg
   top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
   top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
-  playlist_lofi: https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM
+  playlist_lofi: https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi
   playlist_lofi_svg: metrics/plugin/music/spotify/lofi.svg
   playlist_girls: https://open.spotify.com/embed/playlists/0CXloQmqFutohB4QMcgIq1
   playlist_girls_svg: metrics/plugin/music/spotify/girls.svg
