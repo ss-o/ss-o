@@ -88,7 +88,7 @@
     align="center"
     width="70%"
     height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg"
+    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi_favorites.svg"
   />
 <!--
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
