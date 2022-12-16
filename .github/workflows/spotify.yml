@@ -8,10 +8,6 @@ on:
     paths: [.github/workflows/spotify.yml]
   workflow_dispatch: {}
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 env:
   recent_svg: metrics/plugin/music/spotify/recent.svg
   top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
@@ -30,6 +26,9 @@ jobs:
     environment: metrics
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: metrics-${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true    
     steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
@@ -76,8 +75,10 @@ jobs:
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_mode: recent
+          plugin_music_played_at: true
+          plugin_music_time_range: medium
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_limit: 2
+          plugin_music_limit: 4
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.top_tracks_svg }}
