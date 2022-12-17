@@ -13,11 +13,11 @@ env:
   followup_svg: metrics/plugin/followup-indepth.svg
   topics_icons_svg: metrics/plugin/topics-icons.svg
   languages_details_svg: metrics/plugin/languages-details.svg
-  starlists_languages_svg: metrics/plugin/starlists/languages.svg
+  starlists_languages_svg: metrics/plugin/starlists-languages.svg
   snake_svg: metrics/plugin/snake.svg
   snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
   z_shell_stargazers_svg: metrics/plugin/stargazers.svg
-  discussions_svg: metrics/plugin/metrics/plugin/discussions.svg
+  discussions_svg: metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
   wakatime_svg: metrics/plugin/wakatime.svg
   GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
@@ -49,6 +49,9 @@ jobs:
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
+          plugin_licenses: yes
+          plugin_licenses_legal: no
+          plugin_licenses_ratio: yes          
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.z_shell_stargazers_svg }}
@@ -111,12 +114,12 @@ jobs:
           base: ""
           plugin_reactions: yes
           plugin_reactions_details: percentage
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
-        with:
-          filename: ${{ env.starlists_languages_svg }}
-          token: NOT_NEEDED
-          base: ""
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 4
-          plugin_starlists_limit_repositories: 4
+      #- uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      #with:
+      #    filename: ${{ env.starlists_languages_svg }}
+      #    token: NOT_NEEDED
+      #    base: ""
+      #    plugin_starlists: yes
+      #    plugin_starlists_languages: yes
+      #    plugin_starlists_limit_languages: 2
+      #    plugin_starlists_limit_repositories: 2
