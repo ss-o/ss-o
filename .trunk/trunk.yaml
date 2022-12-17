@@ -1,8 +1,4 @@
 version: 0.1
-runtimes:
-  enabled:
-    - go@1.18.3
-    - node@16.14.2
 cli:
   version: 1.2.1
   options:
@@ -10,30 +6,21 @@ cli:
       args: --monitor=true
     - commands: [check, fm]
       args: -y
-repo:
-  repo:
-    host: github.com
-    owner: ss-o
-    name: ss-o
 plugins:
   sources:
     - id: trunk
-      uri: https://github.com/trunk-io/plugins
       ref: v0.0.8
+      uri: https://github.com/trunk-io/plugins
       import_to_global: true
-actions:
-  enabled:
-    - trunk-announce
-    - trunk-upgrade-available
-    - trunk-cache-prune
 lint:
   enabled:
-    - git-diff-check@SYSTEM
-    - actionlint@1.6.22
-    - gitleaks@8.15.2
     - gofmt@1.19.3
     - golangci-lint@1.50.1
     - markdownlint@0.32.2
+    - actionlint@1.6.22
+    - git-diff-check
+    - gitleaks@8.15.2
+    - svgo@3.0.2
     - prettier@2.8.1
   ignore:
     - linters: [ALL]
@@ -42,3 +29,13 @@ lint:
     - linters: [svgo]
       paths:
         - metrics/**
+runtimes:
+  enabled:
+    - go@1.18.3
+    - node@16.14.2
+actions:
+  enabled:
+    - trunk-announce
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
+    - trunk-upgrade-available
