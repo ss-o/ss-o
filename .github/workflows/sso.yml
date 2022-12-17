@@ -38,7 +38,7 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
           base: header, repositories
-          plugin_lines: yes
+          plugin_lines: no
           plugin_stargazers: no
           plugin_sponsors: no
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
