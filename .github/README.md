@@ -59,6 +59,17 @@
     align="center"
     width="80%"
     height="auto"
+    src="https://ss-o.github.io/ss-o/plugin/discussions.svg"
+    alt="Discussions"
+  />
+</a>
+</p>
+<p align="center">
+<a href="#">
+  <img
+    align="center"
+    width="80%"
+    height="auto"
     src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
     alt="Reactions"
   />
