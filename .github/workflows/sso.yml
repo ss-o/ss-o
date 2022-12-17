@@ -20,6 +20,7 @@ env:
   discussions_svg: metrics/plugin/metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
   wakatime_svg: metrics/plugin/wakatime.svg
+  GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
 
 jobs:
   metrics:
