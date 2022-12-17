@@ -24,7 +24,6 @@ plugins:
 actions:
   enabled:
     - trunk-announce
-    - trunk-check-pre-push
     - trunk-upgrade-available
     - trunk-cache-prune
 lint:
