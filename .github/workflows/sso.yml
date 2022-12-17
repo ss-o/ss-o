@@ -51,7 +51,7 @@ jobs:
           plugin_followup_indepth: yes
           plugin_licenses: yes
           plugin_licenses_legal: no
-          plugin_licenses_ratio: yes          
+          plugin_licenses_ratio: yes
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.z_shell_stargazers_svg }}
@@ -106,7 +106,7 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_discussions: yes
-          plugin_discussions_categories_limit: 8          
+          plugin_discussions_categories_limit: 8
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.reactions_svg }}

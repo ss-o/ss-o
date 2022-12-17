@@ -8,7 +8,7 @@ cli:
   options:
     - commands: [ALL]
       args: --monitor=true
-    - commands: [check]
+    - commands: [check, fm]
       args: -y
 repo:
   repo:
@@ -25,7 +25,6 @@ actions:
   enabled:
     - trunk-announce
     - trunk-check-pre-push
-    - trunk-fmt-pre-commit
     - trunk-upgrade-available
     - trunk-cache-prune
 lint:
