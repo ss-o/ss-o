@@ -16,9 +16,9 @@ env:
   snake_svg: metrics/plugin/snake.svg
   snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
   z_shell_stargazers_svg: metrics/plugin/stargazers.svg
+  discussions_svg: metrics/plugin/metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
   wakatime_svg: metrics/plugin/wakatime.svg
-  GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
 
 jobs:
   metrics:
@@ -93,6 +93,13 @@ jobs:
           plugin_wakatime_days: 30
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+        with:
+          filename: ${{ env.discussions_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 8          
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.reactions_svg }}
