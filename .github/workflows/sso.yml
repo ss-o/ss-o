@@ -13,6 +13,7 @@ env:
   followup_svg: metrics/plugin/followup-indepth.svg
   topics_icons_svg: metrics/plugin/topics-icons.svg
   languages_details_svg: metrics/plugin/languages-details.svg
+  starlists_languages_svg: metrics/plugin/starlists/languages.svg
   snake_svg: metrics/plugin/snake.svg
   snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
   z_shell_stargazers_svg: metrics/plugin/stargazers.svg
@@ -26,7 +27,7 @@ jobs:
     timeout-minutes: 60
     environment: metrics
     concurrency:
-      group: ci-1-${{ github.workflow }}-${{ github.ref }}
+      group: ci-${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v3
@@ -107,3 +108,12 @@ jobs:
           base: ""
           plugin_reactions: yes
           plugin_reactions_details: percentage
+      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+        with:
+          filename: ${{ env.starlists_languages_svg }}
+          token: NOT_NEEDED
+          base: ""
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 4
+          plugin_starlists_limit_repositories: 4
