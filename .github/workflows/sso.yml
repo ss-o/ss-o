@@ -37,7 +37,7 @@ jobs:
           filename: ${{ env.metrics_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
-          base: header, repositories
+          base_indepth: yes
           plugin_lines: no
           plugin_stargazers: no
           plugin_sponsors: no
