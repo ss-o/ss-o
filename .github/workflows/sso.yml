@@ -10,6 +10,7 @@ on:
 
 env:
   metrics_svg: metrics/plugin/metrics.svg
+  licenses_svg: metrics/plugin/licenses.svg
   followup_svg: metrics/plugin/followup-indepth.svg
   topics_icons_svg: metrics/plugin/topics-icons.svg
   languages_details_svg: metrics/plugin/languages-details.svg
@@ -41,15 +42,21 @@ jobs:
           base_indepth: yes
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
+          filename: ${{ env.licenses_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          user: ${{ github.repository_owner }}
+          plugin_licenses: yes
+          plugin_licenses_legal: no
+          plugin_licenses_ratio: yes
+      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+        with:
           filename: ${{ env.followup_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
-          plugin_licenses: yes
-          plugin_licenses_legal: no
-          plugin_licenses_ratio: yes
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.z_shell_stargazers_svg }}
