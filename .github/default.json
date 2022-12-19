@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Shareable configuration for automated dependency updates",
   "extends": [
     "config:base",
     ":dependencyDashboard",
@@ -33,7 +34,7 @@
     "enabled": true,
     "automerge": true
   },
-  "labels": ["dependencies 📦"],
+  "labels": ["dependencies"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
