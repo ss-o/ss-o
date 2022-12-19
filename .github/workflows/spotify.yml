@@ -14,8 +14,6 @@ env:
   top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
   playlist_lofi: https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi
   playlist_lofi_svg: metrics/plugin/music/spotify/lofi.svg
-  playlist_girls: https://open.spotify.com/embed/playlist/0CXloQmqFutohB4QMcgIq1
-  playlist_girls_svg: metrics/plugin/music/spotify/girls.svg
   playlist_east: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
   playlist_east_svg: metrics/plugin/music/spotify/east.svg
   playlist_west: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
@@ -51,22 +49,11 @@ jobs:
           plugin_music_limit: 2
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
-          filename: ${{ env.playlist_girls_svg }}
-          token: NOT_NEEDED
-          base: ""
-          plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_playlist: ${{ env.playlist_girls }}
-          plugin_music_limit: 2
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
-        with:
           filename: ${{ env.playlist_lofi_svg }}
           token: NOT_NEEDED
           base: ""
           plugin_music: yes
-          plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_lofi }}
-          plugin_music_limit: 2
   spotify-metrics-2:
     environment: metrics
     runs-on: ubuntu-latest
