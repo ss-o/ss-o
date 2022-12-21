@@ -35,16 +35,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_music: yes
-          plugin_music_playlist: ${{ env.playlist_west_svg }}
-          plugin_music_limit: 2
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
-        with:
-          filename: ${{ env.playlist_east_svg }}
-          token: NOT_NEEDED
-          base: ""
-          plugin_music: yes
-          plugin_music_playlist: ${{ env.playlist_east }}
-          plugin_music_limit: 2
+          plugin_music_playlist: ${{ env.playlist_west }}
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.playlist_lofi_svg }}
