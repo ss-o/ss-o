@@ -9,15 +9,15 @@ on:
   workflow_dispatch: {}
 
 env:
-  recent_svg: metrics/plugin/music/spotify/recent.svg
-  top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
-  top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
-  playlist_lofi: https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi
-  playlist_lofi_svg: metrics/plugin/music/spotify/lofi.svg
-  playlist_east: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
-  playlist_east_svg: metrics/plugin/music/spotify/east.svg
-  playlist_west: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
-  playlist_west_svg: metrics/plugin/music/spotify/west.svg
+  recent_svg: "metrics/plugin/music/spotify/recent.svg"
+  top_tracks_svg: "metrics/plugin/music/spotify/top-tracks.svg"
+  top_artists_svg: "metrics/plugin/music/spotify/top-artists.svg"
+  playlist_lofi: "https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi"
+  playlist_lofi_svg: "metrics/plugin/music/spotify/lofi.svg"
+  playlist_east: "https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w"
+  playlist_east_svg: "metrics/plugin/music/spotify/east.svg"
+  playlist_west: "https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd"
+  playlist_west_svg: "metrics/plugin/music/spotify/west.svg"
 
 jobs:
   spotify-metrics-1:
@@ -36,14 +36,16 @@ jobs:
           base: ""
           plugin_music: yes
           plugin_music_mode: playlist
-          plugin_music_playlist: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
+          plugin_music_provider: spotify
+          plugin_music_playlist: ${{ env.playlist_west }}
       - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
         with:
           filename: ${{ env.playlist_lofi_svg }}
           token: NOT_NEEDED
           base: ""
           plugin_music: yes
-          plugin_music_mode: playlist          
+          plugin_music_mode: playlist
+          plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_lofi }}
   spotify-metrics-2:
     environment: metrics

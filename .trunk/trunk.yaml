@@ -4,14 +4,13 @@ cli:
   options:
     - commands: [ALL]
       args: --monitor=true
-    - commands: [check, fm]
+    - commands: [check]
       args: -y
 plugins:
   sources:
     - id: trunk
       ref: v0.0.8
       uri: https://github.com/trunk-io/plugins
-      import_to_global: true
 lint:
   enabled:
     - gofmt@1.19.3
