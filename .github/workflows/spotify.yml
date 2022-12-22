@@ -29,7 +29,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.playlist_west_svg }}
           token: NOT_NEEDED
@@ -38,7 +38,7 @@ jobs:
           plugin_music_mode: playlist
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_west }}
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.playlist_lofi_svg }}
           token: NOT_NEEDED
@@ -56,7 +56,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.recent_svg }}
           token: NOT_NEEDED
@@ -68,7 +68,7 @@ jobs:
           plugin_music_time_range: short
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 4
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.top_tracks_svg }}
           token: NOT_NEEDED
@@ -80,7 +80,7 @@ jobs:
           plugin_music_time_range: short
           plugin_music_top_type: tracks
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@f99da6c94154d2a35384b004b2cfbd7cc83830b9
+      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.top_artists_svg }}
           token: NOT_NEEDED
