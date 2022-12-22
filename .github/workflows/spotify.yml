@@ -38,6 +38,7 @@ jobs:
           plugin_music_mode: playlist
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_west }}
+          plugin_music_limit: 2
       - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.playlist_lofi_svg }}
@@ -47,6 +48,7 @@ jobs:
           plugin_music_mode: playlist
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_lofi }}
+          plugin_music_limit: 2
   spotify-metrics-2:
     environment: metrics
     runs-on: ubuntu-latest
@@ -67,7 +69,7 @@ jobs:
           plugin_music_played_at: false
           plugin_music_time_range: short
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_limit: 4
+          plugin_music_limit: 2
       - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.top_tracks_svg }}
