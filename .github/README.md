@@ -92,16 +92,6 @@
 <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
 <p align="center">
 <!--
-<a
-  target="_self"
-  href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi"
->
-  <img
-    align="center"
-    width="70%"
-    height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi_favorites.svg"
-  />
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
   <img
     align="center"
@@ -111,6 +101,14 @@
   />
 </a>
 -->
+<a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
+  <img
+    align="center"
+    width="70%"
+    height="auto"
+    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg"
+  />
+</a>
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
   <img
     align="center"
