@@ -10,7 +10,6 @@ on:
 
 env:
   metrics_svg: metrics/plugin/metrics.svg
-  licenses_svg: metrics/plugin/licenses.svg
   followup_svg: metrics/plugin/followup-indepth.svg
   topics_icons_svg: metrics/plugin/topics-icons.svg
   languages_details_svg: metrics/plugin/languages-details.svg
@@ -40,15 +39,6 @@ jobs:
           user: ${{ github.repository_owner }}
           base: header, activity,community,repositories
           base_indepth: yes
-      - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
-        with:
-          filename: ${{ env.licenses_svg }}
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          user: ${{ github.repository_owner }}
-          plugin_licenses: yes
-          plugin_licenses_legal: no
-          plugin_licenses_ratio: yes
       - uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
         with:
           filename: ${{ env.followup_svg }}
