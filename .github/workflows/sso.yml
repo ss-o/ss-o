@@ -30,6 +30,7 @@ jobs:
     concurrency:
       group: ci-${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
+    if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@520ff377142700a2e98fb3ee39798b6b8c43fe98
