@@ -2,7 +2,7 @@
 name: "🌀 SSO"
 on:
   schedule:
-    - cron: "09 09 * * *"
+    - cron: "09 09 * * */2"
   workflow_dispatch:
   push:
     branches: [main]
