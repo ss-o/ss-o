@@ -54,7 +54,7 @@
 </a>
 </p>
 <p align="center">
-<a href="#">
+<a href="https://github.com/discussions/commented?discussions_q=commenter%3Ass-o+">
   <img
     align="center"
     width="80%"
@@ -65,26 +65,26 @@
 </a>
 </p>
 <p align="center">
-<a href="#">
-  <img
-    align="center"
-    width="80%"
-    height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
-    alt="Reactions"
-  />
-</a>
+  <a href="#">
+    <img
+      align="center"
+      width="80%"
+      height="auto"
+      src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
+      alt="Reactions"
+    />
+  </a>
 </p>
 <p align="center">
-<a href="#">
-  <img
-    align="center"
-    width="80%"
-    height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/languages-details.svg"
-    alt="languages"
-  />
-</a>  
+  <a href="#">
+    <img
+      align="center"
+      width="80%"
+      height="auto"
+      src="https://ss-o.github.io/ss-o/plugin/languages-details.svg"
+      alt="languages"
+    />
+  </a>  
 </p>
 
 <!-- no-music = no-code -->
@@ -122,14 +122,27 @@
 
 <br />
 <p align="center">
-  <a title="Google DEV" target="_self" href="https://g.dev/sall/">
+  <a target="_self" href="https://g.dev/sall/">
     <img align="center" src="https://img.shields.io/badge/-G.DEV-222222?style=flat-square&logo=google&logoColor=white&link=https://g.dev/sall/"
   />
   </a>
-  <a title="DEV" target="_self" href="https://dev.to/sso/">
+  <a target="_self" href="https://dev.to/sso/">
     <img
       align="center"
       src="https://img.shields.io/badge/-DEV-222222?style=flat-square&logo=dev.to&logoColor=white&link=https://dev.to/sso/"
+    />
+  </a>
+  <a target="_self" href="https://gitlab.com/ss-o/">
+    <img
+      align="center"
+      src="https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/"
+    />
+  </a>
+  <!--  
+  <a title="Reddit" target="_self" href="https://www.reddit.com/u/ss-o/">
+    <img
+      align="center"
+      src="https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/u/ss-o/"
     />
   </a>
   <a title="Twitter" target="_self" href="https://twitter.com/salldc/">
@@ -138,29 +151,13 @@
       src="https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/salldc/"
     />
   </a>
-  <a title="GitLab" target="_self" href="https://gitlab.com/ss-o/">
-    <img
-      align="center"
-      src="https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/"
-    />
-  </a>
-  <a title="Reddit" target="_self" href="https://www.reddit.com/u/ss-o/">
-    <img
-      align="center"
-      src="https://img.shields.io/badge/-Reddit-222222?style=flat-square&logo=Reddit&logoColor=white&link=https://https://www.reddit.com/u/ss-o/"
-    />
-  </a>
-  <!--
   <a title="LinkedIn" target="_self" href="https://www.linkedin.com/in/ss-o/">
     <img
       align="center"
       src="https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white"
     />
   </a>
-  -->
-  <a
-    title="stackoverflow"
-    target="_self"
+  <a target="_self"
     href="https://stackoverflow.com/users/13893752/salvydas-lukosius"
   >
     <img
@@ -168,4 +165,5 @@
       src="https://img.shields.io/badge/-Stack%20Overflow-222222?style=flat-square&logo=stack-overflow&logoColor=white"
     />
   </a>
+  -->
 </p>
