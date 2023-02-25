@@ -116,10 +116,14 @@
     height="auto"
     src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg"
   />
-</a></p>
+</a>
+
+![Beat](https://https://user-images.githubusercontent.com/59910950/221380936-c3b5d9be-c9d7-4649-88a1-0dd37708155f.gif)
+
+</p>
 
 <!-- contact-badges -->
-
+<!--
 <br />
 <p align="center">
   <a target="_self" href="https://g.dev/sall/">
@@ -137,8 +141,7 @@
       align="center"
       src="https://img.shields.io/badge/-GitLab-222222?style=flat-square&logo=GitLab&logoColor=white&link=https://gitlab.com/ss-o/"
     />
-  </a>
-  <!--  
+  </a>  
   <a title="Reddit" target="_self" href="https://www.reddit.com/u/ss-o/">
     <img
       align="center"
@@ -166,4 +169,3 @@
     />
   </a>
   -->
-</p>
