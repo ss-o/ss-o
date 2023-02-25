@@ -90,7 +90,7 @@
 <!-- no-music = no-code -->
 
 <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
-<p align="center">
+<div align="justify">
 <!--
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
   <img
@@ -101,26 +101,18 @@
   />
 </a>
 -->
+<p align="center">
 <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-  <img
-    align="center"
-    width="70%"
-    height="auto"
+  <img align="center" width="60%" height="auto"
     src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg"
   />
 </a>
+  <img align="center" src="https://user-images.githubusercontent.com/59910950/221380936-c3b5d9be-c9d7-4649-88a1-0dd37708155f.gif" width="30%" height="auto" />
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-  <img
-    align="center"
-    width="70%"
-    height="auto"
+  <img align="center" width="60%" height="auto"
     src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg"
   />
-</a>
-
-![Beat](https://https://user-images.githubusercontent.com/59910950/221380936-c3b5d9be-c9d7-4649-88a1-0dd37708155f.gif)
-
-</p>
+</a></p></div>
 
 <!-- contact-badges -->
 <!--
