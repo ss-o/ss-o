@@ -73,7 +73,7 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: Platane/snk@fd7cc1f05ae57f226c15a5858b10f634eb726c68
+      - uses: Platane/snk@3acebc09eb8ab0e86b3df011dd483a6d3724d280
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
