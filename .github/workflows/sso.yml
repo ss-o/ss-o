@@ -1,9 +1,9 @@
 ---
-name: "🌀 SSO"
+name: 🌀 SSO
 on:
   schedule:
-    - cron: "09 09 * * */2"
-  workflow_dispatch:
+    - cron: 09 09 * * */2
+  workflow_dispatch: {}
   push:
     branches: [main]
     paths: [.github/workflows/sso.yml]

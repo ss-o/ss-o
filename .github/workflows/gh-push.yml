@@ -1,5 +1,5 @@
 ---
-name: "🚀 Deploy GH Pages"
+name: 🚀 Deploy GH Pages
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
       - assets/**
   workflow_run:
     workflows:
-      - "🌀 SSO"
-      - "🌀 SPOTIFY"
+      - 🌀 SSO
+      - 🌀 SPOTIFY
     types: [completed]
   workflow_dispatch: {}
 

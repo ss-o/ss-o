@@ -1,23 +1,23 @@
 ---
-name: "🌀 SPOTIFY"
+name: 🌀 SPOTIFY
 on:
   schedule:
-    - cron: "20 20 * * */2"
+    - cron: 20 20 * * */2
   push:
     branches: [main]
     paths: [.github/workflows/spotify.yml]
   workflow_dispatch: {}
 
 env:
-  recent_svg: "metrics/plugin/music/spotify/recent.svg"
-  top_tracks_svg: "metrics/plugin/music/spotify/top-tracks.svg"
-  top_artists_svg: "metrics/plugin/music/spotify/top-artists.svg"
-  playlist_lofi: "https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi"
-  playlist_lofi_svg: "metrics/plugin/music/spotify/lofi.svg"
-  playlist_east: "https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w"
-  playlist_east_svg: "metrics/plugin/music/spotify/east.svg"
-  playlist_west: "https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd"
-  playlist_west_svg: "metrics/plugin/music/spotify/west.svg"
+  recent_svg: metrics/plugin/music/spotify/recent.svg
+  top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
+  top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
+  playlist_lofi: https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi
+  playlist_lofi_svg: metrics/plugin/music/spotify/lofi.svg
+  playlist_east: https://open.spotify.com/embed/playlist/1X0xAsHWCpamURi0SJqV3w
+  playlist_east_svg: metrics/plugin/music/spotify/east.svg
+  playlist_west: https://open.spotify.com/embed/playlist/2MvEUsMh1eGSrezcirrXFd
+  playlist_west_svg: metrics/plugin/music/spotify/west.svg
 
 jobs:
   spotify-metrics-1:
