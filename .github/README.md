@@ -4,35 +4,32 @@
 <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
 </h2>
 -->
-
-<h2 align="center">
-  <p align="center">
-    <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
-    <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
-    <a href="https://digitalclouds.crowdin.com/">&nbsp;&nbsp; 🗣️ &nbsp;&nbsp;</a>
-    <a href="https://digital-clouds.cloudflareaccess.com/">&nbsp;&nbsp; 🎯 &nbsp;&nbsp;</a>
-    <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
-    <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
-  </p>
-</h2>
-<div align="center">
-  <p>
-  <a target="_self" href="https://git.io/JJwwg">
-    <img
-      target="_self"
-      align="center"
-      width="80%"
-      height="auto"
+<div class="header">
+  <h2 align="center">
+    <p align="center">
+      <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
+      <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
+      <a href="https://digitalclouds.crowdin.com/">&nbsp;&nbsp; 🗣️ &nbsp;&nbsp;</a>
+      <a href="https://digital-clouds.cloudflareaccess.com/">&nbsp;&nbsp; 🎯 &nbsp;&nbsp;</a>
+      <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
+      <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
+    </p>
+  </h2>
+  <div align="center">
+    <a target="_self" href="https://git.io/JJwwg">
+      <img target="_self" align="center" width="80%" height="auto"
       src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
-      alt="When times are good be grateful, when times are bad be graceful"
-    />
-  </a>
-  </p>
+      alt="When times are good be grateful, when times are bad be graceful" />
+    </a>
+  </div>
 </div>
 
 <!-- profile-stats -->
 
-<div align="center"><a href="https://github.com/ss-o#gh-dark-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="S-Dark" /></a><a href="https://github.com/ss-o#gh-light-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake.svg" alt="S-Light" /></a></div>
+<div align="center">
+  <a href="https://github.com/ss-o#gh-dark-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="S-Dark" /></a><a href="https://github.com/ss-o#gh-light-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake.svg" alt="S-Light" />
+  </a>
+</div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
   <img
@@ -44,7 +41,7 @@
   /></a>
 </p>
 <p align="center">
-<a href="#">
+<a href="https://git.io/JJwwg">
   <img
     align="center"
     width="80%"
@@ -66,7 +63,7 @@
 </a>
 </p>
 <p align="center">
-  <a href="#">
+  <a href="https://git.io/JJwwg">
     <img
       align="center"
       width="80%"
@@ -77,7 +74,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="#">
+  <a href="https://git.io/JJwwg">
     <img
       align="center"
       width="80%"
@@ -91,7 +88,7 @@
 <!-- no-music = no-code -->
 
 <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
-<div align="justify">
+<div align="center">
 <!--
 <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
   <img
@@ -102,22 +99,24 @@
   />
 </a>
 -->
-<p align="center">
-<a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-  <img align="center" width="60%" height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg"
-  />
-</a>
-  <img align="center" src="https://user-images.githubusercontent.com/59910950/221380936-c3b5d9be-c9d7-4649-88a1-0dd37708155f.gif#gh-light-mode-only" width="30%" height="auto" />
-<a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-  <img align="center" width="60%" height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg"
-  />
-</a></p></div>
+  <div class="section">
+    <p align="center">
+      <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
+        <img align="justify" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
+      </a>
+      <img align="justify" src="https://gcp.imgix.net/img/waveform.gif" width="12%" height="auto" />
+      <img align="justify" src="https://gcp.imgix.net/img/waveform.gif" width="12%" height="auto" />
+      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+        <img align="justify" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+      </a>
+    </p>
+  </div>
+</div>
 
 <!-- contact-badges -->
 
 <!--
+  <img align="center" src="https://user-images.githubusercontent.com/59910950/221380936-c3b5d9be-c9d7-4649-88a1-0dd37708155f.gif#gh-light-mode-only" width="40%" height="auto" />
 <br />
 <p align="center">
   <a target="_self" href="https://g.dev/sall/">
