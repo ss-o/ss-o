@@ -89,14 +89,17 @@
 
 <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
 <div align="center">
-    <img align="left" src="https://gcp.imgix.net/img/waveform.gif" width="5%" height="auto" />
-    <img align="right" src="https://gcp.imgix.net/img/waveform.gif" width="5%" height="auto" />
+  <div>
+    <img align="left" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
+    <img align="right" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
+  </div><div>
     <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-      <img width="60%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
+      <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
     </a>
     <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-      <img width="60%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+      <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
     </a>
+    </div>
 </div>
 
 <!-- contact-badges -->
