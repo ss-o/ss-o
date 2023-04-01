@@ -89,28 +89,14 @@
 
 <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
 <div align="center">
-<!--
-<a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73/recently-played-artists">
-  <img
-    align="center"
-    width="70%"
-    height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-artists.svg"
-  />
-</a>
--->
-  <div class="section">
-    <p align="center">
-      <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-        <img align="justify" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
-      </a>
-      <img align="justify" src="https://gcp.imgix.net/img/waveform.gif" width="12%" height="auto" />
-      <img align="justify" src="https://gcp.imgix.net/img/waveform.gif" width="12%" height="auto" />
-      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img align="justify" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
-      </a>
-    </p>
-  </div>
+    <img align="left" src="https://gcp.imgix.net/img/waveform.gif" width="5%" height="auto" />
+    <img align="right" src="https://gcp.imgix.net/img/waveform.gif" width="5%" height="auto" />
+    <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
+      <img width="60%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
+    </a>
+    <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+      <img width="60%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+    </a>
 </div>
 
 <!-- contact-badges -->
