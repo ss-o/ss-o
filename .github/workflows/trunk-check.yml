@@ -18,7 +18,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     permissions:
-      actions: write    
+      actions: write
     steps:
       - name: ✅ Checkout
         uses: actions/checkout@v3
