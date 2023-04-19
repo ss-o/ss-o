@@ -30,7 +30,7 @@ jobs:
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@69f6871c24eb50993ab9ed2092a38859ea30589c
+      - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:
           filename: ${{ env.playlist_west_svg }}
           token: NOT_NEEDED
@@ -40,7 +40,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_playlist: ${{ env.playlist_west }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@69f6871c24eb50993ab9ed2092a38859ea30589c
+      - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:
           filename: ${{ env.playlist_lofi_svg }}
           token: NOT_NEEDED
@@ -59,7 +59,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@69f6871c24eb50993ab9ed2092a38859ea30589c
+      - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:
           filename: ${{ env.recent_svg }}
           token: NOT_NEEDED
@@ -71,7 +71,7 @@ jobs:
           plugin_music_time_range: short
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@69f6871c24eb50993ab9ed2092a38859ea30589c
+      - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:
           filename: ${{ env.top_tracks_svg }}
           token: NOT_NEEDED
@@ -83,7 +83,7 @@ jobs:
           plugin_music_time_range: short
           plugin_music_top_type: tracks
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@69f6871c24eb50993ab9ed2092a38859ea30589c
+      - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:
           filename: ${{ env.top_artists_svg }}
           token: NOT_NEEDED
