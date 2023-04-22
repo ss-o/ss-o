@@ -92,6 +92,6 @@ jobs:
           plugin_music_mode: top
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_time_range: long
+          plugin_music_time_range: month
           plugin_music_top_type: artists
-          plugin_music_limit: 2
+          plugin_music_limit: 4
