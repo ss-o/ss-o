@@ -80,7 +80,7 @@ jobs:
             ${{ env.snake_svg }}
             ${{ env.snake_dark_svg }}
       - if: success()
-        uses: crazy-max/ghaction-github-pages@d875ccaa9343b75d10e261344954e0e95074bea8
+        uses: crazy-max/ghaction-github-pages@b4942649bd040b58b6ac18d698027ab06f31c275
         with:
           author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
           committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
