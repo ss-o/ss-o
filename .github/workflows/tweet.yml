@@ -5,6 +5,9 @@ on:
     paths: tweets
   pull_request:
     paths: tweets
+
+permissions: read-all
+
 jobs:
   preview:
     name: 👀 Preview

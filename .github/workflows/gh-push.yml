@@ -12,12 +12,17 @@ on:
     types: [completed]
   workflow_dispatch: {}
 
+permissions: read-all
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     timeout-minutes: 15
+    permissions:
+      deployments: write
+      pages: write
     steps:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
