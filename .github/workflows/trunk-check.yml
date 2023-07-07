@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       checks: write
+      actions: write
+      statuses: write
+      contents: write
+      deployments: write
     steps:
       - name: ✅ Checkout
         uses: actions/checkout@v3
