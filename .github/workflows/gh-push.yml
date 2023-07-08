@@ -23,6 +23,8 @@ jobs:
     permissions:
       deployments: write
       pages: write
+      contents: write
+      pull-requests: write
     steps:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
