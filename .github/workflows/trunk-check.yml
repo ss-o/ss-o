@@ -24,7 +24,5 @@ jobs:
     steps:
       - name: ✅ Checkout
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GH_PAT }}
       - name: ✨ Trunk Check
-        uses: trunk-io/trunk-action@42569983d45f9899b2343da8bcf135f6d45a3bb5
+        uses: trunk-io/trunk-action@b61eb5749343e65e59ef104575a328b59f7285df
