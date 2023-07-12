@@ -17,9 +17,9 @@ lint:
     - gofmt
     - golangci-lint
   enabled:
-    - checkov@2.3.314
+    - checkov@2.3.318
     - gokart@0.5.1
-    - trivy@0.43.0
+    - trivy@0.43.1
     - trufflehog@3.43.0
     - markdownlint@0.35.0
     - actionlint@1.6.25
