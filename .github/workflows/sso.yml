@@ -1,5 +1,6 @@
 ---
 name: 🌀 SSO
+
 on:
   schedule:
     - cron: 09 09 * * */2
@@ -7,6 +8,12 @@ on:
   push:
     branches: [main]
     paths: [.github/workflows/sso.yml]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: read-all
 
 env:
   metrics_svg: metrics/plugin/metrics.svg
@@ -16,6 +23,7 @@ env:
   starlists_languages_svg: metrics/plugin/starlists-languages.svg
   snake_svg: metrics/plugin/snake.svg
   snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
+  snake_custom_gif: metrics/plugin/custom.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
   z_shell_stargazers_svg: metrics/plugin/stargazers.svg
   discussions_svg: metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
@@ -25,11 +33,13 @@ env:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      deployments: write
+      pages: write
+      id-token: write    
     timeout-minutes: 60
     environment: production
-    concurrency:
-      group: ci-${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: true
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@v3
@@ -79,6 +89,7 @@ jobs:
           outputs: |
             ${{ env.snake_svg }}
             ${{ env.snake_dark_svg }}
+            ${{ env.snake_custom_gif }}
       - if: success()
         uses: crazy-max/ghaction-github-pages@b4942649bd040b58b6ac18d698027ab06f31c275
         with:
