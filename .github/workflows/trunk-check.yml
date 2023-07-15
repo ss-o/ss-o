@@ -6,28 +6,28 @@ on:
   pull_request:
     types: [opened, synchronize]
   schedule:
-    - cron: "0 8 * * 1-5"    
+    - cron: "0 8 * * 1-5"
   workflow_dispatch:
     inputs:
       logLevel:
-        description: 'Log level'
+        description: "Log level"
         required: true
-        default: 'warning'
+        default: "warning"
         type: choice
         options:
           - info
           - warning
           - debug
       print_tags:
-        description: 'True to print to STDOUT'
+        description: "True to print to STDOUT"
         required: true
         type: boolean
       tags:
-        description: 'Test scenario tags'
+        description: "Test scenario tags"
         required: true
         type: string
       environment:
-        description: 'Environment to run tests against'
+        description: "Environment to run tests against"
         type: environment
         required: true
 
@@ -39,9 +39,9 @@ permissions: read-all
 
 jobs:
   check:
-    if: github.event.pull_request  
+    if: github.event.pull_request
     runs-on: ubuntu-latest
-    environment: production    
+    environment: production
     permissions:
       checks: write
       actions: write
@@ -56,8 +56,8 @@ jobs:
         uses: trunk-io/trunk-action@b61eb5749343e65e59ef104575a328b59f7285df
   upgrade:
     if: github.event.schedule == '0 8 * * 1-5'
-    runs-on: ubuntu-latest    
-    environment: production    
+    runs-on: ubuntu-latest
+    environment: production
     permissions:
       contents: write
       pull-requests: write
