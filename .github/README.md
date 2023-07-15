@@ -25,10 +25,12 @@
 </div>
 
 <!-- profile-stats -->
-
 <div align="center">
-  <a href="https://github.com/ss-o#gh-dark-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" alt="S-Dark" /></a><a href="https://github.com/ss-o#gh-light-mode-only"><img target="_self" align="center" width="80%" height="auto" src="https://ss-o.github.io/ss-o/plugin/snake.svg" alt="S-Light" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ss-o.github.io/ss-o/plugin/snake.svg" />
+    <img alt="github-snake" src="https://ss-o.github.io/ss-o/plugin/snake.svg" align="center" />
+  </picture>
 </div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
