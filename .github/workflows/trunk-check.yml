@@ -41,6 +41,7 @@ jobs:
   check:
     if: github.event.pull_request  
     runs-on: ubuntu-latest
+    environment: production    
     permissions:
       checks: write
       actions: write
@@ -56,6 +57,7 @@ jobs:
   upgrade:
     if: github.event.schedule == '0 8 * * 1-5'
     runs-on: ubuntu-latest    
+    environment: production    
     permissions:
       contents: write
       pull-requests: write
@@ -67,8 +69,9 @@ jobs:
   cache:
     if: github.event.push
     runs-on: ubuntu-latest
+    environment: production
     permissions:
-      contents: write    
+      contents: write
     steps:
       - name: ✅ Checkout
         uses: actions/checkout@v3
