@@ -37,7 +37,7 @@ jobs:
       contents: write
       deployments: write
       pages: write
-      id-token: write    
+      id-token: write
     timeout-minutes: 60
     environment: production
     if: github.repository == 'ss-o/ss-o'
