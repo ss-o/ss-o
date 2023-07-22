@@ -6,9 +6,11 @@ plugins:
     - id: configs
       ref: v0.0.4
       uri: https://github.com/trunk-io/configs
+      import_to_global: true
     - id: trunk
       ref: v1.0.0
       uri: https://github.com/trunk-io/plugins
+      import_to_global: true
 lint:
   disabled:
     - checkov
