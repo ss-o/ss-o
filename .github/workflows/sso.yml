@@ -105,7 +105,8 @@ jobs:
           base: ""
           plugin_wakatime: yes
           plugin_wakatime_days: 30
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections:
+            time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
       - uses: lowlighter/metrics@f6c4f63ecfbc342039ad33651e74a8519989b380
         with:

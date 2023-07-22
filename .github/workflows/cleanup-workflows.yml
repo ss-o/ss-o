@@ -14,11 +14,14 @@ on:
         type: string
         default: "6"
       delete_workflow_pattern:
-        description: "The name or filename of the workflow. if not set then it will target all workflows."
+        description:
+          "The name or filename of the workflow. if not set then it will target all workflows."
         type: string
         required: false
       delete_workflow_by_state_pattern:
-        description: "Remove workflow by state: active, deleted, disabled_fork, disabled_inactivity, disabled_manually"
+        description:
+          "Remove workflow by state: active, deleted, disabled_fork, disabled_inactivity,
+          disabled_manually"
         required: true
         default: "All"
         type: choice
@@ -29,7 +32,8 @@ on:
           - disabled_inactivity
           - disabled_manually
       delete_run_by_conclusion_pattern:
-        description: "Remove workflow by conclusion: action_required, cancelled, failure, skipped, success"
+        description:
+          "Remove workflow by conclusion: action_required, cancelled, failure, skipped, success"
         required: true
         default: "All"
         type: choice
