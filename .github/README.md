@@ -4,34 +4,33 @@
 <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
 </h2>
 -->
-<div class="header">
-  <h2 align="center">
-    <p align="center">
-      <a href="https://www.emojicopy.com/">&nbsp;&nbsp; 👽 &nbsp;&nbsp;</a>
-      <a href="https://googlecloudcheatsheet.withgoogle.com/">&nbsp;&nbsp; 👀 &nbsp;&nbsp;</a>
-      <a href="https://digitalclouds.crowdin.com/">&nbsp;&nbsp; 🗣️ &nbsp;&nbsp;</a>
-      <a href="https://digital-clouds.cloudflareaccess.com/">&nbsp;&nbsp; 🎯 &nbsp;&nbsp;</a>
-      <a href="https://osint.digitalclouds.pro/">&nbsp;&nbsp; 🕵 &nbsp;&nbsp;</a>
-      <a href="https://wiki.zshell.dev/">&nbsp;&nbsp; ℹ️ &nbsp;&nbsp;</a>
-    </p>
-  </h2>
-  <div align="center">
+<div class="header" align="center">
+  <p align="center">
     <a target="_self" href="https://git.io/JJwwg">
-      <img target="_self" align="center" width="80%" height="auto"
-      src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png"
-      alt="When times are good be grateful, when times are bad be graceful" />
+      <picture>
+        <img  alt="When times are good be grateful, when times are bad be graceful" src="https://user-images.githubusercontent.com/59910950/160251651-fdb69415-e142-442e-9b6b-7689d6324a93.png" align="center" width="80%" height="auto" />
+      </picture>
     </a>
-  </div>
+  </p>
+  <h3 align="center">
+    <p align="center">
+      &nbsp;&nbsp; <a href="https://www.emojicopy.com/">👽</a> &nbsp;&nbsp;
+      &nbsp;&nbsp; <a href="https://googlecloudcheatsheet.withgoogle.com/">👀</a> &nbsp;&nbsp;
+      &nbsp;&nbsp; <a href="https://digitalclouds.crowdin.com/">🗣️</a> &nbsp;&nbsp;
+      &nbsp;&nbsp; <a href="https://digital-clouds.cloudflareaccess.com/">🎯</a> &nbsp;&nbsp;
+      &nbsp;&nbsp; <a href="https://osint.digitalclouds.pro/">🕵</a> &nbsp;&nbsp;
+      &nbsp;&nbsp; <a href="https://wiki.zshell.dev/">ℹ️</a> &nbsp;&nbsp;
+    </p>
+  </h3>
 </div>
 
 <!-- profile-stats -->
-<div align="center">
+<div class="body" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://ss-o.github.io/ss-o/plugin/snake.svg" />
-    <img alt="github-snake" src="https://ss-o.github.io/ss-o/plugin/snake.svg" align="center" />
+    <img alt="github-snake" src="https://ss-o.github.io/ss-o/plugin/snake.svg" width="80%" align="center" />
   </picture>
-</div>
 <p align="center">
   <a href="https://wakatime.com/@sall">
   <img
@@ -86,22 +85,22 @@
     />
   </a>
 </p>
+</div>
 
 <!-- no-music = no-code -->
 
-<h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
-<div align="center">
-  <div>
+<div class="footer" align="center">
+  <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
+  <p>
     <img align="left" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
     <img align="right" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
-  </div><div>
     <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
       <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
     </a>
     <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
       <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
     </a>
-    </div>
+  </p>
 </div>
 
 <!-- contact-badges -->
