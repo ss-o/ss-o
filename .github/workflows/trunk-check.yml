@@ -43,7 +43,7 @@ jobs:
       - name: ✅ Checkout
         uses: actions/checkout@v3
       - name: ✨ Trunk Upgrade
-        uses: trunk-io/trunk-action/upgrade@v1.1.6
+        uses: trunk-io/trunk-action/upgrade@v1.1.7
   cache:
     if: github.event.push
     runs-on: ubuntu-latest
