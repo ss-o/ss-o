@@ -8,7 +8,7 @@ plugins:
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
-      ref: v1.1.1
+      ref: v1.2.1
       uri: https://github.com/trunk-io/plugins
       import_to_global: true
 lint:
