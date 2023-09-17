@@ -1,14 +1,14 @@
 version: 0.1
 cli:
-  version: 1.14.1
+  version: 1.15.0
 plugins:
   sources:
     - id: configs
-      ref: v0.0.6
+      ref: v0.0.7
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
-      ref: v1.2.2
+      ref: v1.2.3
       uri: https://github.com/trunk-io/plugins
       import_to_global: true
 lint:
@@ -24,14 +24,14 @@ lint:
     - golangci-lint
   enabled:
     - gokart@0.5.1
-    - trivy@0.44.1
-    - trufflehog@3.48.0
-    - markdownlint@0.35.0
+    - trivy@0.45.0
+    - trufflehog@3.55.1
+    - markdownlint@0.36.0
     - actionlint@1.6.25
     - git-diff-check
     - gitleaks@8.18.0
     - svgo@3.0.2
-    - prettier@3.0.2
+    - prettier@3.0.3
   ignore:
     - linters: [ALL]
       paths:
