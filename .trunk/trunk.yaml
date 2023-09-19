@@ -1,6 +1,6 @@
 version: 0.1
 cli:
-  version: 1.15.0
+  version: 1.16.0
 plugins:
   sources:
     - id: configs
@@ -24,8 +24,8 @@ lint:
     - golangci-lint
   enabled:
     - gokart@0.5.1
-    - trivy@0.45.0
-    - trufflehog@3.55.1
+    - trivy@0.45.1
+    - trufflehog@3.56.1
     - markdownlint@0.36.0
     - actionlint@1.6.25
     - git-diff-check
