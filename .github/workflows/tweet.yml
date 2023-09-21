@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: gr2m/twitter-together@5c4c327d1ad1ed8e1759e78a697b1cc93c1da692
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
