@@ -42,7 +42,7 @@ jobs:
     environment: production
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
         with:
           filename: ${{ env.metrics_svg }}
