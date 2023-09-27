@@ -31,7 +31,7 @@ jobs:
       - name: ✅ Checkout
         uses: actions/checkout@v4
       - name: ✨ Trunk Check
-        uses: trunk-io/trunk-action@536975db9ea26f0b1c404327c8ee474af7102d1c
+        uses: trunk-io/trunk-action@19a1bc33a47850389145084e615f421a3cdaa685
   upgrade:
     if: github.event.schedule == '0 8 * * 1-5'
     runs-on: ubuntu-latest
@@ -54,6 +54,6 @@ jobs:
       - name: ✅ Checkout
         uses: actions/checkout@v4
       - name: ✨ Trunk Cache
-        uses: trunk-io/trunk-action@536975db9ea26f0b1c404327c8ee474af7102d1c
+        uses: trunk-io/trunk-action@19a1bc33a47850389145084e615f421a3cdaa685
         with:
           check-mode: populate_cache_only
