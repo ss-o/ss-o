@@ -43,14 +43,14 @@ jobs:
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@v4
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.metrics_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
           base: header, activity,community,repositories
           base_indepth: yes
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.followup_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -58,14 +58,14 @@ jobs:
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.z_shell_stargazers_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_stargazers: yes
           user: z-shell
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.topics_icons_svg }}
           token: NOT_NEEDED
@@ -73,7 +73,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.languages_details_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -98,7 +98,7 @@ jobs:
           target_branch: gh-pages
           build_dir: metrics
           keep_history: true
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.wakatime_svg }}
           token: NOT_NEEDED
@@ -108,7 +108,7 @@ jobs:
           plugin_wakatime_sections:
             time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.discussions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -116,7 +116,7 @@ jobs:
           plugin_discussions: yes
           plugin_discussions_categories: no
           plugin_discussions_categories_limit: 8
-      - uses: lowlighter/metrics@1e8d436e6a48b0715730bba672583355026432cd
+      - uses: lowlighter/metrics@d75fc5fbde0a3fe63e8704d77ce3ca86358b50e0
         with:
           filename: ${{ env.reactions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
