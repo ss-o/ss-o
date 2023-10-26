@@ -4,7 +4,7 @@ cli:
 plugins:
   sources:
     - id: configs
-      ref: v0.0.7
+      ref: v0.0.8
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
@@ -25,7 +25,7 @@ lint:
   enabled:
     - gokart@0.5.1
     - trivy@0.46.0
-    - trufflehog@3.60.0
+    - trufflehog@3.60.3
     - markdownlint@0.37.0
     - actionlint@1.6.26
     - git-diff-check
