@@ -91,14 +91,14 @@
 
 <div class="footer" align="center">
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
-  <p>
-    <img align="left" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
-    <img align="right" src="https://gcp.imgix.net/img/waveform.gif" width="10%" height="auto" />
-    <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-      <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
+  <p align="right">
+     <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
+      <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
     </a>
+  </p>
+  <p align="right">
     <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-      <img width="70%" align="right" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+      <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
     </a>
   </p>
 </div>
