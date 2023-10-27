@@ -25,7 +25,7 @@ lint:
   enabled:
     - gokart@0.5.1
     - trivy@0.46.0
-    - trufflehog@3.60.3
+    - trufflehog@3.60.4
     - markdownlint@0.37.0
     - actionlint@1.6.26
     - git-diff-check
