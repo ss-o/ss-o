@@ -24,8 +24,8 @@ lint:
     - golangci-lint
   enabled:
     - gokart@0.5.1
-    - trivy@0.47.0
-    - trufflehog@3.63.2-rc0
+    - trivy@0.48.0
+    - trufflehog@3.63.2
     - markdownlint@0.37.0
     - actionlint@1.6.26
     - git-diff-check
