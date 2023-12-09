@@ -29,7 +29,7 @@ jobs:
       cancel-in-progress: true
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833
         with:
           filename: ${{ env.playlist_west_svg }}
@@ -58,7 +58,7 @@ jobs:
       group: ci-2-${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833
         with:
           filename: ${{ env.recent_svg }}

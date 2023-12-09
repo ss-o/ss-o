@@ -29,7 +29,7 @@ jobs:
       pull-requests: write
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: ✨ Trunk Check
         uses: trunk-io/trunk-action@cf57c926b78958033bf9be80b9b92a286f15b246
   upgrade:
@@ -41,9 +41,9 @@ jobs:
       pull-requests: write
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: ✨ Trunk Upgrade
-        uses: trunk-io/trunk-action/upgrade@v1.1.9
+        uses: trunk-io/trunk-action/upgrade@97ecd21fe6c743bf7a606791584b683a7995c70e # v1.1.9
   cache:
     if: github.event.push
     runs-on: ubuntu-latest
@@ -52,7 +52,7 @@ jobs:
       contents: write
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: ✨ Trunk Cache
         uses: trunk-io/trunk-action@cf57c926b78958033bf9be80b9b92a286f15b246
         with:

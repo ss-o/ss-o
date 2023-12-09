@@ -42,7 +42,7 @@ jobs:
     environment: production
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833
         with:
           filename: ${{ env.metrics_svg }}
@@ -83,7 +83,7 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
