@@ -4,7 +4,7 @@ cli:
 plugins:
   sources:
     - id: configs
-      ref: v1.0.0
+      ref: v1.0.1
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
