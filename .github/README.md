@@ -91,16 +91,14 @@
 
 <div class="footer" align="center">
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
-  <p align="right">
-     <a href="https://open.spotify.com/playlist/31FWVQBp3WQydWLNhO0ACi">
-      <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/lofi.svg" />
-    </a>
-  </p>
-  <p align="right">
-    <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-      <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
-    </a>
-  </p>
+    <div align="rignt">
+      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+        <img width="80%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+      </a>
+      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+        <img width="80%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-tracks.svg" />
+      </a>
+    </div>
 </div>
 
 <!-- contact-badges -->
