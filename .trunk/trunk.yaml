@@ -8,7 +8,7 @@ plugins:
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
-      ref: v1.4.0
+      ref: v1.4.1
       uri: https://github.com/trunk-io/plugins
       import_to_global: true
 lint:
@@ -24,14 +24,14 @@ lint:
     - golangci-lint
   enabled:
     - gokart@0.5.1
-    - trivy@0.48.0
-    - trufflehog@3.63.2
-    - markdownlint@0.37.0
+    - trivy@0.48.1
+    - trufflehog@3.63.4
+    - markdownlint@0.38.0
     - actionlint@1.6.26
     - git-diff-check
     - gitleaks@8.18.1
-    - svgo@3.0.5
-    - prettier@3.1.0
+    - svgo@3.1.0
+    - prettier@3.1.1
   ignore:
     - linters: [ALL]
       paths:
