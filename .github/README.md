@@ -93,10 +93,10 @@
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
     <div align="rignt">
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="80%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" />
       </a>
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="80%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-tracks.svg" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-tracks.svg" />
       </a>
     </div>
 </div>
