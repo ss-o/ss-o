@@ -8,6 +8,8 @@ on:
     paths: [.github/workflows/spotify.yml]
   workflow_dispatch: {}
 
+permissions: read-all
+
 env:
   recent_svg: metrics/plugin/music/spotify/recent.svg
   top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
@@ -22,6 +24,8 @@ jobs:
     concurrency:
       group: ci-${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d

@@ -22,10 +22,10 @@ lint:
     - cspell
     - gofmt
     - golangci-lint
+    - gokart
+    - trivy
+    - trufflehog
   enabled:
-    - gokart@0.5.1
-    - trivy@0.48.1
-    - trufflehog@3.63.7
     - markdownlint@0.38.0
     - actionlint@1.6.26
     - git-diff-check
@@ -33,9 +33,6 @@ lint:
     - svgo@3.1.0
     - prettier@3.1.1
   ignore:
-    - linters: [ALL]
-      paths:
-        - tweets/**
     - linters: [svgo]
       paths:
         - metrics/**

@@ -50,9 +50,15 @@ on:
         default: false
         type: boolean
 
+permissions: read-all
+
 jobs:
   del_runs:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      checks: write
+      contents: write
     steps:
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@39f0bbed25d76b34de5594dceab824811479e5de # v2
