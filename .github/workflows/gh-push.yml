@@ -4,12 +4,12 @@ name: 🚀 Deploy GH Pages
 on:
   push:
     paths:
-      - metrics/**
-  #  workflow_run:
-  #    workflows:
-  #      - 🌀 SSO
-  #      - 🌀 SPOTIFY
-  #    types: [completed]
+      - '*.svg'
+  workflow_run:
+      workflows:
+        - 🌀 SSO
+        - 🌀 SPOTIFY
+      types: [completed]
   workflow_dispatch: {}
 
 permissions: read-all
@@ -28,13 +28,16 @@ jobs:
     steps:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          repository: ${{ github.repository }}
+          path: metrics
       - name: 🚀 Deploy metrics
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847 # v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: metrics
+          publish_dir: .
           user_name: ${{ secrets.ACTIONS_USER }}
           user_email: ${{ secrets.ACTIONS_MAIL }}
-          keep_files: false
+          keep_files: true
