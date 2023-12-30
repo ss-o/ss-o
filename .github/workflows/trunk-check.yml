@@ -9,10 +9,6 @@ on:
     - cron: "0 8 * * 1-5"
   workflow_dispatch: {}
 
-concurrency:
-  group: ${{ github.head_ref || github.run_id }}
-  cancel-in-progress: true
-
 permissions: read-all
 
 jobs:
@@ -20,12 +16,12 @@ jobs:
     if: github.event.pull_request
     runs-on: ubuntu-latest
     environment: production
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     permissions:
-      checks: write
       actions: write
       statuses: write
       contents: write
-      deployments: write
       pull-requests: write
     steps:
       - name: ✅ Checkout
@@ -44,16 +40,3 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: ✨ Trunk Upgrade
         uses: trunk-io/trunk-action/upgrade@97ecd21fe6c743bf7a606791584b683a7995c70e # v1.1.9
-  cache:
-    if: github.event.push
-    runs-on: ubuntu-latest
-    environment: production
-    permissions:
-      contents: write
-    steps:
-      - name: ✅ Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-      - name: ✨ Trunk Cache
-        uses: trunk-io/trunk-action@78986c82771014936f5ee91d639eee272c3c7c08
-        with:
-          check-mode: populate_cache_only
