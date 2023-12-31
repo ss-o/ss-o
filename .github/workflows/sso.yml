@@ -84,21 +84,6 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            ${{ env.snake_svg }}
-            ${{ env.snake_dark_svg }}
-            ${{ env.snake_custom_gif }}
-      - if: success()
-        name: "🆗 Commit"
-        uses: z-shell/.github/actions/commit@main
-        with:
-          commitMessage: Code ${{ github.sha }}
-          workDir: metric/plugin
-          commitUserName: ${{ secrets.ACTIONS_USER }}
-          commitUserEmail: ${{ secrets.ACTIONS_MAIL }}
         #uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
         #with:
         #  author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
@@ -131,6 +116,21 @@ jobs:
           base: ""
           plugin_reactions: yes
           plugin_reactions_details: percentage
+      - uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            ${{ env.snake_svg }}
+            ${{ env.snake_dark_svg }}
+            ${{ env.snake_custom_gif }}
+      - if: success()
+        name: "🆗 Commit"
+        uses: z-shell/.github/actions/commit@main
+        with:
+          commitMessage: Code ${{ github.sha }}
+          workDir: '.'
+          commitUserName: ${{ secrets.ACTIONS_USER }}
+          commitUserEmail: ${{ secrets.ACTIONS_MAIL }}
       #- uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
       #with:
       #    filename: ${{ env.starlists_languages_svg }}
