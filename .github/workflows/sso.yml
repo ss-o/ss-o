@@ -126,7 +126,10 @@ jobs:
             ${{ env.snake_dark_svg }}
             ${{ env.snake_custom_gif }}
       - if: success()
-        name: "🆗 Commit"
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          token: ${{ secrets.SSO_TOKEN }}
+      - name: "🆗 Commit"
         run: |
           git config --global user.name ${{ secrets.ACTIONS_USER }}
           git config --global user.email ${{ secrets.ACTIONS_MAIL }}
