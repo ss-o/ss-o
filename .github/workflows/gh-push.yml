@@ -39,4 +39,4 @@ jobs:
           publish_dir: ./metrics/plugin
           user_name: ${{ secrets.ACTIONS_USER }}
           user_email: ${{ secrets.ACTIONS_MAIL }}
-          keep_files: true
+          keep_files: false

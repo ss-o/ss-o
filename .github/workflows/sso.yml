@@ -24,7 +24,6 @@ env:
   snake_svg: metrics/plugin/snake.svg
   snake_dark_svg: metrics/plugin/snake-dark.svg?palette=github-dark
   snake_custom_gif: metrics/plugin/custom.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-  z_shell_stargazers_svg: metrics/plugin/stargazers.svg
   discussions_svg: metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
   wakatime_svg: metrics/plugin/wakatime.svg
@@ -58,21 +57,23 @@ jobs:
           user: ${{ github.repository_owner }}
           plugin_followup: yes
           plugin_followup_indepth: yes
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
-        with:
-          filename: ${{ env.z_shell_stargazers_svg }}
-          token: ${{ secrets.SSO_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          user: z-shell
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
-        with:
-          filename: ${{ env.topics_icons_svg }}
-          token: NOT_NEEDED
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
+      #      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      #        env:
+      #         z_shell_stargazers_svg: metrics/plugin/stargazers.svg
+      #        with:
+      #          filename: ${{ env.z_shell_stargazers_svg }}
+      #          token: ${{ secrets.SSO_TOKEN }}
+      #          base: ""
+      #          plugin_stargazers: yes
+      #          user: z-shell
+      #      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      #        with:
+      #          filename: ${{ env.topics_icons_svg }}
+      #          token: NOT_NEEDED
+      #          base: ""
+      #          plugin_topics: yes
+      #          plugin_topics_limit: 0
+      #          plugin_topics_mode: icons
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           filename: ${{ env.languages_details_svg }}
@@ -96,8 +97,8 @@ jobs:
           author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
           committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
           target_branch: gh-pages
-          build_dir: metrics
-          keep_history: true
+          build_dir: metrics/plugin
+          keep_history: false
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           filename: ${{ env.wakatime_svg }}
