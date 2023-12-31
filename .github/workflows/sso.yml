@@ -42,6 +42,8 @@ jobs:
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          token: ${{ secrets.SSO_TOKEN }}
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           filename: ${{ env.metrics_svg }}
@@ -86,7 +88,7 @@ jobs:
           plugin_languages_limit: 6
         #uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
         #with:
-        #  author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+        #  author: ${{  <${{ secrets.ACTIONS_MAIL }}>
         #  committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
         #  target_branch: gh-pages
         #  build_dir: metrics/plugin
@@ -125,12 +127,11 @@ jobs:
             ${{ env.snake_custom_gif }}
       - if: success()
         name: "🆗 Commit"
-        uses: z-shell/.github/actions/commit@main
-        with:
-          commitMessage: Code ${{ github.sha }}
-          workDir: '.'
-          commitUserName: ${{ secrets.ACTIONS_USER }}
-          commitUserEmail: ${{ secrets.ACTIONS_MAIL }}
+        run: |
+          git config --global user.name ${{ secrets.ACTIONS_USER }}
+          git config --global user.email ${{ secrets.ACTIONS_MAIL }}
+          git commit -am "${{ github.sha }}"
+          git push
       #- uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
       #with:
       #    filename: ${{ env.starlists_languages_svg }}
