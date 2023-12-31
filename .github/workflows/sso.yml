@@ -42,8 +42,6 @@ jobs:
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-        with:
-          token: ${{ secrets.SSO_TOKEN }}
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           filename: ${{ env.metrics_svg }}
@@ -86,13 +84,6 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-        #uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
-        #with:
-        #  author: ${{  <${{ secrets.ACTIONS_MAIL }}>
-        #  committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
-        #  target_branch: gh-pages
-        #  build_dir: metrics/plugin
-        #  keep_history: false
       - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           filename: ${{ env.wakatime_svg }}
@@ -117,7 +108,7 @@ jobs:
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_reactions: yes
-          plugin_reactions_details: percentage
+          plugin_reactions_details: percentage          
       - uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -126,16 +117,15 @@ jobs:
             ${{ env.snake_dark_svg }}
             ${{ env.snake_custom_gif }}
       - if: success()
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        name: "🆗 Commit"
+        uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
         with:
-          token: ${{ secrets.SSO_TOKEN }}
-      - name: "🆗 Commit"
-        run: |
-          git config --global user.name ${{ secrets.ACTIONS_USER }}
-          git config --global user.email ${{ secrets.ACTIONS_MAIL }}
-          git add metrics/plugin
-          git commit -am "${{ github.sha }}"
-          git push
+          author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+          committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+          target_branch: assets
+          build_dir: metrics/plugin
+          keep_history: true
+        
       #- uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
       #with:
       #    filename: ${{ env.starlists_languages_svg }}
