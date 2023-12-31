@@ -4,12 +4,12 @@ name: 🚀 Deploy GH Pages
 on:
   push:
     paths:
-      - '*.svg'
+      - "*.svg"
   workflow_run:
-      workflows:
-        - 🌀 SSO
-        - 🌀 SPOTIFY
-      types: [completed]
+    workflows:
+      - 🌀 SSO
+      - 🌀 SPOTIFY
+    types: [completed]
   workflow_dispatch: {}
 
 permissions: read-all
