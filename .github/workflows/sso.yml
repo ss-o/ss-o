@@ -130,6 +130,7 @@ jobs:
         run: |
           git config --global user.name ${{ secrets.ACTIONS_USER }}
           git config --global user.email ${{ secrets.ACTIONS_MAIL }}
+          git add metrics/plugin
           git commit -am "${{ github.sha }}"
           git push
       #- uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
