@@ -38,7 +38,7 @@ jobs:
       pages: write
       id-token: write
     timeout-minutes: 60
-    environment: production
+    environment: metrics
     if: github.repository == 'ss-o/ss-o'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
