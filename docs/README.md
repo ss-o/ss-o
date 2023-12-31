@@ -1,7 +1,7 @@
 <!--
 <h1></h1>
 <h2 align="center">
-<a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
+  <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
 </h2>
 -->
 <div class="header" align="center">
@@ -27,9 +27,9 @@
 <!-- profile-stats -->
 <div class="body" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ss-o.github.io/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://ss-o.github.io/snake.svg" />
-    <img alt="github-snake" src="https://ss-o.github.io/snake.svg" width="80%" align="center" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ss-o/ss-o/assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ss-o/ss-o/assets/snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/ss-o/ss-o/assets/snake.svg" width="80%" align="center" />
   </picture>
 <p align="center">
   <a href="https://wakatime.com/@sall">
@@ -37,7 +37,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/wakatime.svg"
+    src="https://ss-o.pages.dev/wakatime.svg"
     alt="Sall Wakatime"
   /></a>
 </p>
@@ -47,7 +47,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/followup-indepth.svg"
+    src="https://ss-o.pages.dev/followup-indepth.svg"
     alt="ID"
   />
 </a>
@@ -58,7 +58,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/discussions.svg"
+    src="https://ss-o.pages.dev/discussions.svg"
     alt="Discussions"
   />
 </a>
@@ -69,7 +69,7 @@
       align="center"
       width="80%"
       height="auto"
-      src="https://ss-o.github.io/reactions.svg"
+      src="https://ss-o.pages.dev/reactions.svg"
       alt="Reactions"
     />
   </a>
@@ -80,7 +80,7 @@
       align="center"
       width="80%"
       height="auto"
-      src="https://ss-o.github.io/languages-details.svg"
+      src="https://ss-o.pages.dev/languages-details.svg"
       alt="languages"
     />
   </a>
@@ -93,10 +93,10 @@
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
     <div align="rignt">
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/music/spotify/recent.svg" alt="spotify-recent" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/music/spotify/recent.svg" alt="spotify-recent" />
       </a>
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/music/spotify/top-tracks.svg" alt="spotify-top" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/music/spotify/top-tracks.svg" alt="spotify-top" />
       </a>
     </div>
 </div>

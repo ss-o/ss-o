@@ -36,9 +36,6 @@ lint:
     - linters: [svgo]
       paths:
         - metrics/**
-    - linters: [markdown-link-check]
-      paths:
-        - docs/README.md
 
 runtimes:
   enabled:
