@@ -27,9 +27,9 @@
 <!-- profile-stats -->
 <div class="body" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ss-o.github.io/ss-o/plugin/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://ss-o.github.io/ss-o/plugin/snake.svg" />
-    <img alt="github-snake" src="https://ss-o.github.io/ss-o/plugin/snake.svg" width="80%" align="center" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://ss-o.github.io/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ss-o.github.io/snake.svg" />
+    <img alt="github-snake" src="https://ss-o.github.io/snake.svg" width="80%" align="center" />
   </picture>
 <p align="center">
   <a href="https://wakatime.com/@sall">
@@ -37,7 +37,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/wakatime.svg"
+    src="https://ss-o.github.io/wakatime.svg"
     alt="Sall Wakatime"
   /></a>
 </p>
@@ -47,7 +47,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/followup-indepth.svg"
+    src="https://ss-o.github.io/followup-indepth.svg"
     alt="ID"
   />
 </a>
@@ -58,7 +58,7 @@
     align="center"
     width="80%"
     height="auto"
-    src="https://ss-o.github.io/ss-o/plugin/discussions.svg"
+    src="https://ss-o.github.io/discussions.svg"
     alt="Discussions"
   />
 </a>
@@ -69,7 +69,7 @@
       align="center"
       width="80%"
       height="auto"
-      src="https://ss-o.github.io/ss-o/plugin/reactions.svg"
+      src="https://ss-o.github.io/reactions.svg"
       alt="Reactions"
     />
   </a>
@@ -80,7 +80,7 @@
       align="center"
       width="80%"
       height="auto"
-      src="https://ss-o.github.io/ss-o/plugin/languages-details.svg"
+      src="https://ss-o.github.io/languages-details.svg"
       alt="languages"
     />
   </a>
@@ -93,10 +93,10 @@
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
     <div align="rignt">
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/recent.svg" alt="spotify-recent" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/music/spotify/recent.svg" alt="spotify-recent" />
       </a>
       <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/ss-o/plugin/music/spotify/top-tracks.svg" alt="spotify-top" />
+        <img width="75%" align="center" height="auto" src="https://ss-o.github.io/music/spotify/top-tracks.svg" alt="spotify-top" />
       </a>
     </div>
 </div>
