@@ -114,8 +114,8 @@ jobs:
             ${{ env.snake_svg }}
             ${{ env.snake_dark_svg }}
             ${{ env.snake_custom_gif }}
-      - if: success() && github.ref == 'refs/heads/assets' 
-        name: "🆗 Publish"      
+      - if: github.ref == 'refs/heads/assets'
+        name: "🆗 Publish"
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
