@@ -27,7 +27,7 @@ env:
   discussions_svg: metrics/discussions.svg
   reactions_svg: metrics/reactions.svg
   wakatime_svg: metrics/wakatime.svg
-  commit_branch: assets
+  commit_branch: gh-pages
 
 jobs:
   metrics:
@@ -119,7 +119,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: assets
+          publish_branch: ${{ env.commit_branch }}
           publish_dir: .
           user_name: ${{ secrets.ACTIONS_USER }}
           user_email: ${{ secrets.ACTIONS_MAIL }}
