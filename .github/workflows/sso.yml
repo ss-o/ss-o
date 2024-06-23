@@ -27,7 +27,6 @@ env:
   discussions_svg: metrics/plugin/discussions.svg
   reactions_svg: metrics/plugin/reactions.svg
   wakatime_svg: metrics/plugin/wakatime.svg
-  GITHUB_TOKEN: ${{ secrets.SSO_TOKEN }}
 
 jobs:
   metrics:
@@ -41,15 +40,18 @@ jobs:
     environment: metrics
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: actions/checkout@v4
+        with:
+           ref: 'assets'
+           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.metrics_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           user: ${{ github.repository_owner }}
           base: header, activity,community,repositories
           base_indepth: yes
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.followup_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -74,7 +76,7 @@ jobs:
       #     plugin_topics: yes
       #     plugin_topics_limit: 0
       #     plugin_topics_mode: icons
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.languages_details_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -84,7 +86,7 @@ jobs:
             html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.wakatime_svg }}
           token: NOT_NEEDED
@@ -94,7 +96,7 @@ jobs:
           plugin_wakatime_sections:
             time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.discussions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
@@ -102,31 +104,32 @@ jobs:
           plugin_discussions: yes
           plugin_discussions_categories: no
           plugin_discussions_categories_limit: 8
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3
         with:
           filename: ${{ env.reactions_svg }}
           token: ${{ secrets.SSO_TOKEN }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_details: percentage          
-      - uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             ${{ env.snake_svg }}
             ${{ env.snake_dark_svg }}
             ${{ env.snake_custom_gif }}
-      - if: success()
-        name: "🆗 Commit"
-        uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
-        with:
-          author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
-          committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
-          target_branch: assets
-          build_dir: metrics/plugin
-          keep_history: true
+
+      #- if: success()
+      #  name: "🆗 Publish"
+      #  uses: crazy-max/ghaction-github-pages@v4
+      #  with:
+      #    author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+      #    committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+      #    target_branch: assets
+      #    build_dir: metrics/plugin
+      #    keep_history: true
         
-      #- uses: lowlighter/metrics@c1240845bc6547ad60bfcf8d26838c82be83d573
+      #- uses: lowlighter/metrics@v3
       #with:
       #    filename: ${{ env.starlists_languages_svg }}
       #    token: NOT_NEEDED
