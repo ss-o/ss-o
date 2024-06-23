@@ -1,10 +1,12 @@
 ---
-name: 🚀 Deploy GH Pages
+name: 🚀 Publish assets
 
 on:
   push:
+    branches:
+      - assets  # Set a branch name to trigger deployment  
     paths:
-      - "*.svg"
+      - '*.svg'
   workflow_run:
     workflows:
       - 🌀 SSO
@@ -23,20 +25,22 @@ jobs:
     permissions:
       deployments: write
       pages: write
+      id-token: write
       contents: write
       pull-requests: write
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.repository }}
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod          
       - name: 🚀 Deploy metrics
-        if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
+        if: github.ref == 'refs/heads/assets'        
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./metrics/plugin
+          publish_branch: assets
+          publish_dir: .
           user_name: ${{ secrets.ACTIONS_USER }}
           user_email: ${{ secrets.ACTIONS_MAIL }}
-          keep_files: false
+          keep_files: true
