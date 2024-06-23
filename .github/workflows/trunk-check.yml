@@ -23,9 +23,9 @@ jobs:
       contents: read # For repo checkout
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+        uses: actions/checkout@v4
       - name: ✨ Trunk Check
-        uses: trunk-io/trunk-action@6eac1bb24506bc4fc043f7df134454bbd702bb9d
+        uses: trunk-io/trunk-action@v1
   upgrade:
     if: github.event.schedule == '0 8 * * 1-5'
     runs-on: ubuntu-latest
@@ -34,6 +34,6 @@ jobs:
       pull-requests: write
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+        uses: actions/checkout@v4
       - name: ✨ Trunk Upgrade
-        uses: trunk-io/trunk-action/upgrade@f6c5f1b90503c30e02059667dbc247f2257b63c5 # v1.1.15
+        uses: trunk-io/trunk-action/upgrade@v1
