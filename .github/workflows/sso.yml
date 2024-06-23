@@ -118,7 +118,7 @@ jobs:
             ${{ env.snake_custom_gif }}
       - if: success()
         name: "🆗 Commit"
-        uses: crazy-max/ghaction-github-pages@8b555c9f5224f847ea58b6dfeeebe8363c1efc38
+        uses: crazy-max/ghaction-github-pages@27f357aa51f614c042be185f971f255cc213454f
         with:
           author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
           committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
