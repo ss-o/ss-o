@@ -8,28 +8,34 @@ on:
     paths: [.github/workflows/spotify.yml]
   workflow_dispatch: {}
 
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions: read-all
 
 env:
-  recent_svg: metrics/plugin/music/spotify/recent.svg
-  top_tracks_svg: metrics/plugin/music/spotify/top-tracks.svg
-  top_artists_svg: metrics/plugin/music/spotify/top-artists.svg
+  recent_svg: metrics/spotify/recent.svg
+  top_tracks_svg: metrics/spotify/top-tracks.svg
+  top_artists_svg: metrics/spotify/top-artists.svg
   playlist_lofi: https://open.spotify.com/embed/playlist/2HR2xejzf2rJ1e7q0rBBcC
-
+  commit_branch: gh-pages
+  
 jobs:
   spotify-metrics:
-    environment: metrics
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    concurrency:
-      group: ci-${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: true
     permissions:
       contents: write
+      deployments: write
+      pages: write
+      id-token: write
+    timeout-minutes: 30
+    environment: metrics
+    if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: lowlighter/metrics@v3.34
         with:
+          committer_branch: ${{ env.commit_branch }}    
           filename: ${{ env.recent_svg }}
           token: NOT_NEEDED
           base: ""
@@ -40,8 +46,10 @@ jobs:
           plugin_music_time_range: short
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+          
+      - uses: lowlighter/metrics@v3.34
         with:
+          committer_branch: ${{ env.commit_branch }}       
           filename: ${{ env.top_tracks_svg }}
           token: NOT_NEEDED
           base: ""
@@ -52,8 +60,10 @@ jobs:
           plugin_music_time_range: short
           plugin_music_top_type: tracks
           plugin_music_limit: 2
-      - uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+          
+      - uses: lowlighter/metrics@v3.34
         with:
+          committer_branch: ${{ env.commit_branch }}            
           filename: ${{ env.top_artists_svg }}
           token: NOT_NEEDED
           base: ""
