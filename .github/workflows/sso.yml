@@ -16,14 +16,14 @@ concurrency:
 permissions: read-all
 
 env:
-  metrics_svg: metrics/metrics.svg
+  metrics_svg: metrics/summary.svg
   followup_svg: metrics/followup-indepth.svg
   topics_icons_svg: metrics/topics-icons.svg
   languages_details_svg: metrics/languages-details.svg
   starlists_languages_svg: metrics/starlists-languages.svg
   snake_svg: metrics/snake.svg
   snake_dark_svg: metrics/snake-dark.svg?palette=github-dark
-  snake_custom_gif: metrics/custom.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+  snake_custom_gif: metrics/custom.gif?color_snake=green&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
   discussions_svg: metrics/discussions.svg
   reactions_svg: metrics/reactions.svg
   wakatime_svg: metrics/wakatime.svg
@@ -103,10 +103,10 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_details: percentage
           
-      - uses: actions/checkout@v4
-        with:
-           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-           ref: 'assets'
+      #- uses: actions/checkout@v4
+      #  with:
+      #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      #     ref: 'assets'
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -114,7 +114,7 @@ jobs:
             ${{ env.snake_svg }}
             ${{ env.snake_dark_svg }}
             ${{ env.snake_custom_gif }}
-      - if: github.ref == 'refs/heads/assets'
+      - if: success()
         name: "🆗 Publish"
         uses: peaceiris/actions-gh-pages@v4
         with:
