@@ -1,0 +1,163 @@
+---
+name: 🌀 SSO
+
+on:
+  schedule:
+    - cron: 09 09 * * */2
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [.github/workflows/sso.yml]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: read-all
+
+env:
+  metrics_svg: metrics/summary.svg
+  followup_svg: metrics/followup-indepth.svg
+  topics_icons_svg: metrics/topics-icons.svg
+  languages_details_svg: metrics/languages-details.svg
+  starlists_languages_svg: metrics/starlists-languages.svg
+  snake_svg: metrics/snake.svg
+  snake_dark_svg: metrics/snake-dark.svg?palette=github-dark
+  snake_custom_gif: metrics/custom.gif?color_snake=green&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+  discussions_svg: metrics/discussions.svg
+  reactions_svg: metrics/reactions.svg
+  wakatime_svg: metrics/wakatime.svg
+  commit_branch: gh-pages
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      deployments: write
+      pages: write
+      id-token: write
+    timeout-minutes: 60
+    environment: metrics
+    if: github.repository == 'ss-o/ss-o'
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.metrics_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          user: ${{ github.repository_owner }}
+          base: header, activity,community,repositories
+          base_indepth: yes
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.followup_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          user: ${{ github.repository_owner }}
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.languages_details_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, handlebars, gnuplot, scss, sass, makefile, lua
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 6
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.wakatime_svg }}
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_days: 30
+          plugin_wakatime_sections:
+            time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.discussions_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories: no
+          plugin_discussions_categories_limit: 8
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          committer_branch: ${{ env.commit_branch }}
+          filename: ${{ env.reactions_svg }}
+          token: ${{ secrets.SSO_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_details: percentage
+
+      #- uses: actions/checkout@v4
+      #  with:
+      #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      #     ref: 'assets'
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            ${{ env.snake_svg }}
+            ${{ env.snake_dark_svg }}
+            ${{ env.snake_custom_gif }}
+      - if: success()
+        name: "🆗 Publish"
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ env.commit_branch }}
+          publish_dir: .
+          user_name: ${{ secrets.ACTIONS_USER }}
+          user_email: ${{ secrets.ACTIONS_MAIL }}
+          keep_files: true
+
+      #  name: "🆗 Publish"
+      #  uses: crazy-max/ghaction-github-pages@v4
+      #  with:
+      #    author: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+      #    committer: ${{ secrets.ACTIONS_USER }} <${{ secrets.ACTIONS_MAIL }}>
+      #    target_branch: assets
+      #    build_dir: metrics/plugin
+      #    keep_history: true
+
+      #- uses: lowlighter/metrics@v3.34
+      #with:
+      #    committer_branch: ${{ env.commit_branch }}
+      #    filename: ${{ env.starlists_languages_svg }}
+      #    token: NOT_NEEDED
+      #    base: ""
+      #    plugin_starlists: yes
+      #    plugin_starlists_languages: yes
+      #    plugin_starlists_limit_languages: 2
+      #    plugin_starlists_limit_repositories: 2
+      #  - uses: lowlighter/metrics@v3.34
+      #    env:
+      #      z_shell_stargazers_svg: metrics/stargazers.svg
+      #    with:
+      #      filename: ${{ env.z_shell_stargazers_svg }}
+      #      token: ${{ secrets.SSO_TOKEN }}
+      #      base: ""
+      #      plugin_stargazers: yes
+      #      user: z-shell
+      # - uses: lowlighter/metrics@v3.34
+      #   with:
+      #     filename: ${{ env.topics_icons_svg }}
+      #     token: NOT_NEEDED
+      #     base: ""
+      #     plugin_topics: yes
+      #     plugin_topics_limit: 0
+      #     plugin_topics_mode: icons
