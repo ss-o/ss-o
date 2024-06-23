@@ -94,12 +94,16 @@
 <div class="footer" align="center">
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
     <div align="rignt">
-      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/metrics//spotify/recent.svg" alt="spotify-recent" />
-      </a>
-      <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
-        <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/metrics/spotify/top-tracks.svg" alt="spotify-top" />
-      </a>
+      <p>
+        <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+          <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/metrics//spotify/recent.svg" alt="spotify-recent" />
+        </a>
+      </p>
+      <p>
+        <a href="https://open.spotify.com/user/7jy44ywkrxicioj0uolpufb73">
+          <img width="75%" align="center" height="auto" src="https://ss-o.pages.dev/metrics/spotify/top-tracks.svg" alt="spotify-top" />
+        </a>
+      </p>
     </div>
 </div>
 
