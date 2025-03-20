@@ -90,7 +90,7 @@
 </div>
 
 <!-- no-music = no-code -->
-
+<!--
 <div class="footer" align="center">
   <h2 align="left"> 🎶 No Music - No Code ✍️ </h2>
     <div align="rignt">
@@ -106,7 +106,7 @@
       </p>
     </div>
 </div>
-
+-->
 <!-- contact-badges -->
 
 <!--
