@@ -33,7 +33,7 @@ jobs:
     environment: metrics
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.recent_svg }}
@@ -47,7 +47,7 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.top_tracks_svg }}
@@ -61,7 +61,7 @@ jobs:
           plugin_music_top_type: tracks
           plugin_music_limit: 2
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.top_artists_svg }}
