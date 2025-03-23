@@ -23,7 +23,7 @@ jobs:
       contents: read # For repo checkout
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: ✨ Trunk Check
         uses: trunk-io/trunk-action@1f40c273b349d8c740a40b3e4d69640221b71c29
   upgrade:
@@ -34,6 +34,6 @@ jobs:
       pull-requests: write
     steps:
       - name: ✅ Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: ✨ Trunk Upgrade
         uses: trunk-io/trunk-action/upgrade@4d5ecc89b2691705fd08c747c78652d2fc806a94 # v1.1.19
