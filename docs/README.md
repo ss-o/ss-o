@@ -54,6 +54,7 @@
   />
 </a>
 </p>
+  <!--
 <p align="center">
 <a href="https://github.com/discussions/commented?discussions_q=commenter%3Ass-o+">
   <img
@@ -76,6 +77,7 @@
     />
   </a>
 </p>
+  -->
 <p align="center">
   <a href="https://git.io/JJwwg">
     <img
