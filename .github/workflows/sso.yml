@@ -41,7 +41,7 @@ jobs:
     environment: metrics
     if: github.repository == 'ss-o/ss-o'
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.metrics_svg }}
@@ -50,7 +50,7 @@ jobs:
           base: header, activity,community,repositories
           base_indepth: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.followup_svg }}
@@ -60,7 +60,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.languages_details_svg }}
@@ -72,7 +72,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.wakatime_svg }}
@@ -84,7 +84,7 @@ jobs:
             time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.discussions_svg }}
@@ -94,7 +94,7 @@ jobs:
           plugin_discussions_categories: no
           plugin_discussions_categories_limit: 8
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           committer_branch: ${{ env.commit_branch }}
           filename: ${{ env.reactions_svg }}
@@ -107,7 +107,7 @@ jobs:
       #  with:
       #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       #     ref: 'assets'
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@a69d1dbca7a94c2ef0edf10dcd9e19982d74dd39 # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -116,7 +116,7 @@ jobs:
             ${{ env.snake_custom_gif }}
       - if: success()
         name: "🆗 Publish"
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: ${{ env.commit_branch }}
