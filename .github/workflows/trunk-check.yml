@@ -25,7 +25,7 @@ jobs:
       - name: ✅ Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: ✨ Trunk Check
-        uses: trunk-io/trunk-action@1f40c273b349d8c740a40b3e4d69640221b71c29
+        uses: trunk-io/trunk-action@75699af9e26881e564e9d832ef7dc3af25ec031b
   upgrade:
     if: github.event.schedule == '0 8 * * 1-5'
     runs-on: ubuntu-latest
