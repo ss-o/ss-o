@@ -1,0 +1,4 @@
+golangci
+semgrep
+svgo
+Wakatime
