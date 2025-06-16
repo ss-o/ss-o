@@ -1,11 +1,11 @@
 ---
-name: "⭕ Trunk"
+name: Trunk Code Quality
 on:
-  pull_request:
   push:
-    paths: [.trunk/trunk.yaml]
-  schedule:
-    - cron: "0 8 * * 1-5"
+    branches: [main]
+    tags: ["v*.*.*"]
+  pull_request:
+    types: [opened, synchronize]
   workflow_dispatch: {}
 
 concurrency:
@@ -16,24 +16,12 @@ permissions: read-all
 
 jobs:
   check:
-    if: github.event.pull_request
     runs-on: ubuntu-latest
     permissions:
       checks: write # For trunk to post annotations
       contents: read # For repo checkout
     steps:
-      - name: ✅ Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - name: ✨ Trunk Check
-        uses: trunk-io/trunk-action@1c401dfb3626be3d242d50537e2f020e12424329
-  upgrade:
-    if: github.event.schedule == '0 8 * * 1-5'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - name: ✅ Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - name: ✨ Trunk Upgrade
-        uses: trunk-io/trunk-action/upgrade@75699af9e26881e564e9d832ef7dc3af25ec031b # v1.2.4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Trunk Code Quality
+        uses: trunk-io/trunk-action@75699af9e26881e564e9d832ef7dc3af25ec031b
