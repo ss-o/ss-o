@@ -107,7 +107,7 @@ jobs:
       #  with:
       #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       #     ref: 'assets'
-      - uses: Platane/snk@e2cedf76a2c05b25d09a6428ded69727b497a700 # v3
+      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
