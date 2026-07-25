@@ -27,7 +27,7 @@ env:
   discussions_svg: metrics/discussions.svg
   reactions_svg: metrics/reactions.svg
   wakatime_svg: metrics/wakatime.svg
-  commit_branch: assets
+  commit_branch: gh-pages
 
 jobs:
   metrics:
