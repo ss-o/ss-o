@@ -1,4 +1,0 @@
-golangci
-semgrep
-svgo
-Wakatime
