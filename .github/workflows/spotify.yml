@@ -19,7 +19,7 @@ env:
   top_tracks_svg: metrics/spotify/top-tracks.svg
   top_artists_svg: metrics/spotify/top-artists.svg
   playlist_lofi: https://open.spotify.com/embed/playlist/2HR2xejzf2rJ1e7q0rBBcC
-  commit_branch: gh-pages
+  commit_branch: assets
 
 jobs:
   spotify-metrics:

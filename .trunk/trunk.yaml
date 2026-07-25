@@ -27,8 +27,6 @@ lint:
     - trivy
     - trufflehog
   enabled:
-    - golangci-lint2@2.1.6
-    - pre-commit-hooks@4.6.0
     - markdownlint@0.45.0
     - actionlint@1.7.7
     - git-diff-check
@@ -42,8 +40,6 @@ lint:
 
 runtimes:
   enabled:
-    - python@3.10.8
-    - go@1.21.0
     - node@18.20.5
 actions:
   disabled:
