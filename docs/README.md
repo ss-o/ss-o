@@ -32,7 +32,7 @@
       <source media="(prefers-color-scheme: light)" srcset="https://ss-o.pages.dev/metrics/snake.svg" />
       <img alt="github-snake" src="https://ss-o.pages.dev/metrics/snake.svg" width="80%" align="center" />
     </picture>
-  <p>
+  <!--
   <p align="center">
   <a href="https://wakatime.com/@sall">
   <img
@@ -40,20 +40,18 @@
     width="80%"
     height="auto"
     src="https://ss-o.pages.dev/metrics/wakatime.svg"
-    alt="Sall Wakatime"
-  /></a>
-</p>
-<p align="center">
-<a href="https://git.io/JJwwg">
+    alt="Sall Wakatime" /></a>
+  </p>
+  -->
+  <p align="center">
+    <a href="https://git.io/JJwwg">
   <img
     align="center"
     width="80%"
     height="auto"
     src="https://ss-o.pages.dev/metrics/followup-indepth.svg"
-    alt="ID"
-  />
-</a>
-</p>
+    alt="ID" /></a>
+  </p>
   <!--
 <p align="center">
 <a href="https://github.com/discussions/commented?discussions_q=commenter%3Ass-o+">
