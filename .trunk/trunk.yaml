@@ -1,14 +1,14 @@
 version: 0.1
 cli:
-  version: 1.22.15
+  version: 1.25.0
 plugins:
   sources:
     - id: configs
-      ref: v1.0.12
+      ref: v1.2.1
       uri: https://github.com/trunk-io/configs
       import_to_global: true
     - id: trunk
-      ref: v1.6.8
+      ref: v1.10.2
       uri: https://github.com/trunk-io/plugins
       import_to_global: true
 lint:
@@ -27,12 +27,13 @@ lint:
     - trivy
     - trufflehog
   enabled:
-    - markdownlint@0.45.0
-    - actionlint@1.7.7
+    - pinact@4.1.0
+    - markdownlint@0.49.1
+    - actionlint@1.7.12
     - git-diff-check
-    - gitleaks@8.26.0
-    - svgo@3.3.2
-    - prettier@3.5.3
+    - gitleaks@8.30.1
+    - svgo@4.0.2
+    - prettier@3.9.6
   ignore:
     - linters: [svgo]
       paths:
@@ -40,7 +41,7 @@ lint:
 
 runtimes:
   enabled:
-    - node@18.20.5
+    - node@22.16.0
 actions:
   disabled:
     - trunk-check-pre-push

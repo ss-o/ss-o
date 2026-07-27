@@ -107,7 +107,7 @@ jobs:
       #  with:
       #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       #     ref: 'assets'
-      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -116,7 +116,7 @@ jobs:
             ${{ env.snake_custom_gif }}
       - if: success()
         name: "🆗 Publish"
-        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: ${{ env.commit_branch }}
