@@ -3,7 +3,6 @@
 <h2 align="center">
   <a target="_self" href="https://git.io/JJwwg"> ⦑⦑ 𝕾𝖆𝖑𝖛𝖞𝖉𝖆𝖘 𝕷𝖚𝖐𝖔𝖘𝖎𝖚𝖘 ⦒⦒ </a>
 </h2>
--->
 <div class="header" align="center">
   <p align="center">
     <a target="_self" href="https://git.io/JJwwg">
@@ -12,7 +11,6 @@
       </picture>
     </a>
   </p>
-  <!--
   <h3 align="center">
     <p align="center">
       &nbsp;&nbsp; <a href="https://digitalclouds.crowdin.com/">🗣️</a> &nbsp;&nbsp;
@@ -21,8 +19,8 @@
       &nbsp;&nbsp; <a href="https://wiki.zshell.dev/">ℹ️</a> &nbsp;&nbsp;
     </p>
   </h3>
-  -->
 </div>
+-->
 
 <!-- profile-stats -->
 <div class="body" align="center">
